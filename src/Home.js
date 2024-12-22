@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import Events from './components/Events';
 import Alumni from './components/Alumni';
@@ -11,6 +12,7 @@ import './styles/Home.css';
 function Home() {
   return (
     <div className="homepage">
+      <Navbar />
       <Banner />
       <Events />
       <Alumni />
