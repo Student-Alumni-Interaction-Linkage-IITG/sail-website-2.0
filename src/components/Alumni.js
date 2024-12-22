@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/Alumni.css';
+import '../styles/Alumni.css'; // Import your CSS file
+import grad from '../images/graduation 1.png'
+import idea from '../images/idea 1.png'
+import workteam from '../images/work-team 1.png'
+import worlde from '../images/worldwide 1.png'
 
-function Alumni() {
+const AlumniStats = () => {
   const [counts, setCounts] = useState({
     startups: 0,
     iimAlumni: 0,
@@ -9,68 +13,78 @@ function Alumni() {
     students: 0,
   });
 
-  const targets = {
-    startups: 90,
-    iimAlumni: 100,
-    msAbroad: 1730,
-    students: 5231,
-  };
-
   useEffect(() => {
-   
-    const duration = 2000;
-    const interval = duration / Math.max(...Object.values(targets)); 
+    const totalDuration = 2000; // Total time in milliseconds
+    const intervalTime = 10; // Time interval for updating numbers
+    const steps = totalDuration / intervalTime;
 
-    const incrementCount = () => {
-      const newCounts = { ...counts };
-      let completed = 0; 
-
-      const countInterval = setInterval(() => {
-        let allCompleted = true; 
-
-        for (const key in targets) {
-          if (newCounts[key] < targets[key]) {
-            newCounts[key] = Math.min(newCounts[key] + 1, targets[key]);
-            allCompleted = false; 
-          }
-        }
-
-        setCounts(newCounts);
-
-      
-        if (allCompleted) {
-          clearInterval(countInterval);
-        }
-      }, interval);
+    const targets = {
+      startups: 90,
+      iimAlumni: 100,
+      msAbroad: 1730,
+      students: 5231,
     };
 
-    incrementCount();
+    const incrementValues = {
+      startups: targets.startups / steps,
+      iimAlumni: targets.iimAlumni / steps,
+      msAbroad: targets.msAbroad / steps,
+      students: targets.students / steps,
+    };
+
+    const interval = setInterval(() => {
+      setCounts((prevCounts) => {
+        const newCounts = { ...prevCounts };
+
+        Object.keys(newCounts).forEach((key) => {
+          if (newCounts[key] < targets[key]) {
+            newCounts[key] = Math.min(
+              newCounts[key] + incrementValues[key],
+              targets[key]
+            );
+          }
+        });
+
+        return newCounts;
+      });
+    }, intervalTime);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="alumni">
+    <div className="alumni-stats">
+    <div className='acontent'>
       <h2>Our Alumni</h2>
-      <p>Some highlights of our alumni achievements.</p>
-      <div className="alumni-stats">
-        <div>
-          <h3>{counts.startups}+</h3>
-          <p>Startups</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+        libero et velit interdum, ac aliquet odio mattis.
+      </p>
+      </div>
+      <div className="stats-container">
+        <div className="stat">
+          <div className="icon"><img src={grad}/></div>
+          <div className="count">{Math.floor(counts.startups)}+</div>
+          <div className="label">Startups</div>
         </div>
-        <div>
-          <h3>{counts.iimAlumni}+</h3>
-          <p>IIM Alumni</p>
+        <div className="stat">
+          <div className="icon"><img src={idea}/></div>
+          <div className="count">{Math.floor(counts.iimAlumni)}+</div>
+          <div className="label">IIM Alumni</div>
         </div>
-        <div>
-          <h3>{counts.msAbroad}+</h3>
-          <p>MS Abroad</p>
+        <div className="stat">
+          <div className="icon"><img src={workteam}/></div>
+          <div className="count">{Math.floor(counts.msAbroad)}+</div>
+          <div className="label">MS Abroad</div>
         </div>
-        <div>
-          <h3>{counts.students}+</h3>
-          <p>Students</p>
+        <div className="stat">
+          <div className="icon"><img src={worlde}/></div>
+          <div className="count">{Math.floor(counts.students)}+</div>
+          <div className="label">Students</div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Alumni;
+export default AlumniStats;

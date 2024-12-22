@@ -4,7 +4,7 @@
     background-color: #f5f5f5;
   }
   
-  .carousel-container {
+  .carousel-cont {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,33 +13,45 @@
     margin: 0 auto;
   }
   
-  .carousel {
+  .carous {
     width: 100%;
     overflow: hidden;
     position: relative;
   }
   
-  .carousel-inner {
+  .carousel-in {
     display: flex;
     transition: transform 0.5s ease-in-out; /* Sliding animation */
   }
   
-  .card {
+  .car {
+    
     min-width: calc(100% / 3); /* Show 3 cards at a time */
     padding: 1rem;
     box-sizing: border-box;
   }
   
-  .card img {
+  .car img {
     width: 100%;
+   height: 15vw;
     border-radius: 8px;
   }
   
-  .card-content {
+  .card-cont {
     margin-top: 1rem;
+   
   }
-  
-  .left-arrow, .right-arrow {
+  .card-cont h3{
+    margin: 0;
+    text-align: left;
+  }
+  .edes h3{
+    font-size: 2vw;
+  }
+  .edes p{
+    font-size: 1vw;
+  }
+  .left-arr, .right-arr {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -55,27 +67,88 @@
     transition: opacity 0.3s ease-in-out;
   }
   
-  .left-arrow {
+  .left-arr {
     left: -50px;
   }
   
-  .right-arrow {
+  .right-arr {
     right: -50px;
   }
   
-  .left-arrow:hover, .right-arrow:hover {
+  .left-arr:hover, .right-arr:hover {
     opacity: 1;
   }
   
   @media (max-width: 768px) {
-    .card {
+    .car {
       min-width: calc(100% / 2); /* Show 2 cards at a time on smaller screens */
     }
   }
   
   @media (max-width: 480px) {
-    .card {
+    .car {
       min-width: 100%; /* Show 1 card at a time on small screens */
     }
   }
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
   
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: black;
+  }
+
+  .econtent p{
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 5px;
+  }
+
+  .econtent h2{
+    font-size: 3.5vw;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin: 0;
+  }
+  .scontent {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    /* margin: 1rem;
+     */
+     height: 20vw;
+     padding: 1rem;
+    border-radius: 20px;
+   
+}
+
+
+.card-cont button{
+  background-color: red;
+  padding:  1.5px;
+  border-radius: 20px;
+  width: 10vw;
+  height: 2vw;
+  margin-top: 2vw;
+  font-size: 0.8vw;
+  border: none;
+}
+
+.edes{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}

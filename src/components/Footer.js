@@ -11,7 +11,6 @@ function Footer() {
         {/* Logo Section */}
         <div className="footer-logo">
           <img src={logo} alt="SAIL Logo" className="logo-image" />
-          <h3>SAIL</h3>
           <p>Student Alumni Interaction Linkage</p>
           
           {/* Social Media Icons */}
