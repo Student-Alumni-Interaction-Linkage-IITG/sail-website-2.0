@@ -1,0 +1,21 @@
+.team {
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .team-photo {
+    width: 80%;
+    margin: 30px auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .team-btn {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

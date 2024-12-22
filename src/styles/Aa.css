@@ -1,0 +1,147 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    gap: 40px;
+    width: 80%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Side Card (Alumni Awards Section) */
+.card1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    gap: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-content1 {
+    width: 30%;
+}
+.buttons{
+    display: flex;
+}
+
+.card-content1 h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card-content1 p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-image1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Right Side Vertical Carousel */
+.carousel-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%; /* Enough height to show 2 cards */
+    position: relative;
+    overflow: hidden;
+}
+
+.controls {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px; /* Adjust gap as needed */
+    justify-content: space-between;
+}
+
+.carousel-inner1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 85px; /* Height of each item */
+}
+
+.carousel-item1 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.carousel-item1 p {
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+}
+
+.up-arrow1, .down-arrow1 {
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.up-arrow1:hover, .down-arrow1:hover {
+    background-color: #555;
+}
+.carousel-wrapper1 {
+    height: 200px;
+    overflow: hidden; 
+    position: relative; 
+  }
+  
+  .carousel-inner1 {
+    display: flex;
+    flex-direction: column; 
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  .carousel-item1 {
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid #ccc; 
+  }
+  

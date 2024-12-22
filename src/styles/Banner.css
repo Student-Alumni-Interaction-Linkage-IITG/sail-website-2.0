@@ -1,0 +1,29 @@
+.banner {
+    background-image: url(../images/sailhome1.png);
+    background-size: cover;
+    color: white;
+    height: 40vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .about-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
