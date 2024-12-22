@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/navbar.css';
+import '../styles/Navbar.css';
 import sail_logo from '../images/sail white logo 1.png';
 import dropdown_icon from '../images/dropdown_arrow.svg';
 

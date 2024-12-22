@@ -101,4 +101,4 @@ const CustomPrevArrow = (props) => {
   );
 };
 
-export default Events;
+export default Events ;

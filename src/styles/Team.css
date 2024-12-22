@@ -1,11 +1,11 @@
 .team {
     padding: 50px;
     text-align: center;
-    width: 100%;
+   
   }
   
   .team-photo {
-    width: 80%;
+    width: 60%;
     margin: 30px auto;
     display: block;
     border-radius: 8px;
@@ -16,6 +16,20 @@
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 20px;
     cursor: pointer;
   }
   
+  .tcontent{
+    display: flex;
+    flex-direction: column;
+  }
+  .tcontent h2{
+    margin: 0;
+    font-size: 3.5vw;
+    font-weight: 100;
+  }
+  .tcontent p{
+    text-align: center;
+    margin: 1px;
+  }

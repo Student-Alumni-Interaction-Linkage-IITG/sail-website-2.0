@@ -4,6 +4,7 @@ import ij from '../images/sailhome1.png'
 
 const Ban = () => {
   return (
+    <div className='supp'>
     <div className="bann">
       <div className="images">
        <div className='ig1'>
@@ -28,7 +29,7 @@ const Ban = () => {
         <img src={ij} alt="Group Photo 3" />
         </div>
   </div>
-     
+  </div>
     </div>
   );
 };

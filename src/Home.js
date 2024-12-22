@@ -14,10 +14,11 @@ function Home() {
     <div className="homepage">
       <Navbar />
       <Banner />
-      <Events />
+    <Events/>
       <Alumni />
-      <Team />
       <Aa />
+      <Team />
+      
       <Ban />
       <Footer />
     </div>
