@@ -42,7 +42,7 @@ function Team() {
           </div>
         ))}
       </Slider>
-      <button className="team-btn">Know More</button>
+      <button className="team-btn" onClick={() => window.location.href = '/about'}>Know More</button>
     </div>
   );
 }

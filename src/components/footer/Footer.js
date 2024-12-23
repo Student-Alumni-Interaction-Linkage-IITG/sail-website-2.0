@@ -29,10 +29,10 @@ function Footer() {
         <div className="footer-links">
           <h4>Learn More</h4>
           <ul>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#community">Community</a></li>
-            <li><a href="#faqs">FAQs</a></li>
-            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/community">Community</a></li>
+            <li><a href="/faqs">FAQs</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
           </ul>
         </div>
 

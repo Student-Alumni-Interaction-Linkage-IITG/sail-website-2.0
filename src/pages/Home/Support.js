@@ -19,7 +19,7 @@ const Ban = () => {
         <p>
           Your contribution can help shape the next generation of innovators leaders. By donating to IIT Guwahati, you enable groundbreaking research, enhance student opportunities, and strengthen our community. Join us in building a brighter future for our institute.
         </p>
-        <button className="donate-button">Donate</button>
+        <button className="donate-button" onClick={() => window.open('https://online.iitg.ac.in/epay/donation/donation.jsp', '_blank', 'noopener,noreferrer')}>Donate</button>
       </div>
       <div className='images2'>
       <div className='ig3'>

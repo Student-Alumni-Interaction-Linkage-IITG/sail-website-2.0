@@ -45,8 +45,8 @@ const Aa = () => {
                 ultricies, ultricies purus nec, ultricies nunc. Nullam at nunc
               </p>
               <div className="aa-buttons">
-                <button className="aa-buttons-apply">Apply</button>
-                <button className="aa-buttons-readmore">Read More</button>
+                <button className="aa-buttons-apply" onClick={() => window.open('https://www.iitg.ac.in/aer/alumni_award', '_blank', 'noopener,noreferrer')}>Apply</button>
+                <button className="aa-buttons-readmore" onClick={() => window.open('https://online.iitg.ac.in/aerportal/nomination/', '_blank', 'noopener,noreferrer')}>Read More</button>
               </div>
             </div>
           </div>

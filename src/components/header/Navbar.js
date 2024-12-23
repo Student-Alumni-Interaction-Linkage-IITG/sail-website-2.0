@@ -16,7 +16,7 @@ function Navbar() {
                     </a>
                 </div>
                 <div className="navbar-content-links">
-                    <a href="/Home" className="navbar-content-links-a">Home</a>
+                    <a href="/" className="navbar-content-links-a">Home</a>
                     <a href="/about" className="navbar-content-links-a">About Us</a>
 
                     <div 
@@ -62,7 +62,7 @@ function Navbar() {
 
                     <a href="/services" className="navbar-content-links-a">Services</a>
                     <a href="/calendar" className="navbar-content-links-a">Calendar</a>
-                    <button className="navbar-content-links-button" onClick={() => window.location.href='/donate'}>Donate</button>
+                    <button className="navbar-content-links-button" onClick={() => window.open('https://online.iitg.ac.in/epay/donation/donation.jsp', '_blank', 'noopener,noreferrer')}>Donate</button>
                 </div>
             </div>
         </div>
