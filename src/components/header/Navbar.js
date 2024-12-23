@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../header/Navbar.css';
-import sail_logo from '../../images/sail white logo 1.png';
+import sail_logo from '../../images/sail white logo 1.svg';
 import dropdown_icon from '../../images/dropdown_arrow.svg';
 
 function Navbar() {

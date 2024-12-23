@@ -1,8 +1,10 @@
 import React from 'react';
 import '../footer/Footer.css';
-import { FaInstagram, FaYoutube, FaLinkedin, FaFacebookMessenger } from 'react-icons/fa';
-import logo from '../../images/sail white logo 1.png'
-
+import insta from '../../images/insta.svg';
+import youtube from '../../images/youtube.svg';
+import linkedin from '../../images/linkedin.svg';
+import meta from '../../images/meta.svg';
+import logo from '../../images/sail white logo 1.svg'
 function Footer() {
   return (
     <footer className="footer">
@@ -15,10 +17,10 @@ function Footer() {
           
           {/* Social Media Icons */}
           <div className="footer-social">
-            <FaInstagram />
-            <FaYoutube />
-            <FaLinkedin />
-            <FaFacebookMessenger />
+            <a href='https://www.instagram.com/sail_iitg' target='blank'><img src={insta} alt="Instagram" className="insta-icon" /></a>
+            <a href='https://www.youtube.com/@IITGuwahatiSAIL' target='blank'><img src={youtube} alt="Youtube" className="youtube-icon" /></a>
+            <a href='https://www.linkedin.com/company/sail-iitg/' target='blank'><img src={linkedin} alt="LinkedIn" className="linkedin-icon" /></a>
+            <a href='https://www.facebook.com/sail.iitg/' target='blank'><img src={meta} alt="Messenger" className="messenger-icon" /></a>
           </div>
         </div>
         </div>
@@ -38,7 +40,7 @@ function Footer() {
         <div className="footer-contact">
           <h4>Contact Us</h4>
           <p>Call us: 123-456-7890</p>
-          <p>Email us: <a href="mailto:SAIL@iitg.ac.in">SAIL@iitg.ac.in</a></p>
+          <p>Email us: <a href="mailto:SAIL@iitg.ac.in">sail@iitg.ac.in</a></p>
 
           {/* Contact Form */}
           <div className="footer-contact-form">

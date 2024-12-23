@@ -14,7 +14,7 @@ const eventData = [
 ];
 
 const Events = () => {
-  const [activeIndex, setActiveIndex] = useState(0); // Active slide index state
+  const [activeIndex, setActiveIndex] = useState(0); 
 
   const settings = {
     dots: true,

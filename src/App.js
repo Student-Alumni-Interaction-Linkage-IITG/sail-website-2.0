@@ -1,7 +1,6 @@
 import React from 'react';
-
-// import Header from './components/Header/Header';
-// import Footer from './components/Footer/Footer'; 
+import Navbar from './components/header/Navbar.js';
+import Footer from './components/footer/Footer.js';
 import './App.css'; 
 import AppRoutes from './Approutes.js';
 
@@ -10,7 +9,9 @@ function App() {
     <div className="App">
     
       <main>
+        <Navbar/>
         <AppRoutes/>
+        <Footer/>
       </main>
     
     </div>
