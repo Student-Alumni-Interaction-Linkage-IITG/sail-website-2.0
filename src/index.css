@@ -19,5 +19,9 @@ code {
 body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Edge: hide scrollbar */
 }
+button{
+  cursor: pointer;
+  border: none;
+}
 
 
