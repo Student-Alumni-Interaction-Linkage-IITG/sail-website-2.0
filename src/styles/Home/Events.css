@@ -91,6 +91,10 @@ font-size: 12.752px;
 font-style: normal;
 font-weight: 400;
 line-height: 104.145%;
+transition: background-color 0.5s ease;
+}
+.event-card-button:hover{
+  background: #CF3767 ;
 }
 .events-carousel .slick-slide {
   padding-top: 30px;
