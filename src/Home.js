@@ -6,7 +6,7 @@ import Alumni from './components/Alumni';
 import Team from './components/Team';
 import Ban from './components/Support';
 import Footer from './components/Footer';
-import Aa from './components/Aa';
+import Aa from './components/Alumni_award';
 import './styles/Home.css';
 
 function Home() {

@@ -37,6 +37,7 @@ line-height: normal;
 .stats-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 175px;
   margin-right: 175px;
@@ -47,6 +48,7 @@ line-height: normal;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .icon {
@@ -87,3 +89,18 @@ line-height: normal;
   /* padding-top: 60px; */
 }
 
+@media screen and (max-width: 768px) {
+  .stats-container {
+    justify-content: center; /* Center the rows */
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .stat {
+    width: 45%; /* Two items per row */
+  }
+}
+@media screen and (max-width: 480px) {
+  .stat {
+    width: 90%; /* Single item per row for very small screens */
+  }
+}
