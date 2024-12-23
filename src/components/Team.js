@@ -1,6 +1,12 @@
 import React from 'react';
 import '../styles/Team.css';
-import logo from '../images/sailhome1.png';
+import logo from '../images/banner_img.jpeg';
+const teamphotos=[
+  {id: 1,image:logo},
+  {id: 2,image:logo},
+  {id: 3,image:logo},
+  {id: 4,image:logo},
+]
 function Team() {
   return (
     <div className="team">
