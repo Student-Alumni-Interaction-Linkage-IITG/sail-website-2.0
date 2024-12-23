@@ -30,9 +30,10 @@ function Footer() {
           <h4>Learn More</h4>
           <ul>
             <li><a href="/about">About us</a></li>
-            <li><a href="/community">Community</a></li>
+            <li><a href="https://www.iitg.ac.in/" target='blank'>IIT Guwahati</a></li>
+            <li><a href="https://www.iitg.ac.in/aer/home" target='blank'>Alumni & External Relations</a></li>
             <li><a href="/faqs">FAQs</a></li>
-            <li><a href="/privacy">Privacy Policy</a></li>
+            
           </ul>
         </div>
 
