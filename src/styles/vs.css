@@ -1,67 +1,78 @@
 .vertical-slider {
-  position: relative;
   width: 300px;
-  height: 30vw; /* Height to show only two cards at a time */
   overflow: hidden;
   margin-top: 30px;
   margin-right: 20px;
 }
 
-.cards-container {
+.vertical-cards-container {
   display: flex;
   flex-direction: column;
-  transition: transform 0.5s ease-in-out;
-}
-
-.card {
-  width: 100%;
-  height: 14.5vw; /* Exact height of each card */
-  background-color: #333;
-  color: white;
-  text-align: center;
-  border-radius: 10px;
-  margin-bottom: 10px; /* This margin affects the translation */
-  box-sizing: border-box;
-}
-
-.card-image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.card-title {
-  margin: 10px 0;
-  font-size: 18px;
-}
-
-.card-description {
-  font-size: 14px;
-  color: #bbb;
-}
-
-.up-arrow,
-.down-arrow {
-  position: absolute;
-  background-color: #000;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 24px;
-  cursor: pointer;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+  padding: 18px 35px 0px 35px;
 }
 
-.up-arrow {
-  top: 10px;
-  right: 10px;
+.vertical-card {
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 25px;
+  background: #E4E4E4;
 }
 
-.down-arrow {
-  bottom: 10px;
-  right: 10px;
+.vertical-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 2px solid #E4E4E4;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vertical-card-title {
+  margin: 5px 0;
+  padding-left: 5px;
+  color: #282828;
+  font-family: "Instrument Sans";
+  font-size: 24.771px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 85.561%;
+}
+
+.vertical-card-description {
+  color: #282828;
+  padding-left: 5px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 104.145%;
+}
+
+/* Dots positioning */
+.vs-carousel-dots {
+  position: absolute;
+  left: 1050px; 
+  bottom: -1850px;
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Dot styling */
+.vs-carousel-dots button {
+  width: 6px; /* Size of the dots */
+  height: 20px; /* Size of the dots */
+  background-color: #D9D9D9; /* Inactive dot color */
+  border-radius: 5px;
+  padding: 0;
+  margin: 5px 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for active state */
+}
+
+.vs-carousel-dots button.active {
+  background-color: #0C405E; /* Active dot color */
 }

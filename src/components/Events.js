@@ -28,8 +28,8 @@ const Events = () => {
         style={{
           width: "20px",   // Width of the rectangle
           height: "6px",   // Height of the rectangle
-          backgroundColor: i === activeIndex ? "#141414" : "#D9D9D9",  // Highlight the active one
-          borderRadius: "2px", // No rounded corners, fully rectangular
+          backgroundColor: i === activeIndex ? "#0C405E" : "#D9D9D9",  // Highlight the active one
+          borderRadius: "5px", // No rounded corners, fully rectangular
           margin: "0 5px",  // Space between the rectangles
           transition: "background-color 0.3s ease" // Smooth transition for background-color
         }}

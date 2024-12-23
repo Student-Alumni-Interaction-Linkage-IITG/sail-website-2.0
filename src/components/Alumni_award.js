@@ -2,15 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../styles/Alumni_award.css";
 import img from "../images/sailhome1.png";
 import img2 from "../images/group_photo.svg";
-// import VerticalSlider from './vslid';
+import VerticalSlider from './vslid';
 
-const alumniData = [
-  { id: 1, name: "Alumni Awards 1", desc: "Lorem ipsum dolor.", image: img },
-  { id: 2, name: "Alumni Awards 2", desc: "Lorem ipsum dolor.", image: img },
-  { id: 3, name: "Alumni Awards 3", desc: "Lorem ipsum dolor.", image: img },
-  { id: 4, name: "Alumni Awards 4", desc: "Lorem ipsum dolor.", image: img },
-  { id: 5, name: "Alumni Awards 5", desc: "Lorem ipsum dolor.", image: img },
-];
 const photoData = [
   { id: 1, image: img },
   { id: 2, image: img2 },
@@ -27,22 +20,10 @@ const Aa = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % photoData.length);
-    }, 4000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
-
-  const prevSlide = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
-  };
-
-  const nextSlide = () => {
-    if (currentIndex < photoData.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-    }
-  };
 
   const handleDotClick = (index) => {
     setCurrentIndex(index);
@@ -85,12 +66,9 @@ const Aa = () => {
             </div>
           </div>
         </div>
-
-        {/* Right carousel */}
-        <div></div>
-        {/* <VerticalSlider/> */}
-
-        {/* Up and Down buttons */}
+        <div className="aa-card3">
+        <VerticalSlider/>
+        </div>
       </div>
     </div>
   );
