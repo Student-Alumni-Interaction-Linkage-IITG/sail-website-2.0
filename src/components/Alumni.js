@@ -55,7 +55,7 @@ const AlumniStats = () => {
   return (
     <div className="alumni-stats">
     <div className='acontent'>
-      <h2>Our Alumni</h2>
+      <h2 >Our Alumni</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
         libero et velit interdum, ac aliquet odio mattis.
@@ -63,12 +63,12 @@ const AlumniStats = () => {
       </div>
       <div className="stats-container">
         <div className="stat">
-          <div className="icon"><img src={grad}/></div>
+          <div className="icon"><img src={idea}/></div>
           <div className="count">{Math.floor(counts.startups)}+</div>
           <div className="label">Startups</div>
         </div>
         <div className="stat">
-          <div className="icon"><img src={idea}/></div>
+          <div className="icon"><img src={worlde}/></div>
           <div className="count">{Math.floor(counts.iimAlumni)}+</div>
           <div className="label">IIM Alumni</div>
         </div>
@@ -78,7 +78,7 @@ const AlumniStats = () => {
           <div className="label">MS Abroad</div>
         </div>
         <div className="stat">
-          <div className="icon"><img src={worlde}/></div>
+          <div className="icon"><img src={grad}/></div>
           <div className="count">{Math.floor(counts.students)}+</div>
           <div className="label">Students</div>
         </div>

@@ -35,7 +35,7 @@
 }
 .event-card {
   max-width: 80%;
-  height: 375px;
+  height: auto;
   padding: 18px 18px 25px 18px;
   border-radius: 25px;
   background: #edeff1;
