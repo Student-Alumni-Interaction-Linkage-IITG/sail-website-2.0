@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Footer.css';
+import '../footer/Footer.css';
 import { FaInstagram, FaYoutube, FaLinkedin, FaFacebookMessenger } from 'react-icons/fa';
-import logo from '../images/sail white logo 1.png'
+import logo from '../../images/sail white logo 1.png'
 
 function Footer() {
   return (

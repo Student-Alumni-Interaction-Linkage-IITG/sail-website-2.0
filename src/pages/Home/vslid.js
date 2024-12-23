@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "../styles/vs.css";
-import img from "../images/akshat_jain.svg";
+import "../../styles/Home/vs.css";
+
+import img from "../../images/akshat_jain.svg"
 
 
 const cards = [

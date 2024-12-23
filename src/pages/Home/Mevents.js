@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
-import "../styles/Events1.css";
-import logo from '../images/sailhome1.png';
+import "../../styles/Home/Events1.css";
+import logo from '../../images/sailhome1.png';
 
 const slides = [
   { image: logo, caption: "International Students Day" },

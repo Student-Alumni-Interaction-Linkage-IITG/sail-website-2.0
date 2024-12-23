@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import '../styles/Events.css';
-import logo from '../images/sailhome1.png';
-import right_arrow from '../images/right-arrow.svg';
-import left_arrow from '../images/left-arrow.svg';
+import '../../styles/Home/Events.css';
+import logo from '../../images/sailhome1.png';
+import right_arrow from '../../images/right-arrow.svg';
+import left_arrow from '../../images/left-arrow.svg';
 
 const eventData = [
   { id: 1, title: "Event A", description: "Quam posuere netus etus u quis modi acus. Etiamad pisc ing aliqua", image: logo },

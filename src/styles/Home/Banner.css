@@ -1,7 +1,7 @@
 .banner {
   background: 
     linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
-    url(../images/banner_img.jpeg) lightgray 0px -75px / 100% 114.94% no-repeat;
+    url(../../images/banner_img.jpeg) lightgray 0px -75px / 100% 114.94% no-repeat;
   color: white;
   height: 90vh;
   width: 100%;

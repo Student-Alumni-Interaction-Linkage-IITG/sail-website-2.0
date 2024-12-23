@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/Alumni.css'; // Import your CSS file
-import grad from '../images/graduation 1.png'
-import idea from '../images/idea 1.png'
-import workteam from '../images/work-team 1.png'
-import worlde from '../images/worldwide 1.png'
+import '../../styles/Home/Alumni.css'; // Import your CSS file
+import grad from '../../images/graduation 1.png'
+import idea from '../../images/idea 1.png'
+import workteam from '../../images/work-team 1.png'
+import worlde from '../../images/worldwide 1.png'
 
 const AlumniStats = () => {
   const [counts, setCounts] = useState({

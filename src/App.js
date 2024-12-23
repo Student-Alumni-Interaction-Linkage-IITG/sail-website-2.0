@@ -1,11 +1,18 @@
 import React from 'react';
-import Home from './Home';
-import './App.css'; // General styles
+
+// import Header from './components/Header/Header';
+// import Footer from './components/Footer/Footer'; 
+import './App.css'; 
+import AppRoutes from './Approutes.js';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+    
+      <main>
+        <AppRoutes/>
+      </main>
+    
     </div>
   );
 }
