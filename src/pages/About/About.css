@@ -1,0 +1,155 @@
+.overall-body{
+    background-color : #0c405e;
+}
+/* this is the styling of the overall whole page  */
+
+.about_img{
+    width:1536px;
+    height:700px;
+}
+
+/* styling of photo component ends*/
+.blog-div{
+    background-color : #0c405e;
+}
+
+.blog{
+    padding-bottom: 100px;
+    width: 1287px;
+    height: 279px;
+    position: relative;
+    left: 100px;
+    color: #EEE;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 34.8px */
+}
+
+.blog-social{
+    padding-bottom:100px;
+    position:relative;
+    left:600px;
+}
+/* styling of social icons like insta etc */
+
+
+
+.logo-imag{
+    position:relative;
+    left:550px;
+    padding-top: 100px;
+    width:400px;
+}
+/* styling of blog component ends*/
+.team1{
+    background-color: #D2CCC3;
+
+}
+.team1-head{
+    padding-top:150px;
+    height:60px;
+    color: #151515;
+    position: relative;
+    left:570px;
+    font-family: "Instrument Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36.027px; /* 51.467% */
+
+}
+.team1-blog{
+    width: 1100px;
+    position:relative;
+    left:200px;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 145.833% */
+    padding-bottom:200px;
+}
+/* styling of card component starts */
+.card{
+    display:inline-block;
+    background-color:#0c405e;
+    margin-bottom: 100px;
+    margin-left:100px;
+    border-radius:20px;
+   
+}
+
+.card-img{
+    width:370px;
+    height:500px;
+}
+
+.person-img{
+    position: relative;
+    left:45px;
+    top:20px; 
+}
+
+.person-name{
+    width: 289.879px;
+    color: #FFF;
+    font-family: "Instrument Sans";
+    font-size: 29.706px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85.561%; /* 27.128px */
+    position:relative;
+    left:45px;
+
+}
+
+.person-post{
+    width: 289.879px;
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 25.365px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 104.145%; /* 26.416px */
+    position:relative;
+    left:45px;
+}
+.card-social{
+    display:flex;
+    gap:1rem;
+    margin-left:225px; 
+}
+
+.aer1{
+    color: #0C405E;
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36.027px; /* 60.045% */
+    padding-bottom:50px;
+}
+
+.aer{
+    display:flex;
+    margin-left:220px;
+}
+/* styling of card component ends */
+
+.sail{
+    display:flex;
+    padding-bottom:100px;
+}
+/* styling of team component ends */
+
+
+
+
+
+
+
