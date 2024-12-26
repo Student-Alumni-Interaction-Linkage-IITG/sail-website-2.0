@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/Home/Team.css';
-import logo from '../../images/sailhome1.png';
+import logo from '../../images/home/sailhome1.png';
 import Slider from 'react-slick';
 
 const teamphotos = [

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/Home/Alumni_award.css";
 
-import img from "../../images/sailhome1.png";
-import img2 from "../../images/group_photo.svg";
+import img from "../../images/home/sailhome1.png";
+import img2 from "../../images/home/group_photo.svg";
 import VerticalSlider from './vslid';
 
 const photoData = [

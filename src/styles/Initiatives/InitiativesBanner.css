@@ -1,0 +1,40 @@
+
+
+.Initiatives-Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: 
+    linear-gradient(0deg, rgba(19, 19, 19, 0.69) 0%, rgba(19, 19, 19, 0.39) 100%),
+    url(../../images/Initiatives/initiative-banner.png) lightgray 0px -75px / 100% 114.94% no-repeat;
+    width: 100%;
+}
+.Initiatives-Banner-content{
+    display: flex;
+    flex-direction: column;
+    scale: 0.8;
+}
+
+
+.initiatives-Banner-content-h2{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 104.145%; /* 72.902px */
+}
+
+.Initiatives-Banner-content-h4{
+color: #FFF;
+text-align: center;
+font-family: "DM Sans";
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 141%; /* 28.2px */
+scale: 0.6;
+margin-top: -5rem;
+}

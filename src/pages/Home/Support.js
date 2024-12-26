@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/Home/Support.css';
-import ij from '../../images/sailhome1.png'
+import ij from '../../images/home/sailhome1.png'
 
 const Ban = () => {
   return (

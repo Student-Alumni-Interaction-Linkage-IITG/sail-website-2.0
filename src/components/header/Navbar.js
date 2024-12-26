@@ -3,9 +3,12 @@ import '../header/Navbar.css';
 import sail_logo from '../../images/sail white logo 1.svg';
 import dropdown_icon from '../../images/dropdown_arrow.svg';
 
+
+
 function Navbar() {
     const [showInitiativeDropdown, setShowInitiativeDropdown] = useState(false);
     const [showEventsDropdown, setShowEventsDropdown] = useState(false);
+
 
     return (
         <div className="navbar">
@@ -29,13 +32,17 @@ function Navbar() {
                         </p>
                         {showInitiativeDropdown && (
                             <div className="dropdown-menu">
-                                <a href="/initiatives/amp">AMP</a>
-                                <a href="/initiatives/class-song">Class Song</a>
-                                <a href="/initiatives/ask-the-alumni">Ask the Alumni</a>
-                                <a href="/initiatives/yearbook">Yearbook</a>
-                                <a href="/initiatives/alumni-greet">Alumni Greet</a>
-                                <a href="/initiatives/alumni-awards">Alumni Awards</a>
-                                <a href="/initiatives/newsletter">Newsletter</a>
+                                <a href="/initiative#amp">AMP</a>
+                                <a href="/initiative#yearbook">Yearbook</a>
+                                <a href="/initiative#newsletter">Newsletter</a>
+                                <a href="/initiative#core-mentorship">Core Mentorship</a>
+                                <a href="/initiative#class-song">Class Song</a>
+                                <a href="/initiative#placement-mock-interview">Placement Mock Interview</a>
+                                <a href="/initiative#alumni-greet">Alumni Greet</a>
+                                <a href="/initiative#summarise-and-share">Summarise & Share</a>
+                                <a href="/initiative#ask-the-alumni">Ask the Alumni</a>
+                                <a href="/initiative#alumni-awards">Alumni Awards</a>
+                                
                             </div>
                         )}
                     </div>
