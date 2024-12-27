@@ -1,0 +1,196 @@
+
+
+.about-Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: 
+    linear-gradient(0deg, rgba(19, 19, 19, 0.69) 0%, rgba(19, 19, 19, 0.39) 100%),
+    url(../../images/Initiatives/initiative-banner.png) lightgray 0px -75px / 100% 114.94% no-repeat;
+    width: 100%;
+}
+.about-Banner-content{
+    display: flex;
+    flex-direction: column;
+    scale: 0.8;
+}
+
+
+.about-Banner-content-h2{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 104.145%; /* 72.902px */
+}
+
+.about-Banner-content-h4{
+color: #FFF;
+text-align: center;
+font-family: "DM Sans";
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 141%; /* 28.2px */
+scale: 0.6;
+margin-top: -5rem;
+}
+
+
+
+
+
+.about-overall-body{
+    background-color : #0c405e;
+}
+/* this is the styling of the overall whole page  */
+
+/* styling of photo component ends*/
+.about-blog-div{
+    background-color : #0c405e;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-blog{
+    padding-bottom: 100px;
+    max-width: 75vw;
+    
+    margin: 20px auto;
+
+    color: #EEE;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 34.8px */
+}
+
+.about-blog-social{
+    display: flex;
+    margin: 10px auto;
+    gap: 1rem;
+}
+/* styling of social icons like insta etc */
+
+
+
+.about-logo-imag{
+    width:20%;
+    margin: 50px auto;
+}
+/* styling of blog component ends*/
+.about-team1{
+    background-color: #D2CCC3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-team1-head{
+    padding-top:150px;
+    height:60px;
+    color: #151515;
+    font-family: "Instrument Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36.027px; 
+
+}
+.about-team1-blog{
+    width: 1100px;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; 
+    padding-bottom:100px;
+}
+/* styling of card component starts */
+.about-card{
+    display:inline-block;
+    background-color:#0c405e;
+    margin-bottom: 100px;
+    border-radius:20px;
+   
+}
+
+.about-card-img{
+    width:350px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.about-person-img{
+    object-fit: cover;
+    margin: 30px auto 10px auto;
+}
+
+.about-person-name{
+    margin-left: 30px;
+    color: #FFF;
+    font-family: "Instrument Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85.561%; /* 27.128px */
+
+}
+
+.about-person-post{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 104.145%; /* 26.416px */
+}
+.about-card-social{
+    margin-left: 220px;
+    display:flex;
+    gap:1rem;
+}
+
+.about-aer1{
+    color: #0C405E;
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36.027px; /* 60.045% */
+    padding-bottom:50px;
+}
+
+.about-aer{
+    display:flex;
+    gap:40px;
+    /* margin: 0 auto; */
+}
+
+.about-sail{
+    display:flex;
+    gap: 40px;
+    padding-bottom:100px;
+}
+/* styling of team component ends */
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/Home/vs.css";
 
-import img from "../../images/akshat_jain.svg"
+import img from "../../images/home/akshat_jain.svg"
 
 
 const cards = [
@@ -35,7 +35,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
-    }, 4000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);

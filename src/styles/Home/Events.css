@@ -90,19 +90,23 @@ font-size: 0.8rem;
 font-style: normal;
 font-weight: 400;
 line-height: 104.145%;
+transition: background-color 0.5s ease;
 }
-.slick-slide {
+.event-card-button:hover{
+  background: #CF3767 ;
+}
+.events-carousel .slick-slide {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 /* Hide default slick arrows */
-.slick-prev::before,
-.slick-next::before {
+.events-carousel .slick-prev::before,
+.events-carousel .slick-next::before {
   display: none !important; /* Ensures default arrows are not shown */
 }
 
 /* Custom arrow styles */
-.custom-arrow {
+.events-carousel .custom-arrow {
   z-index: 1; /* Ensure arrows are above the slider */
   width: 45px;
   height: 45px;

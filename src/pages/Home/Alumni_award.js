@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/Home/Alumni_award.css";
 
-import img from "../../images/sailhome1.png";
-import img2 from "../../images/group_photo.svg";
+import img from "../../images/home/sailhome1.png";
+import img2 from "../../images/home/group_photo.svg";
 import VerticalSlider from './vslid';
 
 const photoData = [
@@ -45,8 +45,8 @@ const Aa = () => {
                 ultricies, ultricies purus nec, ultricies nunc. Nullam at nunc
               </p>
               <div className="aa-buttons">
-                <button className="aa-buttons-apply">Apply</button>
-                <button className="aa-buttons-readmore">Read More</button>
+                <button className="aa-buttons-apply" onClick={() => window.open('https://www.iitg.ac.in/aer/alumni_award', '_blank', 'noopener,noreferrer')}>Apply</button>
+                <button className="aa-buttons-readmore" onClick={() => window.open('https://online.iitg.ac.in/aerportal/nomination/', '_blank', 'noopener,noreferrer')}>Read More</button>
               </div>
             </div>
           </div>

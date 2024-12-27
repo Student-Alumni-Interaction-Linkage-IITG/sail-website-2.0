@@ -8,15 +8,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #f8f9fa;
   justify-content: center;
    padding: 30px;
    margin: 35px;
-    width: 70%;
+    width: 80%;
     gap: 20px;
     height: 30vw;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 23.598px;
+background: #FFF;
+
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
   }
   
   .images {
@@ -25,14 +26,14 @@
     justify-content: space-around;
     width: 100%;
     gap: 15px;
-    margin-bottom: 20px;
   }
   
   .images img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 32.019px;
+border: 2px solid #EDEFF1;
   }
   
   .text-content {
@@ -43,28 +44,44 @@
   }
   
   .text-content h1 {
-    font-size: 3vw;
-    font-weight: 100;
+    color: #1F1F1F;
+text-align: center;
+font-family: "Instrument Sans";
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 104.145%; /* 66.653px */
     margin-bottom: 10px;
   }
   
   .text-content p {
-    font-size: 1.3vw;
+    color: #1F1F1F;
+text-align: center;
+font-family: "DM Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 28.8px */
     margin-bottom: 20px;
   }
   
   .donate-button {
-    background-color: #b30000;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    
-    border-radius: 20px;
+    background-color: #A50034;
+    padding: 16px 35px;
+    border-radius: 25px;
     cursor: pointer;
+    color: #EDEFF1;
+
+font-family: "DM Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 104.145%;
+transition: background-color 0.5s ease;
   }
   
   .donate-button:hover {
-    background-color: #800000;
+    background: #CF3767;
   }
   
 
@@ -74,13 +91,13 @@
     justify-content: space-around;
     width: 100%;
     gap: 15px;
-    margin-bottom: 20px;
   }
   .images2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 32.019px;
+border: 2px solid #EDEFF1;
   }
   .ig2{
     height: 20vw;
