@@ -1,7 +1,6 @@
 .events-section {
   text-align: center;
   background: #edeff1;
-  height: 110vh;
   width: 100%;
   padding: 0;
 }
@@ -71,7 +70,7 @@
   color: #1F1F1F;
   text-align: left;
 font-family: "DM Sans";
-font-size: 17.27px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: 104.145%;
@@ -87,7 +86,7 @@ background: #A50034;
 color: #EDEFF1;
 
 font-family: "DM Sans";
-font-size: 12.752px;
+font-size: 0.8rem;
 font-style: normal;
 font-weight: 400;
 line-height: 104.145%;
@@ -114,21 +113,59 @@ line-height: 104.145%;
 }
 
 .custom-arrow img {
-  width: 100%; /* Adjust size to fit the container */
+  width: 100%; 
   height: auto;
   pointer-events: none; /* Ensure clicks register on the parent div */
 }
 
 .custom-arrow.custom-arrow-left {
-  left: -40px; /* Adjust as needed */
+  left: -40px; 
 }
 
 .custom-arrow.custom-arrow-right {
-  right: -40px; /* Adjust as needed */
+  right: -40px; 
 }
 
-/* Hide arrows at start and end */
+
 .slick-prev.slick-disabled,
 .slick-next.slick-disabled {
   display: none !important; /* Hide disabled arrows */
+}
+
+
+@media (max-width: 768px) {
+  .events-carousel {
+    margin: 30px auto;
+  }
+  .event-card-image{
+    height: 240px;
+  }
+
+  .custom-arrow.custom-arrow-left {
+    left: -30px;
+}
+.custom-arrow.custom-arrow-right {
+  right: -30px;
+}
+.custom-arrow {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+  .event-card{
+
+      max-width: 80%;
+      height: auto;
+      padding: 15px 15px 20px 15px;
+      border-radius: 25px;
+      background: #edeff1;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+  }
+  .acontent{
+    font-size: 40px;
+  }
 }

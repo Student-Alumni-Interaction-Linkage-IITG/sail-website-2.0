@@ -45,6 +45,16 @@ const [currentIndex, setCurrentIndex] = useState(0);
   };
 return (
 <div className="vertical-slider">
+
+<div className="vs-carousel-dots">
+              {cards.map((_, index) => (
+                <button
+                  key={index}
+                  className={`vs-dot ${currentIndex === index ? "active" : ""}`}
+                  onClick={() => handleDotClick(index)}
+                />
+              ))}
+            </div>
     
     <div className="vertical-cards-container">
         <div className="vertical-card" >
@@ -56,15 +66,7 @@ return (
         <p className="vertical-card-description">{cards[currentIndex].description}</p>
         
         </div>
-        <div className="vs-carousel-dots">
-              {cards.map((_, index) => (
-                <button
-                  key={index}
-                  className={`vs-dot ${currentIndex === index ? "active" : ""}`}
-                  onClick={() => handleDotClick(index)}
-                />
-              ))}
-            </div>
+
         
         
     </div> 

@@ -36,12 +36,21 @@ line-height: normal;
 
 .stats-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 175px;
-  margin-right: 175px;
   padding: 30px;
+}
+.order1{
+ display: flex;
+ flex-direction: row;
+ gap: 80px;
+}
+.order2{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
 }
 
 .stat {
@@ -55,8 +64,7 @@ line-height: normal;
   margin-bottom: 10px;
 }
 .icon img{
-  height: 5vw;
-  width: 5vw;
+  width: 50%;
   
   
 }
@@ -65,7 +73,6 @@ line-height: normal;
   color: #FAFAFA;
 text-align: center;
 font-family: Fredoka;
-font-size: 47.667px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -77,7 +84,6 @@ line-height: normal;
   color: #FAFAFA;
 text-align: center;
 font-family: "DM Sans";
-font-size: 31.778px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -91,16 +97,30 @@ line-height: normal;
 
 @media screen and (max-width: 768px) {
   .stats-container {
-    justify-content: center; /* Center the rows */
+    justify-content: center; 
+    flex-direction: column;
     margin-left: 0;
     margin-right: 0;
   }
   .stat {
-    width: 45%; /* Two items per row */
+    width: 45%; 
+    flex-direction: column;
+  }
+  .alumni-stats h2{
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 480px) {
   .stat {
-    width: 90%; /* Single item per row for very small screens */
+    width: 90%; 
+    flex-direction: column;
+  }
+  .alumni-stats h2{
+    font-size: 24px;
+  }
+  .alumni-stats p{
+    font-size: 15px;
+    padding: 20px;
+    margin: 0;
   }
 }

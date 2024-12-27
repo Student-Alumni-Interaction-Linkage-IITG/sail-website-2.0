@@ -6,6 +6,7 @@ import dropdown_icon from '../../images/dropdown_arrow.svg';
 function Navbar() {
     const [showInitiativeDropdown, setShowInitiativeDropdown] = useState(false);
     const [showEventsDropdown, setShowEventsDropdown] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <div className="navbar">
@@ -15,7 +16,15 @@ function Navbar() {
                         <img src={sail_logo} alt="logo" />
                     </a>
                 </div>
-                <div className="navbar-content-links">
+                <div 
+                    className="navbar-hamburger" 
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                >
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div className={`navbar-content-links ${isMenuOpen ? 'show' : ''}`}>
                     <a href="/Home" className="navbar-content-links-a">Home</a>
                     <a href="/about" className="navbar-content-links-a">About Us</a>
 

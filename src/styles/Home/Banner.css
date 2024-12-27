@@ -1,3 +1,4 @@
+
 .banner {
   background: 
     linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
@@ -9,11 +10,14 @@
   align-content: center;
 }
 
-.banner-content{
+.banner-content {
+  display: flex;
+  flex-direction: column;
   align-items: left;
   padding-left: 144px;
 }
-.banner-content h4{
+
+.banner-content h4 {
   color: #FAFAFA;
   font-family: "DM Sans";
   font-size: 18px;
@@ -24,7 +28,8 @@
   padding: 0;
   margin: 0;
 }
-.banner-content h1{
+
+.banner-content h1 {
   color: #FAFAFA;
   margin: 0;
   padding: 0;
@@ -38,7 +43,8 @@
   margin-top: 16px;
   margin-bottom: 46px;
 }
-.banner-content-button{
+
+.banner-content-button {
   display: flex;
   padding: 16px 35px;
   justify-content: center;
@@ -54,6 +60,65 @@
   line-height: 104.145%; /* 24.995px */
   transition: background-color 0.5s ease;
 }
-.banner-content-button:hover{
+
+.banner-content-button:hover {
   background: #CF3767;
+}
+
+/* Responsive styles */
+
+/* For tablets */
+@media (max-width: 768px) {
+  .banner-content {
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-content h1 {
+    font-size: 5.5rem;
+        line-height: 5rem;
+        width: 80%;
+        text-align: center;
+  }
+
+  .banner-content h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .banner-content-button {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    text-align: center;
+  }
+
+  .banner-content {
+    padding: 80px ;
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 36px;
+    line-height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .banner-content h4 {
+    font-size: 12px;
+  }
+
+  .banner-content-button {
+    padding: 15px;
+    height: 10px;
+    font-size: 10px;
+    margin: 0 auto;
+  }
 }

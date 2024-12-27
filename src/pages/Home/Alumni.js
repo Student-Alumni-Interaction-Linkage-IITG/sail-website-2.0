@@ -62,6 +62,7 @@ const AlumniStats = () => {
       </p>
       </div>
       <div className="stats-container">
+      <div className='order1'>
         <div className="stat">
           <div className="icon"><img src={idea}/></div>
           <div className="count">{Math.floor(counts.startups)}+</div>
@@ -72,6 +73,8 @@ const AlumniStats = () => {
           <div className="count">{Math.floor(counts.iimAlumni)}+</div>
           <div className="label">IIM Alumni</div>
         </div>
+        </div>
+        <div className='order2'>
         <div className="stat">
           <div className="icon"><img src={workteam}/></div>
           <div className="count">{Math.floor(counts.msAbroad)}+</div>
@@ -81,6 +84,7 @@ const AlumniStats = () => {
           <div className="icon"><img src={grad}/></div>
           <div className="count">{Math.floor(counts.students)}+</div>
           <div className="label">Students</div>
+        </div>
         </div>
       </div>
     </div>

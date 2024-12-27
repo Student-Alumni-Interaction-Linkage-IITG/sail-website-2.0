@@ -1,8 +1,8 @@
 .vertical-slider {
-  width: 300px;
+  /* width: 300px; */
   overflow: hidden;
   margin-top: 30px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .vertical-cards-container {
@@ -11,10 +11,13 @@
   align-items: center;
   transition: transform 0.5s ease-in-out;
   padding: 18px 35px 0px 35px;
+  order: 2;
 }
 
 .vertical-card {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
   height: 100%;
   padding: 20px;
   border-radius: 25px;
@@ -22,8 +25,6 @@
 }
 
 .vertical-card-image {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 25px;
   border: 2px solid #E4E4E4;
@@ -45,8 +46,9 @@
 .vertical-card-description {
   color: #282828;
   padding-left: 5px;
+  width: 80%;
   font-family: "DM Sans";
-  font-size: 16px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 300;
   line-height: 104.145%;
@@ -54,11 +56,9 @@
 
 /* Dots positioning */
 .vs-carousel-dots {
-  position: absolute;
-  left: 1050px; 
-  bottom: -1850px;
   display: flex;
   flex-direction: column; 
+  order: 1;
 }
 
 /* Dot styling */
@@ -75,4 +75,31 @@
 
 .vs-carousel-dots button.active {
   background-color: #0C405E; /* Active dot color */
+}
+
+@media (max-width: 768px) {
+  .vs-carousel-dots button{
+    justify-content: center;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    width: 10px;
+   height: 10px;
+  }
+  .vs-carousel-dots{
+    order: 2;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .vertical-cards-container{
+    order: 1;
+  }
+  .vertical-slider{
+    display: flex;
+    flex-direction: column;
+
+  }
+
 }
