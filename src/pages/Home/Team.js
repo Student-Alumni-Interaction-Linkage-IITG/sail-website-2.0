@@ -8,7 +8,9 @@ function Team() {
       <h2>Our Team</h2>
       <p>Meet the people behind SAIL.</p>
       </div>
+      <div className='teamimag'>
       <img src={logo} alt="Team" className="team-photo" />
+      </div>
       <button className="team-btn">Know More</button>
     </div>
   );
