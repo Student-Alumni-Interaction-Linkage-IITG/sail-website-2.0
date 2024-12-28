@@ -1,4 +1,6 @@
 .vertical-slider {
+  display: flex;
+  flex-direction: row;
   /* width: 300px; */
   overflow: hidden;
   margin-top: 30px;
@@ -10,14 +12,14 @@
   flex-direction: column;
   align-items: center;
   transition: transform 0.5s ease-in-out;
-  padding: 18px 35px 0px 35px;
+  padding: 10px;
   order: 2;
 }
 
 .vertical-card {
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  /* width: 60vw; */
   height: 100%;
   padding: 20px;
   border-radius: 25px;
@@ -58,6 +60,7 @@
 .vs-carousel-dots {
   display: flex;
   flex-direction: column; 
+  justify-content: center;
   order: 1;
 }
 
@@ -92,6 +95,8 @@
     flex-direction: row;
     justify-content: center;
     
+  }.vertical-card{
+    width: 60vw;
   }
   .vertical-cards-container{
     order: 1;

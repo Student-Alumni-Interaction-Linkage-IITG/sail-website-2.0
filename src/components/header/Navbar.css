@@ -1,6 +1,5 @@
 .navbar{
     display: flex;
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -92,7 +91,6 @@
     flex-direction: column;
     border-radius: 0px 5px 5px 5px;
     background: #FFF;
-    z-index: 100;
 
 }
 
@@ -160,11 +158,11 @@ text-underline-position: from-font;
         padding-bottom: 15px;
         margin-top: 20px;
         z-index: 1;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add slight shadow for better separation */
     }
 
     .navbar-content-links.show {
-        display: flex; 
+        display: flex; /* Show links when hamburger is clicked */
     }
 
     /* Adjust dropdown menu */

@@ -1,7 +1,8 @@
 .team {
   text-align: center;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
+  padding: 30px;
   background: #0C405E;
 }
 
@@ -9,7 +10,7 @@
   color: #FFF;
   text-align: center;
   font-family: "Instrument Sans";
-  font-size: 50px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: 36.027px;
@@ -79,3 +80,27 @@
   right: 320px; 
 }
 
+
+
+
+
+@media (max-width: 480px) {
+   
+  .team h2 {
+    font-size: 2.5rem;
+  }
+  .team p{
+    font-size: 1rem;
+  }
+  .team-photo{
+    margin-top: 40px;
+    width: 80%;
+    height: 50vw;
+  }
+  .team-btn{
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+
+}

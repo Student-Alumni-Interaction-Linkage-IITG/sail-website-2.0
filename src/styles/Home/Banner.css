@@ -46,9 +46,11 @@
 
 .banner-content-button {
   display: flex;
+  height: 5vw;
   padding: 16px 35px;
   justify-content: center;
   align-items: center;
+  width: 20%;
   gap: 10px;
   border-radius: 25px;
   background: #A50034;
@@ -91,6 +93,7 @@
     font-size: 20px;
     text-align: center;
     justify-content: center;
+   
   }
 }
 
@@ -116,8 +119,6 @@
   }
 
   .banner-content-button {
-    padding: 15px;
-    height: 10px;
     font-size: 10px;
     margin: 0 auto;
   }

@@ -2,7 +2,6 @@
     background-color:  #0C405E;
     color: white;
     padding: 3rem;
-    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -134,7 +133,7 @@ margin-left: 6vw;
     margin-top: 1rem;
     margin-right: 1vw;
   }
-  
+
   .footer-contact-form input {
     padding: 0.3rem;
     border: none;
@@ -142,7 +141,7 @@ margin-left: 6vw;
     width: 70%;
     font-size: 1vw;
   }
-  
+
   .footer-contact-form button {
     padding: 0.32rem;
     background-color: #000;
@@ -162,6 +161,7 @@ margin-left: 6vw;
     .footer-container {
       flex-direction: column;
       text-align: center;
+      width: 100%;
     }
     .footercontent{
       flex-direction: column;
@@ -206,7 +206,6 @@ margin-left: 6vw;
   
     .footer-contact-form button {
       border-radius: 4px;
-      width: 100%;
     }
   }
   

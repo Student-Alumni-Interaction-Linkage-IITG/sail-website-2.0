@@ -1,10 +1,8 @@
 import React from 'react';
 import '../footer/Footer.css';
-import insta from '../../images/insta.svg';
-import youtube from '../../images/youtube.svg';
-import linkedin from '../../images/linkedin.svg';
-import meta from '../../images/meta.svg';
+import { FaInstagram, FaYoutube, FaLinkedin, FaFacebookMessenger } from 'react-icons/fa';
 import logo from '../../images/sail white logo 1.svg'
+
 function Footer() {
   return (
     <footer className="footer">
@@ -23,11 +21,10 @@ function Footer() {
         <div className="footer-links">
           <h4>Learn More</h4>
           <ul>
-            <li><a href="/about">About us</a></li>
-            <li><a href="https://www.iitg.ac.in/" target='blank'>IIT Guwahati</a></li>
-            <li><a href="https://www.iitg.ac.in/aer/home" target='blank'>Alumni & External Relations</a></li>
-            <li><a href="/faqs">FAQs</a></li>
-            
+            <li><a href="#about">About us</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
           </ul>
         </div>
 
