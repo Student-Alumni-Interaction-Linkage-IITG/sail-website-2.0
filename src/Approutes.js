@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./pages/About/About.js";
 import Home from "./pages/Home/Home.js";
-import Events from "./pages/Events/Events.js";
+import Events from "./pages/Events/Alumni Talk.js";
+import Event from "./pages/Events/Alumni Talk.js";
 import Initiative from "./pages/Initiative/Initiative.js";
 import Calender from "./pages/Calender/Calender.js";
 
@@ -13,7 +14,14 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/events" element={<Event/>} />
+        <Route path="/events/alumni-talk" element={<Event/>} />
+        <Route path="/events/webinar" element={<Event/>} />
+        <Route path="/events/graduation-tea-party" element={<Event/>} />
+        <Route path="/events/international-students-day" element={<Event/>} />
+        <Route path="/events/finalis-resonare" element={<Event/>} />
+        <Route path="/events/students-alumni-meet" element={<Event/>} />
+        
         <Route path="/initiative" element={<Initiative />} />
         <Route path="/calendar" element={<Calender />} />
       </Routes>
