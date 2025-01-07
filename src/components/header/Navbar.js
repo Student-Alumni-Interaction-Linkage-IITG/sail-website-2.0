@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../header/Navbar.css';
 import sail_logo from '../../images/sail white logo 1.svg';
 import dropdown_icon from '../../images/dropdown_arrow.svg';
@@ -7,6 +7,26 @@ function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isInitiativeOpen, setIsInitiativeOpen] = useState(false);
     const [isEventsOpen, setIsEventsOpen] = useState(false);
+    const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
+
+    // Update the isDesktop state on window resize
+    useEffect(() => {
+        const handleResize = () => setIsDesktop(window.innerWidth >= 768);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const handleInitiativeClick = () => {
+        if (!isDesktop || isMenuOpen) {
+            setIsInitiativeOpen((prev) => !prev);
+        }
+    };
+
+    const handleEventsClick = () => {
+        if (!isDesktop || isMenuOpen) {
+            setIsEventsOpen((prev) => !prev);
+        }
+    };
 
     return (
         <div className="navbar">
@@ -17,8 +37,8 @@ function Navbar() {
                     </a>
                 </div>
 
-                <div 
-                    className={`navbar-hamburger ${isMenuOpen ? 'active' : ''}`} 
+                <div
+                    className={`navbar-hamburger ${isMenuOpen ? 'active' : ''}`}
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
                     <div></div>
@@ -30,14 +50,19 @@ function Navbar() {
                     <a href="/Home" className="navbar-content-links-a">Home</a>
                     <a href="/about" className="navbar-content-links-a">About Us</a>
 
-                    <div className="navbar-dropdown">
+                    {/* Initiative Dropdown */}
+                    <div
+                        className="navbar-dropdown"
+                        onMouseEnter={() => isDesktop && setIsInitiativeOpen(true)}
+                        onMouseLeave={() => isDesktop && setIsInitiativeOpen(false)}
+                    >
                         <p
                             className="navbar-content-links-a"
-                            onClick={() => setIsInitiativeOpen(!isInitiativeOpen)}
+                            onClick={handleInitiativeClick}
                         >
                             Initiative <img src={dropdown_icon} alt="dropdown" />
                         </p>
-                        {isInitiativeOpen && (
+                        {(isInitiativeOpen || (isDesktop && isInitiativeOpen)) && (
                             <div className="dropdown-menu">
                                 <a href="/initiative#amp">AMP</a>
                                 <a href="/initiative#yearbook">Yearbook</a>
@@ -53,14 +78,19 @@ function Navbar() {
                         )}
                     </div>
 
-                    <div className="navbar-dropdown">
+                    {/* Events Dropdown */}
+                    <div
+                        className="navbar-dropdown"
+                        onMouseEnter={() => isDesktop && setIsEventsOpen(true)}
+                        onMouseLeave={() => isDesktop && setIsEventsOpen(false)}
+                    >
                         <p
                             className="navbar-content-links-a"
-                            onClick={() => setIsEventsOpen(!isEventsOpen)}
+                            onClick={handleEventsClick}
                         >
                             Events <img src={dropdown_icon} alt="dropdown" />
                         </p>
-                        {isEventsOpen && (
+                        {(isEventsOpen || (isDesktop && isEventsOpen)) && (
                             <div className="dropdown-menu">
                                 <a href="/events/alumni-talk">Alumni Talk</a>
                                 <a href="/events/webinar">Webinar</a>
@@ -74,8 +104,8 @@ function Navbar() {
 
                     <a href="/services" className="navbar-content-links-a">Services</a>
                     <a href="/calendar" className="navbar-content-links-a">Calendar</a>
-                    <button 
-                        className="navbar-content-links-button" 
+                    <button
+                        className="navbar-content-links-button"
                         onClick={() => window.open('https://online.iitg.ac.in/epay/donation/donation.jsp', '_blank', 'noopener,noreferrer')}
                     >
                         Donate
