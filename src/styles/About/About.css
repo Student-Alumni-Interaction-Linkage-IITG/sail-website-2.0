@@ -21,27 +21,11 @@
     color: #FAFAFA;
     text-align: center;
     font-family: "Instrument Sans";
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 600;
     line-height: 104.145%; /* 72.902px */
 }
-
-.about-Banner-content-h4{
-color: #FFF;
-text-align: center;
-font-family: "DM Sans";
-font-size: 34px;
-font-style: normal;
-font-weight: 500;
-line-height: 141%; /* 28.2px */
-scale: 0.6;
-margin-top: -5rem;
-}
-
-
-
-
 
 .about-overall-body{
     background-color : #0c405e;
@@ -51,14 +35,14 @@ margin-top: -5rem;
 /* styling of photo component ends*/
 .about-blog-div{
     background-color : #0c405e;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 .about-blog{
-    padding-bottom: 100px;
+    padding-bottom: 10vh;
     max-width: 75vw;
     
     margin: 20px auto;
@@ -92,24 +76,24 @@ margin-top: -5rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 .about-team1-head{
     padding-top:150px;
-    height:60px;
     color: #151515;
     font-family: "Instrument Sans";
-    font-size: 70px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 500;
-    line-height: 36.027px; 
+    /* line-height: 36.027px;  */
+    margin-bottom: 0;
 
 }
 .about-team1-blog{
-    width: 1100px;
+    max-width: 60vw;
+    margin: 20px auto;
     text-align: center;
     font-family: "DM Sans";
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 35px; 
@@ -121,7 +105,6 @@ margin-top: -5rem;
     background-color:#0c405e;
     margin-bottom: 100px;
     border-radius:20px;
-   
 }
 
 .about-card-img{
@@ -141,7 +124,7 @@ margin-top: -5rem;
     margin-left: 30px;
     color: #FFF;
     font-family: "Instrument Sans";
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: 85.561%; /* 27.128px */
@@ -153,7 +136,7 @@ margin-top: -5rem;
     margin-bottom: 15px;
     color: #FFF;
     font-family: "DM Sans";
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 104.145%; /* 26.416px */
@@ -188,7 +171,175 @@ margin-top: -5rem;
 }
 /* styling of team component ends */
 
+@media(max-width: 768px){
+    .about-Banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        background: 
+        linear-gradient(0deg, rgba(19, 19, 19, 0.69) 0%, rgba(19, 19, 19, 0.39) 100%),
+        url(../../images/home/banner_img.jpeg) lightgray 0px -75px / 100% 114.94% no-repeat;
+        width: 100%;
+    }
+    .about-Banner-content-h2{
+        color: #FAFAFA;
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 104.145%; /* 37.492px */
+    }
+    .about-blog-div{
+        background-color : #0c405e;
+        min-height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .about-blog{
+        padding-bottom: 5vh;
+        max-width: 75vw;
+        
+        margin: 20px auto;
+    
+        color: #EEE;
 
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    }
+    .about-blog-social{
+        display: flex;
+        /* margin: 10px auto; */
+        gap: 0.4rem;
+    }
+    /* styling of social icons like insta etc */
+    .about-blog-social img{
+        width: 80%;
+        
+    }
+    .about-logo-imag{
+        width:20%;
+        margin: 50px auto;
+    }
+    .about-team1-head{
+        padding-top:50px;
+        color: #151515;
+        text-align: center;
+        font-family: "Instrument Sans";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 0;
+        /* line-height: 36.027px; */
+
+    }
+    .about-team1-blog{
+        max-width: 60vw;
+        margin: 20px auto;
+        color: #151515;
+
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px; 
+        padding-bottom:25px;
+    }
+    .about-aer1{
+        color: #0C405E;
+        text-align: center;
+        font-family: "Instrument Sans";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36.027px;
+        padding-bottom:25px;
+    }
+    .about-card{
+        display:inline-block;
+        background-color:#0c405e;
+        margin-bottom: 50px;
+        border-radius:10px;
+    }
+    .about-card-img{
+        width:150px;
+        height:200px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    
+    .about-person-img{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        margin: 20px auto 10px auto;
+        border-radius: 7px;
+    }
+    
+    .about-person-name{
+        margin-left: 25px;
+        color: #FFF;
+        font-family: "Instrument Sans";
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 5px; /* 27.128px */
+    
+    }
+    
+    .about-person-post{
+        margin-left: 25px;
+        margin-bottom: 10px;
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 5px;
+
+    }
+    .about-card-social{
+        margin-left: 70px;
+        display:flex;
+        gap:0.1rem;
+    }
+    .about-card-social img{
+        width: 50%;
+    }
+    .about-aer{
+        display:flex;
+        gap:40px;
+        /* margin: 0 auto; */
+    }
+    
+    .about-sail{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns for wider screens */
+        gap: 30px;
+        padding-bottom:0px;
+    }
+    
+    .about-sail > :nth-child(1) {
+        grid-column: 1 / -1; /* Center the first card */
+        justify-self: center; /* Center it horizontally */
+    }
+
+    .about-sail > :nth-child(2),
+    .about-sail > :nth-child(3) {
+        grid-column: span 1; /* Each of the next cards takes one column */
+        justify-self: stretch; /* Stretch them to fill their columns */
+    }
+    
+}
 
 
 

@@ -1,115 +1,223 @@
 
 .initiative-cards{
-background: #D2CCC3;
-width: 100%;
-padding-bottom: 5.5em;
-}
-
-.Initiative-cards-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5em;
-}
-.initiative-card {
-    border-radius: 30px;
-    background: #FFF;
-    width: 80%;
-    height: 50vh;
-    flex-grow: 1;
-    display: flex;
-;
-    flex-direction: row;
-    gap: 6em;
-}
-
-.initiative-card-image {
-    width: 50%;
-    height: 90%;
-    scale: 0.9;
-margin: auto;
-    border-radius: 26px;
-}
-
-.initiative-card-content {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    top: 15%;
-}
-.top-card-content{
-    top: 10%;
-}
-
-
-
-.content-left{
-    position: relative;
-    left: 5em;
-}
-.content-right{
-    position: relative;
-    right: 2em;
-}
-.Initiatives-Cards-h1 {
-    color: #282828;
-    font-family: "Instrument Sans";
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 85.561%;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 10px;
-}
-
-.initiatives-Cards-p {
-    color: #282828;
-font-family: "DM Sans";
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 145%;
-    margin: 0;
-    padding: 0px;
+    background: #D2CCC3;
     width: 100%;
-    padding-top: 10px;
-}
-
-.initiative-card-image img{
-    width: 100%;
-    height: 100%;
-}
-.card-iframe{
-    width: 100%;
-    height: 100%;
-    border-radius: 26px;
-}
-
-.Card-button{
-    padding: 10px 26px;
-    border-radius: 25px;
-    background: #A50034;
-    color: #f3f2f0;
+    padding-bottom: 5.5em;
+    }
+    
+    .Initiative-cards-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+    }
+    .initiative-card {
+        border-radius: 30px;
+        background: #FFF;
+        width: 70%;
+        height: 50vh;
+        flex-grow: 1;
+        display: flex;
+    ;
+        flex-direction: row;
+        gap: 6em;
+    }
+    
+    .initiative-card-image {
+        width: 50%;
+        height: 90%;
+        scale: 0.9;
+    margin: auto;
+        border-radius: 26px;
+    }
+    
+    .initiative-card-content {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 10%;
+    }
+    
+    
+    
+    
+    .content-left{
+        position: relative;
+        left: 5em;
+    }
+    .content-right{
+        position: relative;
+        right: 2em;
+    }
+    .Initiatives-Cards-h1 {
+        color: #282828;
+        font-family: "Instrument Sans";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 85.561%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .big-h1{
+        font-size: 45px;
+    }
+    
+    
+    .initiatives-Cards-p {
+        color: #282828;
     font-family: "DM Sans";
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 104.145%;
-    transition: background-color 0.5s ease;
-    position: relative;
-    width: 30%;
-    top: 10px;
-    text-align: center;
-}
-.long-button{
-    width: 45%;
-    top: 7%;
-}
-.Card-button:hover{
-    background: #CF3767;
-}
+    line-height: 145%;
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        padding-top: 5px;
+    }
+    
+    .initiative-card-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .card-iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 26px;
+    }
+    
+    .Card-button{
+        padding: 10px 26px;
+        border-radius: 25px;
+        background: #A50034;
+        color: #f3f2f0;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 104.145%;
+        transition: background-color 0.5s ease;
+        position: relative;
+        top: 10px;
+        text-align: center;
+    }
+    .long-button{
+        top: 7%;
+    }
+    .Card-button:hover{
+        background: #CF3767;
+    }
+    @media screen and (min-width:817px) {
+        .small-para{
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:1204px) {
+        .initiatives-Cards-p{
+            font-size: 12px;
+        }
+    }
+    
+    @media screen and (max-width:1026px) {
+        .Initiatives-Cards-h1{
+            font-size: 45px;
+        }
+        .Card-button{
+            scale: 0.9;
+        }
+    .big-h1{
+        font-size: 40px;
+    }
+    .initiatives-Cards-p{
+        font-size: 11px;
+    }
+    }
+    
+    @media screen and (max-width:915px){
+        .Initiatives-Cards-h1{
+            font-size: 40px;
+        }
+    .big-h1{
+        font-size: 35px;
+    }
+    
+    }
+    
+    @media screen and (max-width:768px){
+        .initiative-card{
+            flex-direction: column;
+            gap:0;
+            height: 72vh;
+            width: 70%;
+            border-radius: 10px;
+        }
+        .card-iframe{
+            border-radius: 10px;
+        }
+        .initiative-card-image {
+            width: 100%;
+            height: 150%;
+        }
+        .content-left{
+            left: 0;
+        }
+        .content-right{
+            right: 0;
+        }
+        .initiative-card-content{
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            top: 0;
+            height: 45%;
+        }
+        .Initiatives-Cards-h1{
+            align-self: flex-start;
+            margin-left: 5%;
+        }
+        .initiatives-Cards-p {
+            width: 90%;
+        }
+        .Card-button{
+            align-self: flex-end;
+            margin-right: 5%;
+        }
+        .left{
+            flex-direction: column-reverse;
+        }
+        .long-para{
+            display: none;
+        }
+        .small-para{
+            display: block;
+        }
+    
+    }
+    @media screen and (max-width:500px) {
+        .initiative-card{
+            width: 80%;
+            height: 60vh;
+        }
+            .Initiatives-Cards-h1{
+            font-size: 30px;
+        }
+      .initiative-card-image {
+            height: 90%;
+        }
+        .large-card{
+        display: none;
+        }
+    }
+    @media screen and (max-width:383px) {
+    .custom-card{
+        height: 65vh;
+    }
+    }
+    

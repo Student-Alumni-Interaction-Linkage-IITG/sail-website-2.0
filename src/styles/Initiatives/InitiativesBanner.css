@@ -14,12 +14,13 @@
     display: flex;
     flex-direction: column;
     scale: 0.8;
+    margin-top: 5%;
+    align-items: center;
 }
 
 
 .initiatives-Banner-content-h2{
     color: #FAFAFA;
-    text-align: center;
     font-family: "Instrument Sans";
     font-size: 70px;
     font-style: normal;
@@ -36,5 +37,50 @@ font-style: normal;
 font-weight: 500;
 line-height: 141%; /* 28.2px */
 scale: 0.6;
-margin-top: -5rem;
+margin-top: -4.75rem;
+width: 150%;
+}
+
+@media screen and (max-width:899px) {
+    .Initiatives-Banner-content{
+        margin-top: 8%;
+    }
+    .initiatives-Banner-content-h2{
+    font-size: 60px;
+    }
+    .Initiatives-Banner-content-h4{
+font-size: 30px;
+    }
+}
+@media screen and (max-width:654px){
+    .Initiatives-Banner-content{
+        margin-top: 10%;
+        gap: 0.9em;
+    }
+    .initiatives-Banner-content-h2{
+    font-size: 50px;
+    }
+    .Initiatives-Banner-content-h4{
+font-size: 25px;
+    }
+}
+@media screen and (max-width:459px){
+    .Initiatives-Banner-content{
+        margin-top: 30%;
+    }
+    .initiatives-Banner-content-h2{
+    margin-bottom: 0;
+    }
+    .Initiatives-Banner-content-h4{
+font-size: 25px;
+    }
+}
+@media screen and (max-width:369px){
+    .initiatives-Banner-content-h2{
+        font-size: 45px;
+        margin-top: 45%;
+        }
+        .Initiatives-Banner-content-h4{
+            margin-top: -6rem;
+                }
 }

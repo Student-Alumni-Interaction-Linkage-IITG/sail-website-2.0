@@ -16,17 +16,23 @@ function Footer() {
         
         </div>
         </div>
+        <div className='Line'>
+        <hr></hr>
+        </div>
+       
+
 <div className='footer2'>
         {/* Learn More Section */}
         <div className="footer-links">
-          <h4>Learn More</h4>
-          <ul>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#community">Community</a></li>
-            <li><a href="#faqs">FAQs</a></li>
-            <li><a href="#privacy">Privacy Policy</a></li>
-          </ul>
-        </div>
+  <h4>Learn More</h4>
+  <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
+    <li><a href="#about">About us</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#faqs">FAQs</a></li>
+    <li><a href="#privacy">Privacy Policy</a></li>
+  </ul>
+</div>
+
 
         {/* Contact Section */}
         <div className="footer-contact">

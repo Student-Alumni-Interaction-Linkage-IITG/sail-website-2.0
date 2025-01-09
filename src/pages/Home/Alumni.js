@@ -61,6 +61,7 @@ const AlumniStats = () => {
         libero et velit interdum, ac aliquet odio mattis.
       </p>
       </div>
+      <div className='stats'>
       <div className="stats-container">
       <div className='order1'>
         <div className="stat">
@@ -86,6 +87,7 @@ const AlumniStats = () => {
           <div className="label">Students</div>
         </div>
         </div>
+      </div>
       </div>
     </div>
   );

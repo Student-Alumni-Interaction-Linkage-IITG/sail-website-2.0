@@ -5,19 +5,21 @@
   padding: 20px 10px 30px 20px;
   border-radius: 10px;
   width: 100%;
+  padding-bottom: 100px;
 }
 
 .alumni-stats h2 {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-size: 24px;
   color: #FAFAFA;
 
 text-align: center;
 font-family: "Instrument Sans";
-font-size: 70px;
+font-size: 60px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding-top: 50px;
 }
 
 .alumni-stats p {
@@ -28,35 +30,48 @@ line-height: normal;
   color: #EDEFF1;
 text-align: center;
 font-family: "DM Sans";
-font-size: 24px;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 0;
+width: 60%;
 }
 
 .stats-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   padding: 30px;
+  margin-top: 20px;
+  width: 65%;
+  
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .order1{
  display: flex;
  flex-direction: row;
- gap: 80px;
+ justify-content: space-around;
+ width: 50%;
 }
 .order2{
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   margin-bottom: 20px;
 }
 
@@ -64,7 +79,7 @@ line-height: normal;
   margin-bottom: 10px;
 }
 .icon img{
-  width: 50%;
+  width: 70%;
   
   
 }
@@ -75,12 +90,13 @@ text-align: center;
 font-family: Fredoka;
 font-style: normal;
 font-weight: 400;
+font-size: 40px;
 line-height: normal;
   margin-bottom: 5px;
 }
 
 .label {
-  font-size: 14px;
+  font-size: 25px;
   color: #FAFAFA;
 text-align: center;
 font-family: "DM Sans";
@@ -109,18 +125,61 @@ line-height: normal;
   .alumni-stats h2{
     font-size: 40px;
   }
+  .order1{
+    width: 80%;
+  }
+  .order2{
+    width: 80%;
+  }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .stat {
     width: 90%; 
     flex-direction: column;
+    /* margin: 0; */
   }
+  .alumni-stats{
+    padding-bottom: 10px;
+  }
+
   .alumni-stats h2{
-    font-size: 24px;
+    font-size: 8.5vw;
+    margin-top: 0px;
+    padding-top: 40px;
+    margin: 0px;
+  }
+  .stats-container{
+    gap: 25px;
   }
   .alumni-stats p{
-    font-size: 15px;
-    padding: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .order1{
+    width: 100%;
+  }
+  .order2{
+    width: 100%;
+  }
+  .icon{
+   margin: 0;
+  }
+  .icon img{
+    width: 35%;
+  }
+  .count{
+    font-size: 3.5vw;
     margin: 0;
+  }
+  .label{
+    font-size: 3.5vw;
   }
 }

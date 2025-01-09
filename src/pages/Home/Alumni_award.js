@@ -36,19 +36,20 @@ const Aa = () => {
         {/* Left content */}
         <div className="aa-card1">
           <div className="aa-card-content1">
-            <h1>Alumni Awards</h1>
+           
             <div className="aa-card2">
+            <h1>Alumni Awards</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ultricies, ligula in tincidunt lacinia, nunc sapien ultricies
                 purus, eget ultricies nunc elit nec purus. Nullam at nunc
                 ultricies, ultricies purus nec, ultricies nunc. Nullam at nunc
               </p>
-              <div className="aa-buttons">
+            </div>
+            <div className="aa-buttons">
                 <button className="aa-buttons-apply" onClick={() => window.open('https://www.iitg.ac.in/aer/alumni_award', '_blank', 'noopener,noreferrer')}>Apply</button>
                 <button className="aa-buttons-readmore" onClick={() => window.open('https://online.iitg.ac.in/aerportal/nomination/', '_blank', 'noopener,noreferrer')}>Read More</button>
               </div>
-            </div>
           </div>
           <div className="aa-card-image1">
             <img

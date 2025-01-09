@@ -12,7 +12,7 @@ import person5 from '../../images/about/person5.png';
 const Team = () => {
     return (
         <div className = "about-team1">
-            <h1 className = "about-team1-head">About The Team</h1>
+            <h1 className = "about-team1-head">The Team</h1>
             <p className = "about-team1-blog">
                 As Henry Ford wisely said, “Coming together is a beginning, staying together is progress, and working together is success.” The achievements of SAIL are a testament to the power of collaboration. Every milestone we’ve reached is the result of dedicated teamwork, where each individual’s contribution has been essential. It's the combined effort, shared vision, and unwavering support within the team that has propelled us forward. Now, let’s take a moment to meet the incredible SAIL team that makes it all possible...
             </p>
@@ -23,9 +23,9 @@ const Team = () => {
             </div>
             <h1 className="about-aer1">Team SAIL</h1>
             <div className = "about-sail">
-                <Card url={person3} name = "Kanv Chaudhary" post = "ASSOC GENERAL SEC, UG SAIL" linkedin = "https://www.linkedin.com/in/kanvchaudhary/" mail ="c.kanv@iitg.ac.in"/>
+                <Card url={person3} name = "Kanv Chaudhary" post = "ASSOC GEN. SEC, UG SAIL" linkedin = "https://www.linkedin.com/in/kanvchaudhary/" mail ="c.kanv@iitg.ac.in"/>
                 <Card url={person4} name = "Urmi Gopalkrishnana" post = "GENERAL SEC , SAIL" linkedin = "https://www.linkedin.com/in/urmi-gopalakrishna-143a4825a/" mail ="gensec_sail@iitg.ac.in"/>
-                <Card url={person5} name = "Jagdish Kumar" post = "ASSOC GENERAL SEC, PG SAIL" linkedin = "https://www.linkedin.com/in/jagpar7777/" mail ="k.jagdish@iitg.ac.in"/>
+                <Card url={person5} name = "Jagdish Kumar" post = "ASSOC GEN. SEC, PG SAIL" linkedin = "https://www.linkedin.com/in/jagpar7777/" mail ="k.jagdish@iitg.ac.in"/>
             </div>
         </div>
         

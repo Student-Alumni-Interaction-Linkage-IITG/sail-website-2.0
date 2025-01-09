@@ -26,7 +26,6 @@ const Cards = () => {
   }, [location]);
 
 
-
   return (
     <div className="initiative-cards">
       <div className="Initiative-cards-content">
@@ -36,8 +35,8 @@ const Cards = () => {
           </div>
           <div className="initiative-card-content content-right top-card-content" >
             <h2 className="Initiatives-Cards-h1">AMP</h2>
-            <p className="initiatives-Cards-p">
-              Everybody needs a mentor, a person who can guide us and help us
+            <p className="initiatives-Cards-p long-para">
+            Everybody needs a mentor, a person who can guide us and help us
               achieve our goals through his/her vast experience. And who better
               to do this than one of our alumni, who once stood in our
               shoes?Keeping this in mind, we initiated the Alumni Mentorship
@@ -47,13 +46,16 @@ const Cards = () => {
               learn about recent campus advancements and the students to gain a
               lot of knowledge from the alumni.
             </p>
-            <button className="Card-button">Apply</button>
+            <p className="initiatives-Cards-p small-para">
+            Everybody needs a mentor, a person who can guide us and help us achieve our goals through his/her vast experience. And who better to do this than one of our alumni, who once stood in our shoes?
+            </p>
+            {/* <button className="Card-button">Apply</button> */}
           </div>
         </div>
-        <div className="initiative-card" id="yearbook"> 
+        <div className="initiative-card left custom-card" id="yearbook"> 
           <div className="initiative-card-content content-left">
             <h2 className="Initiatives-Cards-h1">Yearbook</h2>
-            <p className="initiatives-Cards-p">
+            <p className="initiatives-Cards-p long-para">
               College life is filled with incredible moments and we take some of
               them with us as memories. SAIL offers an opportunity for the final
               year students to relive some of those special occasions through
@@ -61,7 +63,10 @@ const Cards = () => {
               It is the memories that live on and the sweetest of them are made
               here at IITG!
             </p>
-            <button className="Card-button long-button">Get Yearbook</button>
+            <p className="initiatives-Cards-p small-para">
+            College life is filled with incredible moments and we take some of them with us as memories. SAIL offers an opportunity for the final year students to relive some of those special occasions through the words and images of their peers in the form of the Yearbook.
+            </p>
+            <button className="Card-button long-button" onClick={() => window.open('https://flipbook-pied.vercel.app/', '_blank')}> View Yearbook</button>
           </div>
           <div className="initiative-card-image">
             <iframe
@@ -90,7 +95,7 @@ const Cards = () => {
             <button className="Card-button long-button">Get Newsletter</button>
           </div>
         </div>
-        <div className="initiative-card" id="class-song">
+        <div className="initiative-card left" id="class-song">
           <div className="initiative-card-content content-left">
             <h2 className="Initiatives-Cards-h1">Class Song</h2>
             <p className="initiatives-Cards-p">
@@ -98,7 +103,7 @@ const Cards = () => {
               the class song, in which all of the graduating class members join
               hands to sing a song as a celebration of the great years they have
               spent on the IITG campus.
-            </p>
+       </p>
           </div>
           <div className="initiative-card-image" >
             <iframe
@@ -112,11 +117,11 @@ const Cards = () => {
             ></iframe>
           </div>
         </div>
-        <div className="initiative-card" id="core-mentorship">
+        <div className="initiative-card large-card" id="core-mentorship">
           <div className="initiative-card-image">
             <img src={ChemicalCore} alt="" />
           </div>
-          <div className="initiative-card-content content-right">
+          <div className="initiative-card-content content-right ">
             <h2 className="Initiatives-Cards-h1">Core mentorship</h2>
             <p className="initiatives-Cards-p">
               The Core Mentorship Series by SAIL is designed to bridge the gap
@@ -128,11 +133,14 @@ const Cards = () => {
               students to make informed decisions, align their academic pursuits
               with career goals, and excel in their respective domains.
             </p>
+            <p className="initiatives-Cards-p">
+
+            </p>
           </div>
         </div>
-        <div className="initiative-card" id="placement-mock-interview">
+        <div className="initiative-card left large-card" id="placement-mock-interview">
           <div className="initiative-card-content content-left">
-            <h2 className="Initiatives-Cards-h1">Placement Mock Interview</h2>
+            <h2 className="Initiatives-Cards-h1 big-h1">Placement Mock Interview</h2>
             <p className="initiatives-Cards-p">
               The Placement Mock Interviews initiative by SAIL is designed to
               help students get ready for their recruitment journey by creating
@@ -164,7 +172,7 @@ const Cards = () => {
           </div>
           <div className="initiative-card-content content-right">
             <h2 className="Initiatives-Cards-h1">Alumni Greet</h2>
-            <p className="initiatives-Cards-p">
+            <p className="initiatives-Cards-p long-para">
               As freshers, we are quite intrigued and excited about the idea of
               joining a college. Along with this, we also have lots of doubts
               regarding the campus and the Institute in general. 'Alumni Greet'
@@ -172,11 +180,12 @@ const Cards = () => {
               made by an alumnus/alumna from a hostel, is played at the hostel
               orientation, for the freshers.
             </p>
+            <p className="initiatives-Cards-p small-para">'Alumni Greet' is an initiative by SAIL, in which, a self-shot welcome video, made by an alumnus/alumna from a hostel, is played at the hostel orientation, for the freshers.</p>
           </div>
         </div>
-        <div className="initiative-card" id="summarise-and-share"> 
+        <div className="initiative-card left large-card" id="summarise-and-share"> 
           <div className="initiative-card-content content-left">
-            <h2 className="Initiatives-Cards-h1">Summarise &nbsp; and Share</h2>
+            <h2 className="Initiatives-Cards-h1">Summarise and Share</h2>
             <p className="initiatives-Cards-p">
               Summarize & Share is a thoughtful initiative designed to ensure
               that the knowledge and insights imparted during alumni-led
@@ -198,7 +207,7 @@ const Cards = () => {
             <img src={ask} alt="" />
           </div>
           <div className="initiative-card-content content-right">
-            <h2 className="Initiatives-Cards-h1">Ask the Alumni</h2>
+            <h2 className="Initiatives-Cards-h1 big-h1">Ask the Alumni</h2>
             <p className="initiatives-Cards-p">
               Learning happens when we ask questions. The more we question, the
               better answers we get.Ask the Alumni is an initiative by SAIL
@@ -208,9 +217,9 @@ const Cards = () => {
             </p>
           </div>
         </div>
-        <div className="initiative-card" id="alumni-awards">
+        <div className="initiative-card left" id="alumni-awards">
           <div className="initiative-card-content content-left">
-            <h2 className="Initiatives-Cards-h1">Alumni Awards</h2>
+            <h2 className="Initiatives-Cards-h1 big-h1">Alumni Awards</h2>
             <p className="initiatives-Cards-p">
               As freshers, we are quite intrigued and excited about the idea of
               joining a college. Along with this, we also have lots of doubts

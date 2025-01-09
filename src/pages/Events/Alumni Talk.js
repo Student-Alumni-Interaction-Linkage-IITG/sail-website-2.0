@@ -47,6 +47,7 @@ const Event = () => {
         </div>
       </div>
       <div className="frames-container">
+      <h2 className="events-sections">Frame Of Memories</h2>
         <div className="year-selector">
           {Object.keys(photos).map((year) => (
             <div
