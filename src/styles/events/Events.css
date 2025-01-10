@@ -51,9 +51,12 @@ padding-bottom: 18px;
 
   
   .header-content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: 600px;
     margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 104.145%; /* 72.902px */
   }
   
   .frames-container {

@@ -5,7 +5,7 @@ const Photo = () => {
   return (
     <div className="about-Banner">
       <div className="about-Banner-content">
-        <h2 className="about-Banner-content-h2">About us</h2>
+        <h4 className="about-Banner-content-h4">About us</h4>
         
       </div>
     </div>
