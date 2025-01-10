@@ -46,7 +46,7 @@ const Aa = () => {
            <div className="aa-car-content1">
            
             <div className="aa-car2">
-            <h1>Alumni Awards</h1>
+            <h1>Alumni Services</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 ultricies, ligula in tincidunt lacinia, nunc sapien ultricies
