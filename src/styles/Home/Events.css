@@ -200,3 +200,26 @@ line-height: 104.145%;
     font-size: 40px;
   }
 }
+
+@media (min-width: 600px) {
+ 
+  .event-card{
+    width: 80%;
+  }
+ 
+  
+ 
+}
+
+
+@media (max-width: 1200px) {
+.event-card-image{
+  height: 220px;
+}
+.event-card-button{
+  font-size: 0.6rem;
+}
+.event-card-description-para{
+  font-size: 0.8rem;
+}
+}

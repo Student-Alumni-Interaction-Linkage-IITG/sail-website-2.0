@@ -23,39 +23,46 @@ const Events = () => {
     speed: 700,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true, 
+    autoplay: true,
     autoplaySpeed: 3000,
     customPaging: (i) => (
       <div
         style={{
-          width: "20px",   // Width of the rectangle
-          height: "6px",   // Height of the rectangle
-          backgroundColor: i === activeIndex ? "#0C405E" : "#D9D9D9",  // Highlight the active one
-          borderRadius: "5px", // No rounded corners, fully rectangular
-          margin: "0 5px",  // Space between the rectangles
-          transition: "background-color 0.3s ease" // Smooth transition for background-color
+          width: "20px",
+          height: "6px",
+          backgroundColor: i === activeIndex ? "#0C405E" : "#D9D9D9",
+          borderRadius: "5px",
+          margin: "0 5px",
+          transition: "background-color 0.3s ease",
         }}
       />
     ),
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
     beforeChange: (current, next) => {
-      // Update the active index when the slide changes
       setActiveIndex(next);
-      // Check if we are at the beginning or end and hide arrows accordingly
       const totalSlides = eventData.length;
       document.querySelector('.slick-prev').style.display = next === 0 ? 'none' : 'block';
       document.querySelector('.slick-next').style.display = next === totalSlides - 1 ? 'none' : 'block';
     },
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
   };
+  
 
   return (
     <div className="events-section">

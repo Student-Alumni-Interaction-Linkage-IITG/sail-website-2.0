@@ -89,7 +89,7 @@
   color: #edeff1;
   text-align: center;
   font-family: "DM Sans";
-  font-size: 16px;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 400;
   line-height: 104.145%;
@@ -103,7 +103,7 @@
   color: #282828;
 text-align: center;
 font-family: "DM Sans";
-font-size: 14px;
+font-size: 1vw;
 font-style: normal;
 font-weight: 400;
 width: 35%;
@@ -212,7 +212,7 @@ background-color: #CF3767;
     padding: 10px;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.5vw;
   }
 
   .aa-card-image1 img{
@@ -253,13 +253,24 @@ background-color: #CF3767;
  }
  .aa-buttons-apply{
   width: 25%;
+  font-size: 1.3vw;
  }
  .aa-buttons-readmore{
   width: 25%;
+  font-size: 1.3vw;
  }
  .aa-card-content1{
   margin: 0;
  }
+ .aa-card-content1 h1{
+  
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 0px;
+}
+ 
  
 }
 
@@ -308,4 +319,29 @@ background-color: #CF3767;
   }
 
 }
+
+@media (min-width: 600px) {
+ 
+  .aa-card1{
+    flex-direction: row;
+  }
+  .aa-card-image1{
+    width: 60%;
+  }
+  .aa-card-content1{
+    width: 40%;
+    height: 35vw;
+  }
+  .aa-buttons-apply{
+    width: 30%;
+  }
+  .aa-buttons-readmore{
+    width: 30%;
+  }
+
+
+}
+
+
+
 
