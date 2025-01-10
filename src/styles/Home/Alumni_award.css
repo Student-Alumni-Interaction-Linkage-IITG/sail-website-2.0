@@ -504,11 +504,14 @@ p.text{
     flex-direction:column;
     margin: 10px;
     gap: 25px;
+    justify-content: center;
+    align-items: center;
   }
   .aa-car-image1{
       /* width: 100%; */
       display: flex
-;     width: 100%;
+;     width: 90%;
+padding: 15px;
   }
   .aa-car2 h1{
     font-size: 2rem;

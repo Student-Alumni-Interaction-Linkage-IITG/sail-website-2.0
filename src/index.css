@@ -25,5 +25,14 @@ button{
   border: none;
   -webkit-tap-highlight-color: transparent;
 }
+a{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+img{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
 
 

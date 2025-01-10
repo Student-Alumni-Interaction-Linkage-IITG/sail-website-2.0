@@ -269,6 +269,7 @@ text-decoration-skip-ink: none;
     }
     .footer-contact{
       font-size: 10px;
+      gap: 5px;
     }
     .footer-contact h4{
       font-family: Instrument Sans;

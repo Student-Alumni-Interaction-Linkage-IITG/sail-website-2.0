@@ -136,6 +136,24 @@
     .donate-button{
       margin-top: 30px;
     }
+
+    
+    .donate-button {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.donate-button {
+  background: #A50034;
+  color: #D2CCC3;
+  font-family: "DM Sans";
+  transition: background-color 0.5s ease;
+}
+
+.donate-button:hover {
+  background: #CF3767;
+}
+
   }
 
   @media (min-width: 786px) {
