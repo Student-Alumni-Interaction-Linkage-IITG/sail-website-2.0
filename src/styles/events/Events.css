@@ -125,7 +125,15 @@ line-height: 27.19px;
     border-radius: 10px;
   
     display: block;
+    
 
+  }
+  .photo-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the box */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  .photo-card:hover img {
+    filter: brightness(0.8); /* Darken the image slightly */
   }
 
   @media screen and (max-width: 1000px) {

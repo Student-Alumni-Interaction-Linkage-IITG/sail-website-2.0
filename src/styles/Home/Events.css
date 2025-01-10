@@ -136,6 +136,14 @@ line-height: 104.145%;
   display: none !important; /* Hide disabled arrows */
 }
 
+.event-card:hover{
+  transform: scale(1.05); /* Slightly enlarge the box */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+.event-card:hover img{
+  filter: brightness(0.8); /* Darken the image slightly */
+}
+
 
 @media (max-width: 786px) {
    .events-section-header-h2{

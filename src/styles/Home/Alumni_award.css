@@ -12,7 +12,7 @@
 
 .aa-Alumni {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 85%;
   background: #fff;
   padding: 10px;
@@ -20,6 +20,135 @@
   margin: 40px;
   border-radius: 30px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+}
+.cad{
+  display: flex;
+  flex-direction: row;
+
+}
+.aa-car{
+  display: flex;
+  flex-direction: row;
+  /* width: 60%; */
+  margin: 20px;
+gap: 40px;
+  background: #e4e4e4;
+ 
+  border-radius: 29.394px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.aa-car-image1 img {
+  width: 100%;
+  height: 28vw;
+  /* height: 40vw; */
+}
+.aa-car-content1 {
+  width: 50%;
+}
+.aa-car-image1{
+  width: 49%;
+}
+.aa-car2{
+  width: 100%;
+}
+.aa-car2 h1{
+  
+  text-align: center;
+  margin-bottom: 15px;
+  margin: 0;
+  align-self: stretch;
+  color: #282828;
+  font-family: "Instrument Sans";
+  font-size: 4.6vw;
+
+  font-style: normal;
+  font-weight: 500;
+  line-height: 85.561%;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-top: 50px;
+   
+    
+}
+.aa-car2 p{
+  text-align: center;
+}
+.aacar-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.admit-transcript-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+ .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.item .icon {
+  width: 50px; /* Adjust size based on preference */
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-family: DM Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.52px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-offset: 14%;
+text-decoration-thickness: 5%;
+text-underline-position: from-font;
+text-decoration-skip-ink: auto;
+
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+
+.aa-car-content1 p {
+  margin: 0;
+  color: #282828;
+  font-family: "DM Sans";
+  font-size: 1vw;
+  font-style: normal;
+ 
+ padding: 20px;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 20px;
+}
+
+
+.aa-car-image1 img {
+width: 100%;
+height: 100%;
+border-radius: 25px 0px 0px 25px;
+object-fit: cover;
 }
 .aa-card1 {
   display: flex;
@@ -196,6 +325,10 @@ background-color: #CF3767;
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .cad{
+    flex-direction: column;
+  }
+  
 
   
   .aa-card-content1 h1{
@@ -212,7 +345,7 @@ background-color: #CF3767;
     padding: 10px;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
 
   .aa-card-image1 img{
@@ -233,10 +366,10 @@ background-color: #CF3767;
    }
 
    .aa-card-image1{
-    order: 1;
+    order: 2;
    }
    .aa-card-content1{
-    order: 2;
+    order: 1;
    }
    .aa-buttons-apply{
     padding: 10px 15px; 
@@ -264,26 +397,70 @@ background-color: #CF3767;
  }
  .aa-card-content1 h1{
   
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0;
     margin-bottom: 0px;
 }
+.aa-car-image1{
+    /* width: 100%; */
+    display: flex
+;     width: 100%;
+}
+.aa-car2 h1{
+  font-size: 3rem;
+  margin: 0;
+}
+.aa-car2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aa-car-content1 p {
+  font-size: 1rem;
+  margin: 0;
+}
+.aacar-buttons{
+  margin: 0;
+}
+p.text{
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.admit-transcript-container{
+  gap: 0;
+  width: 100%;
+}
+
+.aa-car-image1 img{
+  height: 100%;
+}
+.aa-car-content1{
+  width: 100%;
+}
+
+
  
  
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
    .aa-card1{
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     height: 100%;
     padding: 20px;
     margin: 10px;
    }
    .aa-card-content1{
     margin: 0;
+   }
+   .aa-card-content1 h1{
+    font-size: 1.8rem;;
+   }
+   .aa-card-content1 p{
+    font-size: 0.8rem;
    }
    .aa-card3{
     padding-bottom: 10px;
@@ -317,10 +494,57 @@ background-color: #CF3767;
     width: 100%;
     height: 40vw;
   }
-
+  .aa-buttons-apply{
+    font-size: 0.8rem;
+  }
+  .aa-buttons-readmore{
+    font-size: 0.8rem;
+  }
+  .aa-car{
+    flex-direction:column;
+    margin: 10px;
+  }
+  .aa-car-image1{
+      /* width: 100%; */
+      display: flex
+;     width: 100%;
+  }
+  .aa-car2 h1{
+    font-size: 2rem;
+    padding-top: 10px;
+    margin: 0;
+  }
+  .aa-car2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aa-car-content1 p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .aacar-buttons{
+    margin: 0;
+  }
+  p.text{
+    padding: 10px;
+    font-size: 0.6rem;
+  }
+  .admit-transcript-container{
+    gap: 0;
+    width: 100%;
+  }
+  
+  .aa-car-image1 img{
+    border-radius: 25px;
+    height: 45vw;
+  }
+  .aa-car-content1{
+    width: 100%;
+  }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
  
   .aa-card1{
     flex-direction: row;
@@ -337,6 +561,9 @@ background-color: #CF3767;
   }
   .aa-buttons-readmore{
     width: 30%;
+  }
+  .aacar-buttons{
+    padding: 20px;
   }
 
 

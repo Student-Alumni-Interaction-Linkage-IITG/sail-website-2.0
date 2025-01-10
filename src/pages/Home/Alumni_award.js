@@ -34,6 +34,43 @@ const Aa = () => {
     <div className="aa-container1">
       <div className="aa-Alumni">
         {/* Left content */}
+        <div className="aa-car">
+          
+          <div className="aa-car-image1">
+            <img
+              src={img}
+             
+            />
+           </div>
+
+           <div className="aa-car-content1">
+           
+            <div className="aa-car2">
+            <h1>Alumni Awards</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ultricies, ligula in tincidunt lacinia, nunc sapien ultricies
+                purus, eget ultricies nunc elit nec purus. Nullam at nunc
+                ultricies, ultricies purus nec, ultricies nunc. Nullam at nunc
+              </p>
+            </div>
+            <div className="aacar-buttons">
+            <div className="admit-transcript-container">
+      <div className="item">
+        <img src={img} alt="Admit Card Icon" className="icon" />
+        <p className="text">How to get Admit Card</p>
+      </div>
+      <div className="item">
+        <img src={img} alt="Transcript Icon" className="icon" />
+        <p className="text">How to get Transcript?</p>
+      </div>
+    </div>
+              </div>
+          </div>
+           </div>
+            
+         
+          <div className="cad">
         <div className="aa-card1">
           <div className="aa-card-content1">
            
@@ -71,6 +108,7 @@ const Aa = () => {
         <div className="aa-card3">
         <VerticalSlider/>
         </div>
+      </div>
       </div>
     </div>
   );
