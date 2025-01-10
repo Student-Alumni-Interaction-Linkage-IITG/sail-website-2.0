@@ -33,6 +33,7 @@
 
 .Initiatives-Banner-content-h4{
 color: #FFF;
+width: 85%;
 text-align: center;
 font-family: "DM Sans";
 font-size: 1.15rem;
@@ -72,4 +73,5 @@ max-width: 800px;
     margin: 0px auto;
     max-width: 400px;
     }
+   
 }

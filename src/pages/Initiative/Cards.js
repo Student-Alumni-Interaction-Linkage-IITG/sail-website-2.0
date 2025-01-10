@@ -87,9 +87,7 @@ const Cards = () => {
               It is the memories that live on and the sweetest of them are made
               here at IITG!
             </p>
-            <p className="initiatives-Cards-p small-para">
-            College life is filled with incredible moments and we take some of them with us as memories. SAIL offers an opportunity for the final year students to relive some of those special occasions through the words and images of their peers in the form of the Yearbook.
-            </p>
+           
             </div>
             <button className="Card-button long-button" onClick={() => window.open('https://flipbook-pied.vercel.app/', '_blank')}> View Yearbook</button>
           </div>
@@ -199,7 +197,6 @@ const Cards = () => {
               made by an alumnus/alumna from a hostel, is played at the hostel
               orientation, for the freshers.
             </p>
-            <p className="initiatives-Cards-p small-para">'Alumni Greet' is an initiative by SAIL, in which, a self-shot welcome video, made by an alumnus/alumna from a hostel, is played at the hostel orientation, for the freshers.</p>
    </div>
         </div>
         {/* <div className="initiative-card left large-card" id="summarise-and-share"> 

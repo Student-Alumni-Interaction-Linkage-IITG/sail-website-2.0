@@ -37,7 +37,7 @@ padding-bottom: 18px;
   
   .header-content h1 {
     font-family: Instrument Sans;
-  font-size: 4vw;
+  font-size: 3.8vw;
   font-weight: 600;
   line-height: 4.5vw;
   letter-spacing: -0.02em;
@@ -51,12 +51,12 @@ padding-bottom: 18px;
 
   
   .header-content p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     max-width: 600px;
     margin: 0 auto;
     font-style: normal;
     font-weight: 500;
-    line-height: 104.145%; /* 72.902px */
+    line-height: 120.145%; /* 72.902px */
   }
   
   .frames-container {
@@ -196,5 +196,12 @@ line-height: 27.19px;
      
 
 
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .header-content{
+      padding-bottom: 290px;
+    }
   }
   

@@ -503,6 +503,7 @@ p.text{
   .aa-car{
     flex-direction:column;
     margin: 10px;
+    gap: 25px;
   }
   .aa-car-image1{
       /* width: 100%; */
@@ -511,6 +512,7 @@ p.text{
   }
   .aa-car2 h1{
     font-size: 2rem;
+    padding: 0;
     padding-top: 10px;
     margin: 0;
   }

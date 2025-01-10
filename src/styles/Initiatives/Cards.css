@@ -121,12 +121,7 @@
    
     
     @media screen and (max-width:1000px) {
-        .Initiatives-Cards-h1{
-            /* font-size: 4vw; */
-        }
-        .initiatives-Cards-p{
-            /* font-size: 0.9vw; */
-        }
+       
         .Card-button{
             /* font-size: 0.8vw; */
             margin-top: 10px;
@@ -174,9 +169,11 @@
         }
         .initiative-card-image{
             width: 100%;
+          
         }
         .initiative-card-content{
             width: 100%;
+            gap: 10px;
         }
         .Initiatives-Cards-h1{
             margin-top: 10px;
@@ -200,6 +197,7 @@
         .initiative-card-image, .card-iframe{
             margin-top: 10px;
             border-radius: 10px;
+
         }
 
     }
