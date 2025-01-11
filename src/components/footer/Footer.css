@@ -218,6 +218,7 @@ text-decoration-skip-ink: none;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    cursor: pointer;
   }
   /* Responsive Design */
   @media (max-width: 786px) {
@@ -381,8 +382,11 @@ text-decoration-skip-ink: none;
    }
    .footer-contact{
     font-size: 10px;
-   
   }
+  .footer-contact-form h4 {
+    font-size: 4vw;
+    /* width: 100%; */
+}
   
 
   
