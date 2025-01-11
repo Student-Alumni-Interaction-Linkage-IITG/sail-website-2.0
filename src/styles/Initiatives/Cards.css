@@ -13,6 +13,12 @@
         align-items: center;
         gap: 5em;
     }
+    div#yearbook .initiative-card-content{
+        order: 2;
+    }
+    div#newsletter .initiative-card-image{
+        order: 2;
+    }
     .initiative-card {
         display: flex;
         flex-direction: column;

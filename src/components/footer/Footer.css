@@ -193,7 +193,6 @@ text-decoration-skip-ink: none;
   .footer-contact-form {
     display: flex;
    justify-content: right;
-   width: 24vw;
    gap: 5px;
   }
 
@@ -343,7 +342,7 @@ text-decoration-skip-ink: none;
     .footer-contact-form input {
       width: 100%;
       font-size: 0.55rem;
-    
+      
     }
   }
     @media (min-width: 600px) {
@@ -380,5 +379,12 @@ text-decoration-skip-ink: none;
    .footer-social svg{
     font-size: 5.5vw;
    }
+   .footer-contact{
+    font-size: 10px;
+   
+  }
+  
+
+  
   }
   
