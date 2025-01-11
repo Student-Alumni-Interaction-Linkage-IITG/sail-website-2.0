@@ -146,13 +146,27 @@ function Navbar() {
                             </div>
                         )}
                     </div>
+                    <div
+                        className="navbar-dropdown"
+                        onMouseEnter={() => isDesktop && setIsEventsOpen(true)}
+                        onMouseLeave={() => isDesktop && setIsEventsOpen(false)}
+                    >
+                        <p className="navbar-content-links-a" onClick={handleEventsClick}>
+                            Yearbook <img src={dropdown_icon} alt="dropdown" />
+                        </p>
+                        {(isEventsOpen || (isDesktop && isEventsOpen)) && (
+                            <div className="dropdown-menu">
+                                <a href="https://www.iitg.ac.in/yearbook">Yearbook Portal</a>
+                                <a href="https://flipbook-pied.vercel.app/" target="blank">Yearbook 2024</a>
+                                
 
+                            </div>
+                        )}
+                    </div>
                     <a href="/#service" className="navbar-content-links-a">
                         Services
                     </a>
-                    <a href="/calendar" className="navbar-content-links-a">
-                        Calendar
-                    </a>
+                    
                     <button
                         className="navbar-content-links-button"
                         onClick={() =>

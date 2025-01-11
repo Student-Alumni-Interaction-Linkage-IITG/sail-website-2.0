@@ -33,7 +33,7 @@ const Cards = () => {
   return (
     <div className="initiative-cards">
       <div className="Initiative-cards-content">
-        <div className="initiative-card" id="amp">
+        <div className="initiative-card">
           <div className="init" id="amp">
             <div className="initiative-card-image">
               <img src={AMP} alt="" />
