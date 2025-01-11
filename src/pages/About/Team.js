@@ -24,10 +24,10 @@ const Team = () => {
                 <Card url='\image\aboutus\pooja.jpeg' name="Pooja J" post="DESIGN HEAD" linkedin="https://www.linkedin.com/in/pooja-j-a335a9240/" mail="gensec_sail@iitg.ac.in" />
                 <Card url='\image\aboutus\vaibhav.jpeg' name="Vaibhav Kumar" post="WEB HEAD" linkedin="https://www.linkedin.com/in/vaibhav-kumar-677275259/" mail="k.jagdish@iitg.ac.in" />
                 <Card url='\image\aboutus\raunit.jpeg' name="Raunit Patel" post="WEB HEAD" linkedin="https://www.linkedin.com/in/raunit-patel1995/" mail="raunit@iitg.ac.in" />
-                <Card url='\image\aboutus\rahul.jpeg' name="Rahul Jat" post="EVENTS HEAD" linkedin="https://www.linkedin.com/in/rahul-jat-51813b260/" mail="gensec_sail@iitg.ac.in" />
-                <Card url='\image\aboutus\ananya.jpeg' name="Ananya Singh" post="EVENTS HEAD" linkedin="https://www.linkedin.com/in/ananya1904/" mail="k.jagdish@iitg.ac.in" />
-                <Card url='\image\aboutus\vanshita.jpeg' name="Vanshita Bihani" post="OUTREACH HEAD" linkedin="https://www.linkedin.com/in/vanshita-bihani-010a5a246/" mail="c.kanv@iitg.ac.in" />
-                <Card url='\image\aboutus\pranav.jpeg' name="Venkata Sai Pranav " post="OUTREACH HEAD" linkedin="https://www.linkedin.com/in/venkata-sai-pranav-kummari-302b35252/" mail="gensec_sail@iitg.ac.in" />
+                <Card url='\image\aboutus\rahul.jpeg' name="Rahul Jat" post="EVENTS HEAD" linkedin="https://www.linkedin.com/in/rahul-jat-51813b260/" mail="rahuljat13290@gmail.com" />
+                <Card url='\image\aboutus\ananya.jpeg' name="Ananya Singh" post="EVENTS HEAD" linkedin="https://www.linkedin.com/in/ananya1904/" mail="missananya.19.04@gmail.com" />
+                <Card url='\image\aboutus\vanshita.jpeg' name="Vanshita Bihani" post="OUTREACH HEAD" linkedin="https://www.linkedin.com/in/vanshita-bihani-010a5a246/" mail="vanshitabihani038@gmail.com" />
+                <Card url='\image\aboutus\pranav.jpeg' name="Venkata Sai Pranav " post="OUTREACH HEAD" linkedin="https://www.linkedin.com/in/venkata-sai-pranav-kummari-302b35252/" mail="prnvpranav2003@gmail.com" />
                 <Card url='\image\aboutus\sandeep.jpeg' name="Sandeep Charlie" post="CONTENT HEAD" linkedin="https://www.linkedin.com/in/tetakali-sandeep-charlie-5b38a325b//" mail="k.jagdish@iitg.ac.in" />
             </div>
         </div>
