@@ -68,8 +68,7 @@ function Footer() {
               <FaFacebookMessenger />
             </div>
             {/* Contact Form */}
-            <div className="footer-contact-form">
-              <h4>Send us your query</h4>
+            
               {/* Contact Form */}
               <div className="footer-contact-form">
                 <div className='arr'>
@@ -78,7 +77,6 @@ function Footer() {
                 <h4>→</h4>
 
               </div>
-            </div>
           </div>
         </div>
       </footer>

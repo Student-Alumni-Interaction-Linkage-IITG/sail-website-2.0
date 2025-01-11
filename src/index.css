@@ -34,7 +34,9 @@ img{
   object-fit: cover;
   object-position: center;
 }
-
+footer{
+  -webkit-tap-highlight-color: transparent;
+}
 .navbar{
   -webkit-tap-highlight-color: transparent;
 
