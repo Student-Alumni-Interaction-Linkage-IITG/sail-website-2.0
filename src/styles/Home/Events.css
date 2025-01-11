@@ -38,7 +38,7 @@
 }
 .event-card {
   max-width: 75%;
-  height: auto;
+  height: 375px;
   padding: 18px 18px 25px 18px;
   border-radius: 25px;
   background: #edeff1;
@@ -74,7 +74,7 @@
   color: #1F1F1F;
   text-align: left;
 font-family: "DM Sans";
-font-size: 1rem;
+font-size: 0.7rem;
 font-style: normal;
 font-weight: 400;
 line-height: 104.145%;
@@ -157,20 +157,55 @@ line-height: 104.145%;
 .event-card-button:hover {
   background: #CF3767;
 }
-
+@media (max-width: 1400px) {
+  .event-card{
+    height: 325px;
+  }
+.event-card-image{
+  height: 220px;
+}
+.event-card-button{
+  font-size: 0.6rem;
+}
+.event-card-description-para{
+  font-size: 0.53rem;
+}
+}
 
 @media (max-width: 786px) {
+  .event-card{
+    height: 350px;
+  }
    .events-section-header-h2{
     margin-top: 80px;
     font-size: 50px;
    }
    .events-section-header-p{
-    font-size: 18px;
+    font-size: 24px;
    }
+   .event-card-description-para{
+    font-size: 0.5rem;
+  }
 }
 
+@media (max-width: 600px) {
+ 
+  .event-card{
+    height: 325px;
+    width: 80%;
+  }
+  .event-card-description-para{
+    font-size: 0.7rem;
+  }
+ 
+  
+ 
+}
 
 @media (max-width: 480px) {
+  .event-card{
+    height: 325px;
+  }
   .events-carousel {
     margin: 30px auto;
   }
@@ -187,7 +222,7 @@ line-height: 104.145%;
   .events-section-header-p {
     text-align: center;
     font-family: "DM Sans";
-    font-size: 14px;
+    font-size: 0.5px;
     font-style: normal;
     font-weight: 400;
     width: 60%;
@@ -212,7 +247,6 @@ line-height: 104.145%;
   .event-card{
 
       max-width: 80%;
-      height: auto;
       padding: 15px 15px 20px 15px;
       border-radius: 25px;
       background: #edeff1;
@@ -221,27 +255,10 @@ line-height: 104.145%;
   .acontent{
     font-size: 40px;
   }
-}
-
-@media (min-width: 600px) {
- 
-  .event-card{
-    width: 80%;
+  .event-card-description-para{
+    font-size: 0.5rem;
   }
- 
-  
- 
 }
 
 
-@media (max-width: 1200px) {
-.event-card-image{
-  height: 220px;
-}
-.event-card-button{
-  font-size: 0.6rem;
-}
-.event-card-description-para{
-  font-size: 0.8rem;
-}
-}
+

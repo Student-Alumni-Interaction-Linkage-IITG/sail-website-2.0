@@ -37,7 +37,7 @@ padding-bottom: 18px;
   
   .header-content h1 {
     font-family: Instrument Sans;
-  font-size: 3.8vw;
+  font-size: 3.4rem;
   font-weight: 600;
   line-height: 4.5vw;
   letter-spacing: -0.02em;
@@ -51,12 +51,14 @@ padding-bottom: 18px;
 
   
   .header-content p {
-    font-size: 0.8rem;
-    max-width: 600px;
-    margin: 0 auto;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120.145%; /* 72.902px */
+    width: 85%;
+text-align: center;
+font-family: "DM Sans";
+font-size: 1.15rem;
+font-style: normal;
+font-weight: 500;
+margin: 0px auto;
+max-width: 800px;/* 72.902px */
   }
   
   .frames-container {
@@ -159,7 +161,7 @@ line-height: 27.19px;
     
       .header-content h1 {
         
-          font-size: 10vw;
+          font-size: 2.5rem;
           line-height: 10vw;
           width: 50%;
           margin-top: 0px;
@@ -169,6 +171,7 @@ line-height: 27.19px;
       }
       .header-content p{
         width: 60%;
+        font-size: 0.8rem;
       }
       .frames-container{
         padding-top: 10px;

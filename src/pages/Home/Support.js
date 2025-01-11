@@ -1,18 +1,18 @@
 import React from 'react';
 import '../../styles/Home/Support.css';
-import ij from '../../images/home/sailhome1.png'
 
 const Ban = () => {
   return (
     <div className='supp'>
     <div className="bann">
       <div className="images">
+      <div className='ig2'>
+        <img src='image/homepage/donate4.png' alt="Group Photo 1" />
+        </div>
        <div className='ig1'>
-        <img src={ij} alt="Campus View" />
+        <img src='image/homepage/donate2.png' alt="Campus View" />
         </div>
-        <div className='ig2'>
-        <img src={ij} alt="Group Photo 1" />
-        </div>
+        
         </div>
         <div className="text-content">
         <h1>Support the Future, Empower IITG</h1>
@@ -23,10 +23,10 @@ const Ban = () => {
       </div>
       <div className='images2'>
       <div className='ig3'>
-        <img src={ij} alt="Group Photo 2" />
+        <img src='image/homepage/donate3.png' alt="Group Photo 2" />
         </div>
         <div className='ig4'>
-        <img src={ij} alt="Group Photo 3" />
+        <img src='image/homepage/donate1.png' alt="Group Photo 3" />
         </div>
   </div>
   </div>

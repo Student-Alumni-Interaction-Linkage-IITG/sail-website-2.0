@@ -57,8 +57,7 @@ const AlumniStats = () => {
     <div className='acontent'>
       <h2 >Our Alumni</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-        libero et velit interdum, ac aliquet odio mattis.
+      IIT Guwahati has now established itself as a treasured and admired organization in different parts of the world. Its vast reservoir of talent is now spreading its footprint everywhere, showcasing the best that IITG has to offer.
       </p>
       </div>
       <div className='stats'>

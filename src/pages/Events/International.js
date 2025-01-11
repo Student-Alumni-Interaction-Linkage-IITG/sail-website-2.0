@@ -39,10 +39,9 @@ const Event = () => {
     <div className="event-container">
       <div className="header">
         <div className="header-content">
-          <h1>Graduation Tea Party</h1>
+          <h1>Internations Students' Day</h1>
           <p>
-            A celebration of your achievements and the bonds we’ve shared
-            throughout this journey. Let's cherish the beautiful memories.
+          IITG welcomes a large number of international interns and exchange students throughout the year and actively promotes their stay during the academic/summer semesters. International Students' Day is a yearly event put on by SAIL, celebrated in November, when students from outside the subcontinent take part in a variety of activities and showcase their talents. Celebrating diversity reflects how unique IIT Guwahati’s tradition is.
           </p>
         </div>
       </div>

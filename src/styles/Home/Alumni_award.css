@@ -118,6 +118,7 @@ text-underline-offset: 14%;
 text-decoration-thickness: 5%;
 text-underline-position: from-font;
 text-decoration-skip-ink: auto;
+cursor: pointer;
 
 }
 

@@ -30,7 +30,7 @@
     
    
 
-    div#classsong{
+    div#class-song{
         padding: 30px;
     }
     .initiative-card-image {
@@ -191,7 +191,7 @@
             font-size: 0.8rem;
             padding: 5px 15px;
         }
-        div#classsong{
+        div#class-song{
             padding: 20px;
         }
         .initiative-card-image, .card-iframe{

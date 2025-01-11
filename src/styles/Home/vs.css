@@ -31,6 +31,8 @@
   border-radius: 25px;
   border: 2px solid #E4E4E4;
   background-size: cover;
+  width: 250px;
+  height: auto;
   background-repeat: no-repeat;
 }
 
@@ -39,9 +41,19 @@
   padding-left: 5px;
   color: #282828;
   font-family: "Instrument Sans";
-  font-size: 24.771px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
+  line-height: 85.561%;
+}
+.vertical-card-name {
+  margin: 5px 0;
+  padding-left: 5px;
+  color: #282828;
+  font-family: "Instrument Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 85.561%;
 }
 
@@ -50,7 +62,7 @@
   padding-left: 5px;
   width: 80%;
   font-family: "DM Sans";
-  font-size: 10px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 300;
   line-height: 104.145%;
@@ -81,6 +93,19 @@
 }
 
 @media (max-width: 1000px) {
+  .vertical-card-title {
+    
+    font-size: 14px !important;
+    
+  }
+  .vertical-card-name {
+    
+    font-size: 12px !important;
+    
+  }
+  .vertical-card-image {
+    margin: auto;
+  }
   .vs-carousel-dots button{
     justify-content: center;
     gap: 5px;
@@ -90,6 +115,8 @@
     width: 10px;
    height: 10px;
   }
+  
+  
   .vs-carousel-dots{
     order: 2;
     flex-direction: row;
@@ -113,5 +140,12 @@
 @media (max-width: 600px) {
   .vertical-card{
     width: 60vw;
+
+  }
+  
+}
+@media (max-width: 400px) {
+  .vertical-card-image {
+    width: 175px;
   }
 }

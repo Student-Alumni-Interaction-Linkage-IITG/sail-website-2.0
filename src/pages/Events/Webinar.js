@@ -39,7 +39,7 @@ const Event = () => {
     <div className="event-container">
       <div className="header">
         <div className="header-content">
-          <h1>Graduation Tea Party</h1>
+          <h1>Webinar</h1>
           <p>
             A celebration of your achievements and the bonds we’ve shared
             throughout this journey. Let's cherish the beautiful memories.

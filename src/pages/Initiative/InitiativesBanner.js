@@ -7,12 +7,10 @@ const InitiativesBanner = () => {
       <div className="Initiatives-Banner-content">
         <h2 className="initiatives-Banner-content-h2">Our Initiatives</h2>
         <h4 className="Initiatives-Banner-content-h4">
-          The Graduation Tea Party is a refined and celebratory gathering held
-          to honor and congratulate graduates on their accomplishments. This
-          event is designed as an elegant, relaxed occasion where graduates can
-          come together with peers, faculty, and alumni to reflect on their
-          academic journey, share stories, and enjoy a moment of recognition
-          before embarking on their post-graduation paths.
+        In order to strengthen the bonds with alumni and to give students something they would cherish,
+        we have come up with various initiatives. These initiatives are aimed at providing a platform
+        for alumni to contribute to the development of the institute and to help students in their
+        academic and professional journey.
         </h4>
       </div>
     </div>

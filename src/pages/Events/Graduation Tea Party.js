@@ -41,8 +41,7 @@ const Event = () => {
         <div className="header-content">
           <h1>Graduation Tea Party</h1>
           <p>
-            A celebration of your achievements and the bonds we’ve shared
-            throughout this journey. Let's cherish the beautiful memories.
+          The Graduation Tea Party, or GTP, is the graduating class's formal parting celebration. Every year, SAIL organizes the Graduation Tea Party in the month of April. While emotions and applause turn this occasion into a lifelong memory, it also serves as a benchmark for the commencement of a new beginning.
           </p>
         </div>
       </div>

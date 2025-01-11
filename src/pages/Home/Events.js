@@ -6,11 +6,13 @@ import right_arrow from '../../images/home/right-arrow.svg';
 import left_arrow from '../../images/home/left-arrow.svg';
 
 const eventData = [
-  { id: 1, title: "Event A", description: "Quam posuere netus etus u quis modi acus. Etiamad pisc ing aliqua", image: logo },
-  { id: 2, title: "Event B", description: "Quam posuere netus etus u quis modi acus. Etiamad pisc ing aliqua", image: logo },
-  { id: 3, title: "Event C", description: "Quam posuere netus etus u quis modi acus. Etiamad pisc ing aliqua", image: logo },
-  { id: 4, title: "Event D", description: "Quam posuere netus etus u quis modi acus. Etiamad pisc ing aliqua", image: logo },
-  { id: 5, title: "Event E", description: "Quam posuere netus etus u quis modi acus. Etiamad pisc ing aliqua", image: logo },
+  { id: 4, title: "Smriti", link: "/events/smriti", description: "The Annual Alumni Reunion event of IIT Guwahati. Started in 2024.", image:  '/image/homepage/smriti.png' },
+  { id: 3, title: "Graduation Tea Party", link:"/events/graduation-tea-party", description: "The Graduation Tea Party is an elegant gathering where graduates can share their experiences, and celebrate their successes with peers.", image:  '/image/homepage/gtp.png' },
+  { id: 6, title: "International Students' Day", link: "/events/international-students-day", description: "International Student Day is more than just a celebration of diversity. It's a day of learning, support, and networking.", image: logo },
+  { id: 2, title: "Finalis Resonare",link: "/events/finalis-resonare", description: "Finalis Resonare is a unique event that celebrates the final year students, marking their transition from students to alumni.  ", image:  '/image/homepage/finalis_resonare.png' },
+
+  { id: 1, title: "Graduation Ball Dance", link: "/events/graduation-ball-dance", description: "The Ball Party brings together the graduating batch for an evening of elegance, joy, and camaraderie. ", image: '/image/homepage/gbp.png' },
+  { id: 5, title: "Webinar",link: "/events/webinar", description: "Webinars are a powerful tool for virtual learning, collaboration, and knowledge dissemination.", image: logo },
 ];
 
 const Events = () => {
@@ -67,7 +69,7 @@ const Events = () => {
   return (
     <div className="events-section">
       <h2 className="events-section-header-h2">Our Events</h2>
-      <p className="events-section-header-p">Corem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p className="events-section-header-p">We are organizing many events to achieve a student alumni community, to help them benefit from each other.</p>
       <Slider {...settings} className="events-carousel">
         {eventData.map((event) => (
           <div key={event.id} className="event-card">
@@ -75,7 +77,7 @@ const Events = () => {
             <h3 className="event-card-title">{event.title}</h3>
             <div className="event-card-description">
               <p className="event-card-description-para">{event.description}</p>
-              <button className="event-card-button">Know More</button>
+              <button className="event-card-button" onClick={() => window.location.href = event.link}>Know More</button>
             </div>
           </div>
         ))}

@@ -30,8 +30,9 @@ a{
   -webkit-tap-highlight-color: transparent;
 }
 img{
-  cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  object-fit: cover;
+  object-position: center;
 }
 
 

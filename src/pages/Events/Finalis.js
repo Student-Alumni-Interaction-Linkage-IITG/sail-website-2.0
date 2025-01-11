@@ -39,10 +39,10 @@ const Event = () => {
     <div className="event-container">
       <div className="header">
         <div className="header-content">
-          <h1>Graduation Tea Party</h1>
+          <h1>Finalis Resonare</h1>
           <p>
-            A celebration of your achievements and the bonds we’ve shared
-            throughout this journey. Let's cherish the beautiful memories.
+            
+          The last note in the modal melody symbolizes the years spent in college. It is an event that is exclusively for the final year students, where everyone comes together in the month of April for one last time, to create everlasting memories, and to celebrate and cherish all that makes college life what it is. It is undoubtedly a fun-filled evening with cultural performances, award ceremonies, roasts, and many other events.
           </p>
         </div>
       </div>
