@@ -204,6 +204,8 @@ const Cards = () => {
                   'Alumni Greet' is an initiative by SAIL, in which, a self-shot
                   welcome video, made by an alumnus/alumna from a hostel, is
                   played at the hostel orientation, for the freshers.
+                  
+
                 </p>
               </div>
             </div>
