@@ -69,8 +69,8 @@ function Footer() {
           </div>
                     {/* Contact Form */}
                     <div className="footer-contact-form">
-            <input type="text" placeholder="Send us your query" />
-            <button type="submit">→</button>
+                    <h4>Send us your query</h4>
+            <h4>→</h4>
           </div>
         </div>
 

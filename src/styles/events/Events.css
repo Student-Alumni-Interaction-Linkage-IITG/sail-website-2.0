@@ -204,7 +204,8 @@ line-height: 27.19px;
   
   @media screen and (max-width: 600px) {
     .header-content{
-      padding-bottom: 290px;
+      padding-top: 260px;
+      padding-bottom: 280px;
     }
   }
   

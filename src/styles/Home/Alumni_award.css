@@ -548,6 +548,10 @@ padding: 15px;
   .aa-car-content1{
     width: 100%;
   }
+  .item .icon{
+    height: 35px;
+    width: 35px;
+  }
 }
 
 @media (min-width: 700px) {

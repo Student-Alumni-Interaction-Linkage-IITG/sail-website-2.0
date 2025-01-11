@@ -45,7 +45,10 @@ max-width: 800px;
 
 
 @media screen and (max-width:654px){
-    
+   .Initiatives-Banner{
+    padding-top: 88px;
+    padding-bottom: 88px;
+   }
     .initiatives-Banner-content-h2{
         color: #FAFAFA;
         font-family: "Instrument Sans";
