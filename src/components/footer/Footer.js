@@ -69,8 +69,11 @@ function Footer() {
           </div>
                     {/* Contact Form */}
                     <div className="footer-contact-form">
+                    <div className='arr'>
                     <h4>Send us your query</h4>
+                    </div>
             <h4>→</h4>
+          
           </div>
         </div>
 
