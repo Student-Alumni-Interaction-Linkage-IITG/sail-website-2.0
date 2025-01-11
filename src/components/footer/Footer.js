@@ -80,7 +80,7 @@ function Footer() {
           </div>
         </div>
       </footer>
-      <div className='copyright'> © 2024 SAIL All rights reserved.</div>
+      <div className='copyright'> © 2025 SAIL All rights reserved.</div>
     </div>
   );
 }
