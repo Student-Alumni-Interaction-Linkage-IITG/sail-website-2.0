@@ -38,9 +38,9 @@ const Event = () => {
   return (
     <div className="event-container">
       <div className="header"
-         style={{
-    background: `linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
-    url('/image/Events/internation_banner.jpeg') lightgray 0px -75px / 100% 114.94% no-repeat`}}
+    //      style={{
+    // background: `linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
+    // url('/image/Events/internation_banner.jpeg') lightgray 0px -75px / 100% 114.94% no-repeat`}}
       >
         <div className="header-content">
           <h1>Internations Students' Day</h1>
