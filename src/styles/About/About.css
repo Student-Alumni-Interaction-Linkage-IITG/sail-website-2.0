@@ -258,9 +258,7 @@ h4.about-Banner-content-h4{
     margin-bottom: 50px;
     border-radius:20px;
 }
-.about-sail .about-card:nth-child(1){
-    margin-bottom: 0px;
-}
+
 
 .about-card-img{
     width:175px;
@@ -321,11 +319,6 @@ h4.about-Banner-content-h4{
     /* margin: 0 auto; */
 }
 
-.about-sail{
-    display:flex;
-    gap: 40px;
-}
-    
     .about-sail{
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two columns for wider screens */
@@ -333,16 +326,6 @@ h4.about-Banner-content-h4{
         padding-bottom:0px;
     }
     
-    .about-sail > :nth-child(1) {
-        grid-column: 1 / -1; /* Center the first card */
-        justify-self: center; /* Center it horizontally */
-    }
-
-    .about-sail > :nth-child(2),
-    .about-sail > :nth-child(3) {
-        grid-column: span 1; /* Each of the next cards takes one column */
-        justify-self: stretch; /* Stretch them to fill their columns */
-    }
     
 }
 
@@ -431,9 +414,9 @@ h4.about-Banner-content-h4{
     margin-bottom: 20px;
     border-radius:10px;
 }
-.about-sail .about-card:nth-child(1){
+/* .about-sail .about-card:nth-child(1){
     margin-bottom: 0px;
-}
+} */
 
 .about-card-img{
     width:110px;
@@ -504,20 +487,10 @@ h4.about-Banner-content-h4{
     
     .about-sail{
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Two columns for wider screens */
+        grid-template-columns: 1fr 1fr; 
         gap: 20px;
         padding-bottom:0px;
     }
     
-    .about-sail > :nth-child(1) {
-        grid-column: 1 / -1; /* Center the first card */
-        justify-self: center; /* Center it horizontally */
-    }
-
-    .about-sail > :nth-child(2),
-    .about-sail > :nth-child(3) {
-        grid-column: span 1; /* Each of the next cards takes one column */
-        justify-self: stretch; /* Stretch them to fill their columns */
-    }
     
 }
