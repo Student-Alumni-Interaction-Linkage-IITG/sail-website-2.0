@@ -35,5 +35,10 @@ img{
   object-position: center;
 }
 
+.navbar{
+  -webkit-tap-highlight-color: transparent;
+
+}
+
 
 
