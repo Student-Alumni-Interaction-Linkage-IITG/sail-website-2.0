@@ -8,11 +8,11 @@ import left_arrow from '../../images/home/left-arrow.svg';
 const eventData = [
   { id: 1, title: "Smriti", link: "/events/smriti", description: "The Annual Alumni Reunion event of IIT Guwahati. Started in 2024.", image:  '/image/homepage/smriti.png' },
   { id: 2, title: "Graduation Tea Party", link:"/events/graduation-tea-party", description: "The Graduation Tea Party is an elegant gathering where graduates can share their experiences, and celebrate their successes with peers.", image:  '/image/homepage/gtp.png' },
-  { id: 3, title: "International Students' Day", link: "/events/international-students-day", description: "International Student Day is more than just a celebration of diversity. It's a day of learning, support, and networking.", image: logo },
+  { id: 3, title: "International Students' Day", link: "/events/international-students-day", description: "International Student Day is more than just a celebration of diversity. It's a day of learning, support, and networking.", image: '/image/homepage/isd.jpg' },
   { id: 4, title: "Finalis Resonare",link: "/events/finalis-resonare", description: "Finalis Resonare is a unique event that celebrates the final year students, marking their transition from students to alumni.  ", image:  '/image/homepage/finalis_resonare.png' },
 
-  { id: 5, title: "Graduation Ball Dance", link: "/events/graduation-ball-dance", description: "The Ball Party brings together the graduating batch for an evening of elegance, joy, and camaraderie. ", image: '/image/homepage/gbp.png' },
-  { id: 6, title: "Webinar",link: "/events/webinar", description: "Webinars are a powerful tool for virtual learning, collaboration, and knowledge dissemination.", image: logo },
+  { id: 5, title: "Graduation Ball Dance", link: "/events/graduation-ball-dance", description: "The Ball Party brings together the graduating batch for an evening of elegance, joy, and camaraderie.", image: '/image/homepage/gbp.png' },
+  { id: 6, title: "Seminars",link: "/events/webinar", description: "Seminars are a powerful tool for learning, collaboration, and knowledge dissemination.", image: '/image/Events/2024/seminar/image1.jpg' },
 ];
 
 const Events = () => {

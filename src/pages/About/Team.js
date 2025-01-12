@@ -17,7 +17,7 @@ const Team = () => {
                 <Card url='\image\aboutus\urmi.jpeg' name="Urmi Gopalkrishnana" post="GENERAL SEC , SAIL" linkedin="https://www.linkedin.com/in/urmi-gopalakrishna-143a4825a/" mail="gensec_sail@iitg.ac.in" />
                 <Card url='\image\aboutus\jagdish.jpeg' name="Jagdish Kumar" post="ASSOC GEN. SEC, PG SAIL" linkedin="https://www.linkedin.com/in/jagpar7777/" mail="k.jagdish@iitg.ac.in" />
                 <Card url='\image\aboutus\tanisha.jpeg' name="Tanisha Suryavanshi" post="DESIGN  HEAD" linkedin="https://www.linkedin.com/in/tanisha-suryavanshi-a3b28a321/" mail="tanisha@iitg.ac.in" />
-                <Card url='\image\aboutus\pooja.jpeg' name="Pooja J" post="DESIGN HEAD" linkedin="https://www.linkedin.com/in/pooja-j-a335a9240/" mail="gensec_sail@iitg.ac.in" />
+                <Card url='\image\aboutus\pooja.jpeg' name="Pooja J" post="DESIGN HEAD" linkedin="https://www.linkedin.com/in/pooja-j-a335a9240/" mail="jpoojanath@gmail.com" />
                 <Card url='\image\aboutus\vaibhav.jpeg' name="Vaibhav Kumar" post="WEB HEAD" linkedin="https://www.linkedin.com/in/vaibhav-kumar-677275259/" mail="vaibhav10.ssm@gmail.com" />
                 <Card url='\image\aboutus\raunit.jpeg' name="Raunit Patel" post="WEB HEAD" linkedin="https://www.linkedin.com/in/raunit-patel1995/" mail="raunit@iitg.ac.in" />
                 <Card url='\image\aboutus\rahul.jpeg' name="Rahul Jat" post="EVENTS HEAD" linkedin="https://www.linkedin.com/in/rahul-jat-51813b260/" mail="rahuljat13290@gmail.com" />

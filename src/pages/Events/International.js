@@ -7,8 +7,6 @@ const Event = () => {
   const photos = {
     2024: Array.from({ length: 4 }, (_, i) => `/image/Events/2024/image${i + 1}.png`),
     2023: Array.from({ length: 4 }, (_, i) => `/image/Events/2023/image${i + 1}.png`),
-    2022: Array.from({ length: 4 }, (_, i) => `/image/Events/2022/image${i + 1}.png`),
-    2021: Array.from({ length: 4 }, (_, i) => `/image/Events/2021/image${i + 1}.png`),
   };
 
   const updateUnderlinePosition = () => {
@@ -38,9 +36,9 @@ const Event = () => {
   return (
     <div className="event-container">
       <div className="header"
-    //      style={{
-    // background: `linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
-    // url('/image/Events/internation_banner.jpeg') lightgray 0px -75px / 100% 114.94% no-repeat`}}
+         style={{
+    background: `linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
+    url('/image/Events/internation_banner.jpeg') lightgray 0px -75px / 100% 114.94% no-repeat`}}
       >
         <div className="header-content">
           <h1>Internations Students' Day</h1>

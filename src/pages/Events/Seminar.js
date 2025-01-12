@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/events/Events.css";
+import banner_img from "../../images/home/banner_img.jpeg";
 
 const Event = () => {
   const [selectedYear, setSelectedYear] = useState("2024");
   const [underlineStyle, setUnderlineStyle] = useState({});
   const photos = {
-    2024: Array.from({ length: 8 }, (_, i) => `/image/Events/2024/seminar/image${i + 1}.jpg`),
-    2023: Array.from({ length: 3 }, (_, i) => `/image/Events/2023/image${i + 1}.png`),
+    2024: Array.from({ length: 10 }, (_, i) => `/image/Events/2024/seminar/image${i + 1}.jpg`),
+    2023: Array.from({ length: 7 }, (_, i) => `/image/Events/2023/seminar/image${i + 1}.jpg`),
   };
 
   const updateUnderlinePosition = () => {
@@ -35,7 +36,11 @@ const Event = () => {
 
   return (
     <div className="event-container">
-      <div className="header">
+      <div className="header"
+      style={{
+        background: `linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
+        url(${banner_img}) lightgray 0px -75px / 100% 114.94% no-repeat`}}
+      >
         <div className="header-content">
           <h1>Seminars</h1>
           <p>
