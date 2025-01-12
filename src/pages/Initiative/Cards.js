@@ -64,6 +64,15 @@ const Cards = () => {
                   great years they have spent on the IITG campus.
                 </p>
               </div>
+              <button
+                className="Card-button long-button"
+                onClick={() =>
+                  window.open("https://www.youtube.com/watch?v=2Df6pYrRIzQ&list=PLWf43cSrArKuysk9tKZSdEX3cHKJJAJWu", "_blank")
+                }
+              >
+                {" "}
+                View
+              </button>
             </div>
             <div className="initiative-card-image">
               <iframe
@@ -91,6 +100,7 @@ const Cards = () => {
                   sweetest of them are made here at IITG!
                 </p>
               </div>
+              <div className="buttons">
               <button
                 className="Card-button long-button"
                 onClick={() =>
@@ -100,6 +110,17 @@ const Cards = () => {
                 {" "}
                 View Yearbook
               </button>
+
+              <button
+                className="Card-button long-button"
+                onClick={() =>
+                  window.open("https://www.iitg.ac.in/yearbook", "_blank")
+                }
+              >
+                {" "}
+                 Yearbook Portal
+              </button>
+              </div>
             </div>
             <div className="initiative-card-image">
               <iframe

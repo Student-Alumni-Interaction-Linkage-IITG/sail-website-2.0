@@ -31,7 +31,7 @@ a{
 }
 img{
   -webkit-tap-highlight-color: transparent;
-  object-fit: cover;
+  /* object-fit: cover; */
   object-position: center;
 }
 footer{
