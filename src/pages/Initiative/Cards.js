@@ -12,10 +12,6 @@ import Alumni from "../../images/Initiatives/alumni.png";
 const Cards = () => {
 
 
-
-
-
-  
   const location = useLocation();
 
   useEffect(() => {
