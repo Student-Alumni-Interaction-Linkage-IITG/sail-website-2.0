@@ -203,8 +203,8 @@ const Cards = () => {
             </div>
           </div>
 
-          <div className="init" id="alumni-greet">
-            <div className="initiative-card-image">
+          {/* <div className="init" id="alumni-greet"> */}
+            {/* <div className="initiative-card-image">
               <iframe
                 className="card-iframe"
                 src="https://www.youtube.com/embed/yCkLjNkqrpY?si=q65mlqYfrPLeaZ79"
@@ -230,8 +230,8 @@ const Cards = () => {
                 </p>
               </div>
             </div>
-            
-          </div>
+             */}
+          {/* </div> */}
           <div
               className="init"
               id="summarise-and-share"

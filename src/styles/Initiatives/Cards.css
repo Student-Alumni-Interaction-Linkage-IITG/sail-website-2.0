@@ -68,10 +68,10 @@
     
     
     
-    .Initiatives-Cards-h1 {
+    .Initiatives-Cards-h1  {
         color: #282828;
         font-family: "Instrument Sans";
-        font-size: 4rem;
+        font-size: 3.8rem;
         font-style: normal;
         font-weight: 500;
         line-height: 85.561%;
@@ -96,6 +96,7 @@
         width: 100%;
         padding-top: 8px;
     }
+   
     
     .initiative-card-image img{
         width: 100%;
@@ -135,6 +136,30 @@
     .buttons .Card-button{
         padding: 10px 15px;
     }
+    p.Initiatives-Cards-p {
+        color: #282828;
+        font-family: "DM Sans";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145%;
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        padding-top: 8px;
+    }
+
+    h2.Initiatives-Cards-h1.big-h1{
+        color: #282828;
+    font-family: "Instrument Sans";
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 85.561%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    }
 
    
     
@@ -158,9 +183,9 @@
         .init{
             height: 100%;
         }
-        .Initiatives-Cards-h1{
+        .Initiatives-Cards-h1 {
             font-size: 3rem;
-        }.initiatives-Cards-p{
+        }.initiatives-Cards-p, p.Initiatives-Cards-p{
             font-size: 0.8rem;
         }
     }
@@ -197,7 +222,7 @@
             margin-top: 10px;
             font-size: 2rem;
         }
-        .initiatives-Cards-p{
+        .initiatives-Cards-p p.Initiatives-Cards-p{
             font-size: 0.8rem;
         }
         .btn{
