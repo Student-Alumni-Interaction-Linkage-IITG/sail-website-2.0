@@ -17,7 +17,6 @@ const teamphotos = [
   // {id:4 , img : logo},
   // {id:5 , img : logo},
   // {id:6 , img : logo},
-
 ];
 
 function Team() {

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "../../styles/Initiatives/Cards.css";
 import AMP from "../../images/Initiatives/AMP.png";
-import newsletter from "../../images/Initiatives/newsletter.png";
+import Newsletter from "../../images/Initiatives/newsletter.png";
 import ChemicalCore from "../../images/Initiatives/core.png";
 import Placements from "../../images/Initiatives/Placements.png";
 import SandS from "../../images/Initiatives/summarise.png";
@@ -130,7 +130,7 @@ const Cards = () => {
 
           <div className="init" id="newsletter">
             <div className="initiative-card-image">
-              <img src={newsletter} alt="" />
+              <img src={Newsletter} alt="" />
             </div>
             <div className="initiative-card-content content-right">
               <div className="contnt">
