@@ -5,10 +5,8 @@ const Event = () => {
   const [selectedYear, setSelectedYear] = useState("2024");
   const [underlineStyle, setUnderlineStyle] = useState({});
   const photos = {
-    2024: Array.from({ length: 4 }, (_, i) => `/image/Events/2024/image${i + 1}.png`),
-    2023: Array.from({ length: 4 }, (_, i) => `/image/Events/2023/image${i + 1}.png`),
-    2022: Array.from({ length: 4 }, (_, i) => `/image/Events/2022/image${i + 1}.png`),
-    2021: Array.from({ length: 4 }, (_, i) => `/image/Events/2021/image${i + 1}.png`),
+    2024: Array.from({ length: 8 }, (_, i) => `/image/Events/2024/seminar/image${i + 1}.jpg`),
+    2023: Array.from({ length: 3 }, (_, i) => `/image/Events/2023/image${i + 1}.png`),
   };
 
   const updateUnderlinePosition = () => {
@@ -39,10 +37,9 @@ const Event = () => {
     <div className="event-container">
       <div className="header">
         <div className="header-content">
-          <h1>Webinar</h1>
+          <h1>Seminars</h1>
           <p>
-            A celebration of your achievements and the bonds we’ve shared
-            throughout this journey. Let's cherish the beautiful memories.
+          Insightful sessions to expand knowledge and spark conversations.
           </p>
         </div>
       </div>

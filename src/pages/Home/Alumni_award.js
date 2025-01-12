@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../../styles/Home/Alumni_award.css";
 
 import img from "../../images/home/sailhome1.png";
-import img2 from "../../images/home/group_photo.svg";
+import alumni_banner from "../../images/home/alumni_banner.jpeg";
 import id_card_icon from "../../images/home/id_card_icon.png";
 import transcript from "../../images/home/transcript_icon.png";
 import VerticalSlider from './vslid';
@@ -68,7 +68,7 @@ IIT Guwahati has instituted four categories of awards to be given annually to re
             </div>
             <div className="aa-card-image1">
               <img
-                src={img}
+                src={alumni_banner}
                 alt="alumn awards"
               />
               

@@ -5,10 +5,7 @@ const Event = () => {
   const [selectedYear, setSelectedYear] = useState("2024");
   const [underlineStyle, setUnderlineStyle] = useState({});
   const photos = {
-    2024: Array.from({ length: 4 }, (_, i) => `/image/Events/2024/image${i + 1}.png`),
-    2023: Array.from({ length: 4 }, (_, i) => `/image/Events/2023/image${i + 1}.png`),
-    2022: Array.from({ length: 4 }, (_, i) => `/image/Events/2022/image${i + 1}.png`),
-    2021: Array.from({ length: 4 }, (_, i) => `/image/Events/2021/image${i + 1}.png`),
+    2024: Array.from({ length: 6 }, (_, i) => `/image/Events/2024/smriti/image${i + 1}.jpeg`)
   };
 
   const updateUnderlinePosition = () => {
@@ -45,8 +42,7 @@ const Event = () => {
         <div className="header-content">
           <h1>Smriti</h1>
           <p>
-            A celebration of your achievements and the bonds we’ve shared
-            throughout this journey. Let's cherish the beautiful memories.
+          Reunion of IIT Guwahati's first graduating batch, was a heartfelt celebration of nostalgia and achievements. Alumni from the pioneering class gathered to relive their memories, reconnect with old friends, and reflect on their journeys since graduation.
           </p>
         </div>
       </div>

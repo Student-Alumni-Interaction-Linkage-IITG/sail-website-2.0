@@ -5,9 +5,9 @@ const Event = () => {
   const [selectedYear, setSelectedYear] = useState("2024");
   const [underlineStyle, setUnderlineStyle] = useState({});
   const photos = {
-    2023: Array.from({ length: 4 }, (_, i) => `/image/Events/2023/ball/image${i + 1}.png`),
+    2023: Array.from({ length: 9 }, (_, i) => `/image/Events/2023/ball/image${i + 1}.jpg`),
 
-    2024: Array.from({ length: 12 }, (_, i) => `/image/Events/2024/ball/image${i + 1}.JPG`),
+    2024: Array.from({ length: 12 }, (_, i) => `/image/Events/2024/ball/image${i + 1}.JPG`)
   };
 
   const updateUnderlinePosition = () => {

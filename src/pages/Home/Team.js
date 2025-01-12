@@ -10,7 +10,7 @@ const teamphotos = [
   { id: 4, image:  'image/homepage/team4.jpg'  },
   { id: 5, image:  'image/homepage/team5.jpg'  },
   { id: 6, image:  'image/homepage/team6.jpg'  },
-  { id: 7, image:  'image/homepage/team7.jpg'  },
+  // { id: 7, image:  'image/homepage/team7.jpg'  },
   // {id:1 , img : logo},
   // {id:2 , img : logo},
   // {id:3 , img : logo},

@@ -2,11 +2,12 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "../../styles/Initiatives/Cards.css";
 import AMP from "../../images/Initiatives/AMP.png";
-import newsletter from "../../images/Initiatives/NewsLetter.png";
-import ChemicalCore from "../../images/Initiatives/CHemicalCore.png";
+import newsletter from "../../images/Initiatives/newsletter.png";
+import ChemicalCore from "../../images/Initiatives/core.png";
 import Placements from "../../images/Initiatives/Placements.png";
-import SandS from "../../images/Initiatives/SummariseAndShare.png";
-import ask from "../../images/Initiatives/Ask.png";
+import SandS from "../../images/Initiatives/summarise.png";
+import Yearbook from "../../images/Initiatives/yearbook.png";
+import Alumni from "../../images/Initiatives/alumni.png";
 
 const Cards = () => {
 
@@ -123,15 +124,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="initiative-card-image">
-              <iframe
-                className="card-iframe"
-                src="https://www.youtube.com/embed/vQIzSxSc7G4?si=b7Jgaj88w4-hESey"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+              <img src={Yearbook} alt="" />
             </div>
           </div>
 
@@ -236,6 +229,9 @@ const Cards = () => {
               className="init"
               id="summarise-and-share"
             >
+              <div className="initiative-card-image">
+                <img src={SandS} alt="" />
+              </div>
               <div className="initiative-card-content content-left">
               <div className="contnt">
                 <h2 className="Initiatives-Cards-h1">Summarise and Share</h2>
@@ -252,11 +248,9 @@ const Cards = () => {
                 </p>
                 </div>
               </div>
-              <div className="initiative-card-image">
-                <img src={SandS} alt="" />
-              </div>
+              
             </div>
-          <div className="init" id="ask-the-alumni">
+          {/* <div className="init" id="ask-the-alumni">
             <div className="initiative-card-image">
               <img src={ask} alt="" />
             </div>
@@ -273,7 +267,7 @@ const Cards = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="init" id="alumni-awards">
             <div className="initiative-card-content content-left">
@@ -290,7 +284,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="initiative-card-image">
-              <img src={SandS} alt="" />
+              <img src={Alumni} alt="" />
             </div>
           </div>
         </div>

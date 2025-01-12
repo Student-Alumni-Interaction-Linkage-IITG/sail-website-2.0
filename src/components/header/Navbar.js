@@ -116,7 +116,6 @@ function Navbar() {
                                     Placement Mock Interview
                                 </a>
                                 <a href="/initiative#summarise-and-share">Summarise & Share</a>
-                                <a href="/initiative#ask-the-alumni">Ask the Alumni</a>
                                 <a href="/initiative#alumni-awards">Alumni Awards</a>
                             </div>
                         )}
@@ -140,7 +139,7 @@ function Navbar() {
                                 </a>
                                 <a href="/events/finalis-resonare">Finalis Resonare</a>
                                 <a href="/events/graduation-ball-dance">Graduation Ball Dance</a>
-                                <a href="/events/webinar">Webinars</a>
+                                <a href="/events/seminars">Seminars</a>
 
                             </div>
                         )}

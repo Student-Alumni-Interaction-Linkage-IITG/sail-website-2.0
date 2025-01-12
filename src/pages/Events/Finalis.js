@@ -6,9 +6,7 @@ const Event = () => {
   const [underlineStyle, setUnderlineStyle] = useState({});
   const photos = {
     2024: Array.from({ length: 4 }, (_, i) => `/image/Events/2024/image${i + 1}.png`),
-    2023: Array.from({ length: 4 }, (_, i) => `/image/Events/2023/image${i + 1}.png`),
-    2022: Array.from({ length: 4 }, (_, i) => `/image/Events/2022/image${i + 1}.png`),
-    2021: Array.from({ length: 4 }, (_, i) => `/image/Events/2021/image${i + 1}.png`),
+    2023: Array.from({ length: 9 }, (_, i) => `/image/Events/2023/finalis/image${i + 1}.jpg`),
   };
 
   const updateUnderlinePosition = () => {
