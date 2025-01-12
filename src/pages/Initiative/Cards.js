@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "../../styles/Initiatives/Cards.css";
 import AMP from "../../images/Initiatives/AMP.png";
-import Newsletter from "../../images/Initiatives/newsletter.png";
+import Newsletter from "../../images/Initiatives/Newsletter.png";
 import ChemicalCore from "../../images/Initiatives/core.png";
 import Placements from "../../images/Initiatives/Placements.png";
 import SandS from "../../images/Initiatives/summarise.png";
