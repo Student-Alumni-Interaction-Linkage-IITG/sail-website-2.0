@@ -115,7 +115,6 @@ function Navbar() {
                                 <a href="/initiative#placement-mock-interview">
                                     Placement Mock Interview
                                 </a>
-                                <a href="/initiative#alumni-greet">Alumni Greet</a>
                                 <a href="/initiative#summarise-and-share">Summarise & Share</a>
                                 <a href="/initiative#ask-the-alumni">Ask the Alumni</a>
                                 <a href="/initiative#alumni-awards">Alumni Awards</a>

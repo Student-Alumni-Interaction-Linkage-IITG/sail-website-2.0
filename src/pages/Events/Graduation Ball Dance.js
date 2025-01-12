@@ -5,10 +5,9 @@ const Event = () => {
   const [selectedYear, setSelectedYear] = useState("2024");
   const [underlineStyle, setUnderlineStyle] = useState({});
   const photos = {
-    2024: Array.from({ length: 4 }, (_, i) => `/image/Events/2024/image${i + 1}.png`),
-    2023: Array.from({ length: 4 }, (_, i) => `/image/Events/2023/image${i + 1}.png`),
-    2022: Array.from({ length: 4 }, (_, i) => `/image/Events/2022/image${i + 1}.png`),
-    2021: Array.from({ length: 4 }, (_, i) => `/image/Events/2021/image${i + 1}.png`),
+    2023: Array.from({ length: 4 }, (_, i) => `/image/Events/2023/ball/image${i + 1}.png`),
+
+    2024: Array.from({ length: 12 }, (_, i) => `/image/Events/2024/ball/image${i + 1}.jpg`),
   };
 
   const updateUnderlinePosition = () => {
@@ -41,15 +40,14 @@ const Event = () => {
         <div className="header-content">
           <h1>Graduation Ball Dance</h1>
           <p>
-            A celebration of your achievements and the bonds we’ve shared
-            throughout this journey. Let's cherish the beautiful memories.
+          The Graduation Ball Dance is a formal event celebrating the culmination of academic achievements. It typically features elegant attire, music, and dancing, providing students with a memorable night to commemorate their journey. This event often marks a significant milestone, fostering camaraderie and lasting memories among graduates.
           </p>
         </div>
       </div>
       <div className="frames-container">
       <h2 className="events-sections">Frame Of Memories</h2>
         <div className="year-selector">
-          {Object.keys(photos).map((year) => (
+          {Object.keys(photos).sort((a, b) => b - a).map((year) => (
             <div
               key={year}
               className={`year-tab ${selectedYear === year ? "active" : ""}`}

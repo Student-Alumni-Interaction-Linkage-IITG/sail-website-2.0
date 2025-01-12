@@ -52,7 +52,7 @@ const Event = () => {
       <div className="frames-container">
       <h2 className="events-sections">Frame Of Memories</h2>
         <div className="year-selector">
-          {Object.keys(photos).map((year) => (
+          {Object.keys(photos).sort((a, b) => b - a).map((year) => (
             <div
               key={year}
               className={`year-tab ${selectedYear === year ? "active" : ""}`}
