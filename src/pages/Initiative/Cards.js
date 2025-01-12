@@ -6,7 +6,7 @@ import Newsletter from "../../images/Initiatives/NewsLetter.png";
 import ChemicalCore from "../../images/Initiatives/core.png";
 import Placements from "../../images/Initiatives/Placements.png";
 import SandS from "../../images/Initiatives/summarise.png";
-import Yearbook from "../../images/Initiatives/yearbook.png";
+import Yearbook from "../../images/Initiatives/Yearbook.png";
 import Alumni from "../../images/Initiatives/alumni.png";
 
 const Cards = () => {
