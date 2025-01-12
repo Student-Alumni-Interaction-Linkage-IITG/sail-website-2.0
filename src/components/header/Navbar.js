@@ -156,7 +156,7 @@ function Navbar() {
                         </p>
                         {(isEventsOpen || (isDesktop && isEventsOpen)) && (
                             <div className="dropdown-menu">
-                                <a href="https://www.iitg.ac.in/yearbook">Yearbook Portal</a>
+                                <a href="https://www.iitg.ac.in/yearbook" target="blank">Yearbook Portal</a>
                                 <a href="https://flipbook-pied.vercel.app/" target="blank">Yearbook 2024</a>
                                 
 
