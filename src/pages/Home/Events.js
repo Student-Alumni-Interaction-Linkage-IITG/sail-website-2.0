@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import '../../styles/Home/Events.css';
-import logo from '../../images/home/sailhome1.png';
 import right_arrow from '../../images/home/right-arrow.svg';
 import left_arrow from '../../images/home/left-arrow.svg';
 

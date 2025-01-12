@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../../styles/Home/Alumni_award.css";
-
-import img from "../../images/home/sailhome1.png";
 import alumni_banner from "../../images/home/alumni_banner.jpeg";
 import id_card_icon from "../../images/home/id_card_icon.png";
 import transcript from "../../images/home/transcript_icon.png";

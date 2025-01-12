@@ -7,7 +7,7 @@ const Ban = () => {
     <div className="bann">
       <div className="images">
       <div className='ig2'>
-        <img src='image/homepage/donate4.png' alt="Group Photo 1" />
+        <img src='image/homepage/donate4.png' alt="Group Photos 1" />
         </div>
        <div className='ig1'>
         <img src='image/homepage/donate2.png' alt="Campus View" />
@@ -23,10 +23,10 @@ const Ban = () => {
       </div>
       <div className='images2'>
       <div className='ig3'>
-        <img src='image/homepage/donate3.png' alt="Group Photo 2" />
+        <img src='image/homepage/donate3.png' alt="Group Photoss 2" />
         </div>
         <div className='ig4'>
-        <img src='image/homepage/donate1.png' alt="Group Photo 3" />
+        <img src='image/homepage/donate1.png' alt="Group Photos 3" />
         </div>
   </div>
   </div>
