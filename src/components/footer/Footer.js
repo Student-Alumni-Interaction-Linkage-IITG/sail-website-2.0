@@ -62,10 +62,10 @@ function Footer() {
           <div className="footer3">
             {/* Social Media Icons */}
             <div className="footer-social">
-              <FaInstagram />
-              <FaYoutube />
-              <FaLinkedin />
-              <FaFacebookMessenger />
+              <FaInstagram onClick={() => window.open('https://www.instagram.com/sail_iitg', '_blank', 'noopener,noreferrer')}/>
+              <FaYoutube onClick={() => window.open('https://www.youtube.com/@IITGuwahatiSAIL', '_blank', 'noopener,noreferrer')}/>
+              <FaLinkedin onClick={() => window.open('https://www.linkedin.com/company/sail-iitg/', '_blank', 'noopener,noreferrer')}/>
+              <FaFacebookMessenger onClick={() => window.open('https://www.facebook.com/sail.iitg/', '_blank', 'noopener,noreferrer')}/>
             </div>
             {/* Contact Form */}
             
