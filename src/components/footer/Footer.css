@@ -360,4 +360,7 @@ hr {
     font-size: 4vw;
     /* width: 100%; */
   }
+  .footer-contact p{
+    font-size: 0.8rem;
+  }
 }
