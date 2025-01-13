@@ -43,7 +43,10 @@ const Event = () => {
         <div className="header-content">
           <h1>Smriti</h1>
           <p>
-          Reunion of IIT Guwahati's first graduating batch, was a heartfelt celebration of nostalgia and achievements. Alumni from the pioneering class gathered to relive their memories, reconnect with old friends, and reflect on their journeys since graduation.
+          Reunion of IIT Guwahati's batch after 25 years of graduation, is a heartfelt celebration of
+          nostalgia and achievements. Alumni from the pioneering class gather to relive 
+          their memories, reconnect with old friends, and reflect on their journeys since
+          graduation.
           </p>
         </div>
       </div>
