@@ -10,8 +10,6 @@ import Yearbook from "../../images/Initiatives/Yearbook.png";
 import Alumni from "../../images/Initiatives/alumni.png";
 
 const Cards = () => {
-
-
   const location = useLocation();
 
   useEffect(() => {
@@ -55,16 +53,29 @@ const Cards = () => {
               <div className="contnt">
                 <h2 className="Initiatives-Cards-h1">Class Song</h2>
                 <p className="initiatives-Cards-p">
-                  As a goodbye gift to the graduating class each year, SAIL
-                  releases the class song, in which all of the graduating class
-                  members join hands to sing a song as a celebration of the
-                  great years they have spent on the IITG campus.
+                  Each year, as a heartfelt farewell to the graduating class, We
+                  release the Class Song, a cherished tradition at IITG. This
+                  special song serves as a musical tribute to the unforgettable
+                  journey of the graduating students, capturing the essence of
+                  their time on campus. In a moving ceremony, all members of the
+                  graduating class come together, hand in hand, to sing the
+                  song, celebrating the friendships, memories, and milestones
+                  they’ve achieved over the years. The Class Song is more than
+                  just a melody; it symbolizes the unity, growth, and shared
+                  experiences of the students, marking the end of an era and the
+                  beginning of new adventures. This tradition not only
+                  strengthens the bond among classmates but also leaves a
+                  lasting legacy, allowing them to carry the spirit of IITG with
+                  them as they step into the world beyond.
                 </p>
               </div>
               <button
                 className="Card-button long-button"
                 onClick={() =>
-                  window.open("https://www.youtube.com/watch?v=2Df6pYrRIzQ&list=PLWf43cSrArKuysk9tKZSdEX3cHKJJAJWu", "_blank")
+                  window.open(
+                    "https://www.youtube.com/watch?v=2Df6pYrRIzQ&list=PLWf43cSrArKuysk9tKZSdEX3cHKJJAJWu",
+                    "_blank"
+                  )
                 }
               >
                 {" "}
@@ -98,25 +109,25 @@ const Cards = () => {
                 </p>
               </div>
               <div className="buttons">
-              <button
-                className="Card-button long-button"
-                onClick={() =>
-                  window.open("https://flipbook-pied.vercel.app/", "_blank")
-                }
-              >
-                {" "}
-                View Yearbook
-              </button>
+                <button
+                  className="Card-button long-button"
+                  onClick={() =>
+                    window.open("https://flipbook-pied.vercel.app/", "_blank")
+                  }
+                >
+                  {" "}
+                  View Yearbook
+                </button>
 
-              <button
-                className="Card-button long-button"
-                onClick={() =>
-                  window.open("https://www.iitg.ac.in/yearbook", "_blank")
-                }
-              >
-                {" "}
-                 Yearbook Portal
-              </button>
+                <button
+                  className="Card-button long-button"
+                  onClick={() =>
+                    window.open("https://www.iitg.ac.in/yearbook", "_blank")
+                  }
+                >
+                  {" "}
+                  Yearbook Portal
+                </button>
               </div>
             </div>
             <div className="initiative-card-image">
@@ -192,8 +203,8 @@ const Cards = () => {
             </div>
           </div>
 
-          {/* <div className="init" id="alumni-greet"> */}
-            {/* <div className="initiative-card-image">
+          <div className="init" id="alumni-greet">
+            <div className="initiative-card-image">
               <iframe
                 className="card-iframe"
                 src="https://www.youtube.com/embed/yCkLjNkqrpY?si=q65mlqYfrPLeaZ79"
@@ -208,63 +219,23 @@ const Cards = () => {
               <div className="contnt">
                 <h2 className="Initiatives-Cards-h1">Alumni Greet</h2>
                 <p className="initiatives-Cards-p long-para">
-                  As freshers, we are quite intrigued and excited about the idea
-                  of joining a college. Along with this, we also have lots of
-                  doubts regarding the campus and the Institute in general.
-                  'Alumni Greet' is an initiative by SAIL, in which, a self-shot
-                  welcome video, made by an alumnus/alumna from a hostel, is
-                  played at the hostel orientation, for the freshers.
-                  
-
+                  Alumni Greet is a heartwarming initiative by the Student
+                  Alumni Interaction Linkage (SAIL) aimed at welcoming freshers
+                  to their new college life. Through self-shot videos, alumni
+                  share their experiences, memories, and advice, offering a
+                  personal touch to the hostel orientation. These videos, played
+                  during the orientation, help bridge the gap between current
+                  students and alumni, addressing common doubts about campus
+                  life, academics, and hostel living. By sharing their journeys
+                  and successes, alumni inspire and motivate freshers, making
+                  them feel a part of a larger, supportive community. This
+                  initiative not only reduces the anxiety of new students but
+                  also fosters a strong sense of belonging and pride in their
+                  institute.
                 </p>
               </div>
             </div>
-             */}
-          {/* </div> */}
-          <div
-              className="init"
-              id="summarise-and-share"
-            >
-              <div className="initiative-card-image">
-                <img src={SandS} alt="" />
-              </div>
-              <div className="initiative-card-content content-left">
-              <div className="contnt">
-                <h2 className="Initiatives-Cards-h1">Summarise and Share</h2>
-                <p className="Initiatives-Cards-p">
-                  Summarize & Share is a thoughtful initiative designed to
-                  ensure that the knowledge and insights imparted during
-                  alumni-led webinars, talks and seminars are accessible to all.
-                  Recognizing that not everyone can attend these events in real
-                  time, this program focuses on capturing the key takeaways,
-                  discussions, and highlights in a well-structured summary.
-                  These summaries are then shared with the IITG student
-                  community, allowing everyone to benefit from the wisdom and
-                  experiences shared by our esteemed alumni.
-                </p>
-                </div>
-              </div>
-              
-            </div>
-          {/* <div className="init" id="ask-the-alumni">
-            <div className="initiative-card-image">
-              <img src={ask} alt="" />
-            </div>
-            <div className="initiative-card-content content-right">
-              <div className="contnt">
-                <h2 className="Initiatives-Cards-h1 big-h1">Ask the Alumni</h2>
-                <p className="initiatives-Cards-p">
-                  Learning happens when we ask questions. The more we question,
-                  the better answers we get.Ask the Alumni is an initiative by
-                  SAIL where we choose an alumnus/alumna to address the queries
-                  of our campus janta. The alumni will provide short videos to
-                  answer the questions, which will be posted on our Instagram
-                  handle.
-                </p>
-              </div>
-            </div>
-          </div> */}
-
+          </div>
           <div className="init" id="alumni-awards">
             <div className="initiative-card-content content-left">
               <div className="contnt">
@@ -283,6 +254,45 @@ const Cards = () => {
               <img src={Alumni} alt="" />
             </div>
           </div>
+          <div className="init" id="summarise-and-share">
+            <div className="initiative-card-image">
+              <img src={SandS} alt="" />
+            </div>
+            <div className="initiative-card-content content-left">
+              <div className="contnt">
+                <h2 className="Initiatives-Cards-h1">Summarise and Share</h2>
+                <p className="Initiatives-Cards-p">
+                  Summarize & Share is a thoughtful initiative designed to
+                  ensure that the knowledge and insights imparted during
+                  alumni-led webinars, talks and seminars are accessible to all.
+                  Recognizing that not everyone can attend these events in real
+                  time, this program focuses on capturing the key takeaways,
+                  discussions, and highlights in a well-structured summary.
+                  These summaries are then shared with the IITG student
+                  community, allowing everyone to benefit from the wisdom and
+                  experiences shared by our esteemed alumni.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* <div className="init" id="ask-the-alumni">
+            <div className="initiative-card-image">
+              <img src={ask} alt="" />
+            </div>
+            <div className="initiative-card-content content-right">
+              <div className="contnt">
+                <h2 className="Initiatives-Cards-h1 big-h1">Ask the Alumni</h2>
+                <p className="initiatives-Cards-p">
+                  Learning happens when we ask questions. The more we question,
+                  the better answers we get.Ask the Alumni is an initiative by
+                  SAIL where we choose an alumnus/alumna to address the queries
+                  of our campus janta. The alumni will provide short videos to
+                  answer the questions, which will be posted on our Instagram
+                  handle.
+                </p>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </div>
