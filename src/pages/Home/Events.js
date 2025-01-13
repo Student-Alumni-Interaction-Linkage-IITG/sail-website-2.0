@@ -11,7 +11,7 @@ const eventData = [
   { id: 4, title: "Finalis Resonare",link: "/events/finalis-resonare", description: "Finalis Resonare is a unique event that celebrates the final year students, marking their transition from students to alumni.  ", image:  '/image/homepage/finalis_resonare.png' },
 
   { id: 5, title: "Graduation Ball Dance", link: "/events/graduation-ball-dance", description: "The Ball Party brings together the graduating batch for an evening of elegance, joy, and camaraderie.", image: '/image/homepage/gbp.png' },
-  { id: 6, title: "Seminars",link: "/events/webinar", description: "Seminars are a powerful tool for learning, collaboration, and knowledge dissemination.", image: '/image/Events/2024/seminar/image1.jpg' },
+  { id: 6, title: "Seminars",link: "/events/seminars", description: "Seminars are a powerful tool for learning, collaboration, and knowledge dissemination.", image: '/image/Events/2024/seminar/image1.jpg' },
 ];
 
 const Events = () => {
