@@ -9,7 +9,6 @@ COPY package.json package-lock.json ./
 RUN npm install
 # Copy the entire project
 COPY . .
-
 # Build the React app
 RUN npm run build
 RUN npm install -g serve

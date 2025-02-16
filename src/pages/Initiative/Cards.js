@@ -112,7 +112,7 @@ const Cards = () => {
                 <button
                   className="Card-button long-button"
                   onClick={() =>
-                    window.open("https://flipbook-pied.vercel.app/", "_blank")
+                    window.open("https://www.iitg.ac.in/yearbook/yearbook24/", "_blank")
                   }
                 >
                   {" "}
