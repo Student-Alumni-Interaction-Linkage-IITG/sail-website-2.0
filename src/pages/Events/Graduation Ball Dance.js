@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "../../styles/events/Events.css";
 import bannerImage from "../../images/Events/ball_banner.png";
 
-// Importing 2023 images manually
 import ball2023_1 from "../../images/Events/2023/ball/image1.jpg";
 import ball2023_2 from "../../images/Events/2023/ball/image2.jpg";
 import ball2023_3 from "../../images/Events/2023/ball/image3.jpg";
