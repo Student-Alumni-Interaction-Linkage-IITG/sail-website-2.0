@@ -151,6 +151,7 @@ line-height: 104.145%;
   background: #A50034;
   color: #D2CCC3;
   font-family: "DM Sans";
+  text-decoration: none;
   transition: background-color 0.5s ease;
 }
 

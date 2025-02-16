@@ -71,7 +71,7 @@ function Navbar() {
         <div className="navbar">
             <div className="navbar-content">
                 <div className="navbar-content-logo">
-                    <a href="/">
+                    <a href="/sail/">
                         <img src={sail_logo} alt="logo" />
                     </a>
                 </div>
@@ -86,10 +86,10 @@ function Navbar() {
                 </div>
 
                 <div className={`navbar-content-links ${isMenuOpen ? "show" : ""}`}>
-                    <a href="/" className="navbar-content-links-a">
+                    <a href="/sail/" className="navbar-content-links-a">
                         Home
                     </a>
-                    <a href="/about" className="navbar-content-links-a">
+                    <a href="/sail/about" className="navbar-content-links-a">
                         About Us
                     </a>
 
@@ -107,16 +107,16 @@ function Navbar() {
                         </p>
                         {(isInitiativeOpen || (isDesktop && isInitiativeOpen)) && (
                             <div className="dropdown-menu">
-                                <a href="/initiative#amp">AMP</a>
-                                <a href="/initiative#yearbook">Yearbook</a>
-                                <a href="/initiative#newsletter">Newsletter</a>
-                                <a href="/initiative#core-mentorship">Core Mentorship</a>
-                                <a href="/initiative#class-song">Class Song</a>
-                                <a href="/initiative#placement-mock-interview">
+                                <a href="/sail/initiative#amp">AMP</a>
+                                <a href="/sail/initiative#yearbook">Yearbook</a>
+                                <a href="/sail/initiative#newsletter">Newsletter</a>
+                                <a href="/sail/initiative#core-mentorship">Core Mentorship</a>
+                                <a href="/sail/initiative#class-song">Class Song</a>
+                                <a href="/sail/initiative#placement-mock-interview">
                                     Placement Mock Interview
                                 </a>
-                                <a href="/initiative#summarise-and-share">Summarise & Share</a>
-                                <a href="/initiative#alumni-awards">Alumni Awards</a>
+                                <a href="/sail/initiative#summarise-and-share">Summarise & Share</a>
+                                <a href="/sail/initiative#alumni-awards">Alumni Awards</a>
                             </div>
                         )}
                     </div>
@@ -132,14 +132,14 @@ function Navbar() {
                         </p>
                         {(isEventsOpen || (isDesktop && isEventsOpen)) && (
                             <div className="dropdown-menu">
-                                <a href="/events/smriti">Smriti</a>
-                                <a href="/events/graduation-tea-party">Graduation Tea Party</a>
-                                <a href="/events/international-students-day">
+                                <a href="/sail/events-smriti">Smriti</a>
+                                <a href="/sail/events-graduation-tea-party">Graduation Tea Party</a>
+                                <a href="/sail/events-international-students-day">
                                     International Students' Day
                                 </a>
-                                <a href="/events/finalis-resonare">Finalis Resonare</a>
-                                <a href="/events/graduation-ball-dance">Graduation Ball Dance</a>
-                                <a href="/events/seminars">Seminars</a>
+                                <a href="/sail/events-finalis-resonare">Finalis Resonare</a>
+                                <a href="/sail/events-graduation-ball-dance">Graduation Ball Dance</a>
+                                <a href="/sail/events-seminars">Seminars</a>
 
                             </div>
                         )}
@@ -161,7 +161,7 @@ function Navbar() {
                             </div>
                         )}
                     </div>
-                    <a href="/#service" className="navbar-content-links-a">
+                    <a href="/sail/#service" className="navbar-content-links-a">
                         Services
                     </a>
                     
