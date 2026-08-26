@@ -87,7 +87,7 @@ const Team = () => {
         {/* WEB */}
         <Card
           url={ayusha}
-          name="ayusha"
+          name="Ayusha Thakur"
           post="WEB HEAD"
           linkedin="https://www.linkedin.com/in/ayusha-thakur-254889315/"
           mail="t.ayusha@iitg.ac.in"
