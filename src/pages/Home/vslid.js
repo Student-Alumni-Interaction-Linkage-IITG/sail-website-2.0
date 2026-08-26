@@ -5,6 +5,7 @@ import "../../styles/Home/vs.css";
 import saurabh from "../../images/homepage/saurabh.jpeg";
 import ayush from "../../images/homepage/ayush_thakur.jpeg";
 import prateek from "../../images/homepage/prateek.jpg";
+import himanshu from "../../images/homepage/himanshu.jpg";
 
 const cards = [
   {
@@ -24,6 +25,12 @@ const cards = [
     title: "Distinguished Alumni Awards",
     name: "Prof. Prateek Mittal",
     description: "2006 Batch, B.Tech in CSE Professor of Electrical and Computer Engineering Princeton University Recepient of the Grace Murray Hopper Award, June 2024",
+  },
+  {
+    image: himanshu,
+    title: "Young Alumni Achiever Awards",
+    name: "Mr. Himanshu Upreti",
+    description: "B.Tech MnC | Batch of 2015, Forbes 30 Under 30 Asia honouree, Entrepreneur and Co-Founder of Ai Palette, deep-tech venture acquired by GlobalData Plc.",
   },
 ];
 
