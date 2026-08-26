@@ -12,11 +12,10 @@ function Home() {
   return (
     <div className="homepage">
       <Banner />
-    <Events/>
+      <Events/>
       <Alumni />
       <Aa />
       <Team />
-      
       <Ban />
     </div>
   );
