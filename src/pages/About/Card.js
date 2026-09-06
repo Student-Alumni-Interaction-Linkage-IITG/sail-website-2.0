@@ -9,36 +9,39 @@ const Card = (props) => {
             <div className="about-card-img">
                 <img
                     src={props.url}
-                    alt="person-image"
+                    alt={props.name}
                     className="about-person-img"
                 />
 
-                <h1 className="about-person-name">{props.name}</h1>
-                <h1 className="about-person-post">{props.post}</h1>
+                <div className="about-card-info">
+                    <h3 className="about-person-name">{props.name}</h3>
+                    <p className="about-person-post">{props.post}</p>
 
-                <div className="about-card-social">
-                    <a
-                        href={props.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img
-                            src={linkedin}
-                            alt="LinkedIn"
-                            className="about-linkedin-icon"
-                        />
-                    </a>
+                    <div className="about-card-social">
+                        <a
+                            href={props.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`${props.name} LinkedIn`}
+                        >
+                            <img
+                                src={linkedin}
+                                alt="LinkedIn"
+                                className="about-linkedin-icon"
+                            />
+                        </a>
 
-                    <a
-                        href={`mailto:${props.mail}`}
-                        aria-label={`Email ${props.name}`}
-                    >
-                        <img
-                            src={mail}
-                            alt="Mail"
-                            className="about-mail-icon"
-                        />
-                    </a>
+                        <a
+                            href={`mailto:${props.mail}`}
+                            aria-label={`Email ${props.name}`}
+                        >
+                            <img
+                                src={mail}
+                                alt="Mail"
+                                className="about-mail-icon"
+                            />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

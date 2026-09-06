@@ -1,497 +1,416 @@
-.about-Banner{
-    background: 
-    linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
-    url(../../images/home/banner_img.jpeg) lightgray 0px -75px / 100% 114.94% no-repeat;
+/* ==========================================================================
+   About Page Styles
+   ========================================================================== */
+
+/* Banner Section */
+.about-Banner {
+  background: 
+    linear-gradient(0deg, rgba(19, 19, 19, 0.82) 0%, rgba(19, 19, 19, 0.15) 100%),
+    url(../../images/home/banner_img.jpeg) lightgray center / cover no-repeat;
   color: white;
   width: 100%;
   flex-shrink: 0;
-  align-content: center;
-  padding-top: 320px;
-  padding-bottom: 260px;
-}
-.about-Banner-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-}
-h4.about-Banner-content-h4{
-    color: #FAFAFA;
-    font-family: "Instrument Sans";
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 104.145%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 180px 20px 140px;
+  box-sizing: border-box;
 }
 
-.about-overall-body{
-    background-color : #0c405e;
-}
-/* this is the styling of the overall whole page  */
-
-/* styling of photo component ends*/
-.about-blog-div{
-    background-color : #0c405e;
-    /* height: 100vh; */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+.about-Banner-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
 }
 
-.about-blog{
-    padding-bottom: 20px;
-    max-width: 75vw;
-    
-    margin: 40px auto;
-
-    color: #EEE;
-    text-align: center;
-    font-family: "DM Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 145%; /* 34.8px */
+.about-Banner-content-h4 {
+  color: #FAFAFA;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: -0.5px;
 }
 
-.about-blog-social{
-    display: flex;
-    margin: 10px auto;
-    gap: 1rem;
-    padding-bottom: 80px;
+/* Overall Container */
+.about-overall-body {
+  background-color: #0c405e;
+  overflow-x: hidden;
 }
-/* styling of social icons like insta etc */
 
-
-
-.about-logo-imag{
-    width:20%;
-    margin: 50px auto;
+/* Blog / Introduction Section */
+.about-blog-div {
+  background-color: #0c405e;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 24px 70px;
+  box-sizing: border-box;
 }
-/* styling of blog component ends*/
-.about-team1{
-    background-color: #D2CCC3;
-    display: flex;
+
+.about-logo-imag {
+  max-width: 170px;
+  width: 100%;
+  margin: 40px auto 30px auto;
+  height: auto;
+  display: block;
+}
+
+.about-blog {
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto 16px auto;
+  color: #F0F4F8;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.about-blog-sub {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.about-blog-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto 10px auto;
+  gap: 1.5rem;
+}
+
+.about-blog-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.9;
+}
+
+.about-blog-social a:hover {
+  transform: translateY(-3px) scale(1.1);
+  opacity: 1;
+}
+
+.about-blog-social img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Team Section Container */
+.about-team1 {
+  background-color: #D2CCC3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 20px 90px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.about-team1-head {
+  color: #0C405E;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.about-team1-blog {
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto 36px auto;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #2D3748;
+}
+
+.about-aer1 {
+  color: #0C405E;
+  text-align: center;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 0 28px 0;
+  letter-spacing: -0.3px;
+}
+
+/* Team ACIR (Professors) Layout */
+.about-aer {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  padding: 0 10px;
+}
+
+/* Team SAIL (Students) Layout */
+.about-sail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  max-width: 860px;
+  margin: 0 auto 20px auto;
+  padding: 0 10px;
+}
+
+/* Card Styling */
+.about-card {
+  background-color: #0c405e;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(12, 64, 94, 0.16);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  width: 250px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(12, 64, 94, 0.26);
+}
+
+.about-card-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.about-person-img {
+  width: 218px;
+  height: 218px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 12px;
+  display: block;
+  background-color: #093147;
+  margin: 0 0 14px 0;
+}
+
+.about-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.about-person-name {
+  margin: 0 0 4px 0;
+  color: #FFFFFF;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.about-person-post {
+  margin: 0 0 14px 0;
+  color: #CBD5E1;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.post-subtext {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #94A3B8;
+  margin-top: 4px;
+  line-height: 1.35;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.about-aer .about-card {
+  width: 270px;
+}
+
+.about-aer .about-person-img {
+  width: 238px;
+  height: 238px;
+}
+
+.about-card-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.about-card-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.85;
+}
+
+.about-card-social a:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+.about-card-social img {
+  width: 22px;
+  height: 22px;
+}
+
+/* ==========================================================================
+   Responsive Queries
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  .about-Banner {
+    padding: 140px 20px 100px;
+  }
+
+  .about-Banner-content-h4 {
+    font-size: 2.75rem;
+  }
+
+  .about-blog {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-team1-head {
+    font-size: 38px;
+  }
+
+  .about-team1-blog {
+    font-size: 15px;
+  }
+
+  .about-aer1 {
+    font-size: 28px;
+  }
+
+  .about-sail {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    max-width: 540px;
+  }
+
+  .about-aer {
+    gap: 28px;
+  }
+
+  .about-card {
+    width: 235px;
+    padding: 14px;
+  }
+
+  .about-person-img {
+    width: 207px;
+    height: 207px;
+  }
+
+  .about-person-name {
+    font-size: 1.05rem;
+  }
+
+  .about-person-post {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-Banner {
+    padding: 120px 16px 80px;
+  }
+
+  .about-Banner-content-h4 {
+    font-size: 2.2rem;
+  }
+
+  .about-blog-div {
+    padding: 10px 16px 50px;
+  }
+
+  .about-logo-imag {
+    max-width: 140px;
+    margin: 30px auto 20px auto;
+  }
+
+  .about-blog {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .about-team1 {
+    padding: 50px 16px 70px;
+  }
+
+  .about-team1-head {
+    font-size: 32px;
+  }
+
+  .about-team1-blog {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .about-aer1 {
+    font-size: 24px;
+    margin: 15px 0 20px 0;
+  }
+
+  .about-aer {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-.about-team1-head{
-    padding-top:80px;
-    color: #151515;
-    font-family: "Instrument Sans";
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 500;
-    /* line-height: 36.027px;  */
-    margin-bottom: 0;
-
-}
-.about-team1-blog{
-    max-width: 60vw;
-    margin: 20px auto;
-    text-align: center;
-    font-family: "DM Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px; 
-    padding-bottom:100px;
-}
-/* styling of card component starts */
-.about-card{
-    display:inline-block;
-    background-color:#0c405e;
-    margin-bottom: 50px;
-    border-radius:20px;
-}
-
-.about-card-img{
-    width:250px;
-    height:350px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-}
-
-.about-person-img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin: 25px auto 10px auto;
-    border-radius: 10px;
-}
-
-.about-person-name{
-    margin: 0;
-    margin-left: 30px;
-    color: #FFF;
-    font-family: "Instrument Sans";
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 500;
-}
-
-.about-person-post{
-    margin-left: 30px;
-    color: #FFF;
-    font-family: "DM Sans";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 104.145%; /* 26.416px */
-}
-.about-card-social{
-    margin-left: 140px;
-    display:flex;
-    gap:0.2rem;
-}
-.about-card-social img{
-    width: 80%;
-}
-.about-aer1{
-    color: #0C405E;
-    text-align: center;
-    font-family: "Instrument Sans";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 36.027px; /* 60.045% */
-    padding-bottom:20px;
-}
-
-.about-aer{
-    display:flex;
-    gap:40px;
-    /* margin: 0 auto; */
-}
-
-.about-sail{
-    display: grid;                
-  grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-}
-
-/* styling of team component ends */
-
-@media(max-width: 900px){
-    .about-Banner{
-        background: 
-        linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
-        url(../../images/home/banner_img.jpeg) lightgray 0px -75px / 100% 114.94% no-repeat;
-      color: white;
-      width: 100%;
-      flex-shrink: 0;
-      align-content: center;
-      padding-top: 230px;
-      padding-bottom: 250px;
-    }
-    .about-Banner-content-h2{
-        color: #FAFAFA;
-        font-family: "Instrument Sans";
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 104.145%;
-    }
-    .about-blog-div{
-        background-color : #0c405e;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 20px;
-    }
-    .about-blog{
-        padding-bottom: 3vh;
-        max-width: 75vw;
-        
-        margin: 20px auto;
-    
-        color: #EEE;
-
-    text-align: center;
-    font-family: "DM Sans";
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 145%;
-    }
-    .about-blog-social{
-        display: flex;
-        /* margin: 10px auto; */
-        gap: 0.1rem;
-    }
-    /* styling of social icons like insta etc */
-    .about-blog-social img{
-        width: 60%;
-        
-    }
-    .about-logo-imag{
-        width:20%;
-        margin: 50px auto;
-    }
-    .about-team1-head{
-        padding-top:50px;
-        color: #151515;
-        font-family: "Instrument Sans";
-        font-size: 45px;
-        font-style: normal;
-        font-weight: 500;
-        /* line-height: 36.027px;  */
-        margin-bottom: 0;
-    
-    }
-    .about-team1-blog{
-        max-width: 60vw;
-        margin: 20px auto;
-        text-align: center;
-        font-family: "DM Sans";
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 160%; 
-        padding-bottom:40px;
-    }
-    
-.about-card{
-    display:inline-block;
-    background-color:#0c405e;
-    margin-bottom: 50px;
-    border-radius:20px;
-    padding-bottom: 5px;
-}
-
-
-.about-card-img{
-    width:175px;
-    height:250px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-}
-
-.about-person-img{
-    width: 130px;
-    height: 150px;
-    /* object-fit: cover; */
-    margin: 20px auto 10px auto;
-}
-
-.about-person-name{
-    margin: 0;
-    margin-left: 20px;
-    color: #FFF;
-    font-family: "Instrument Sans";
-    font-size: 0.8rem;
-    font-style: normal;
-    font-weight: 500;
-}
-
-.about-person-post{
-    margin-left: 20px;
-    color: #FFF;
-    font-family: "DM Sans";
-    font-size: 0.6rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 104.145%; /* 26.416px */
-}
-.about-card-social{
-    margin-left: 100px;
-    display:flex;
-    gap:0.1rem;
-}
-.about-card-social img{
-    width: 60%;
-}
-.about-aer1{
-    color: #0C405E;
-    text-align: center;
-    font-family: "Instrument Sans";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 36.027px; /* 60.045% */
-    padding-bottom:20px;
-}
-
-.about-aer{
-    display:flex;
-    gap:40px;
-    /* margin: 0 auto; */
-}
-
-    .about-sail{
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Two columns for wider screens */
-        gap: 30px;
-        padding-bottom:0px;
-    }
-    
-    
-}
-
-@media(max-width: 420px){
-    .about-Banner{
-        background: 
-        linear-gradient(0deg, rgba(19, 19, 19, 0.86) 0%, rgba(19, 19, 19, 0.00) 100%),
-        url(../../images/home/banner_img.jpeg) lightgray 0px -75px / 100% 114.94% no-repeat;
-      color: white;
-      width: 100%;
-      flex-shrink: 0;
-      align-content: center;
-      padding-top: 240px;
-      padding-bottom: 275px;
-    }
-    .about-Banner-content-h2{
-        color: #FAFAFA;
-        font-family: "Instrument Sans";
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 104.145%;
-    }
-    .about-blog-div{
-        background-color : #0c405e;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 20px;
-    }
-    .about-blog{
-        padding-bottom: 3vh;
-        max-width: 75vw;
-        
-        margin: 20px auto;
-    
-        color: #EEE;
-
-    text-align: center;
-    font-family: "DM Sans";
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 145%;
-    }
-    .about-blog-social{
-        display: flex;
-        /* margin: 10px auto; */
-        gap: 0.1rem;
-    }
-    /* styling of social icons like insta etc */
-    .about-blog-social img{
-        width: 60%;
-        
-    }
-    .about-logo-imag{
-        width:45%;
-        margin: 45px auto;
-    }
-    .about-team1-head{
-        padding-top:50px;
-        color: #151515;
-        font-family: "Instrument Sans";
-        font-size: 45px;
-        font-style: normal;
-        font-weight: 500;
-        /* line-height: 36.027px;  */
-        margin-bottom: 0;
-    
-    }
-    .about-team1-blog{
-        max-width: 60vw;
-        margin: 20px auto;
-        text-align: center;
-        font-family: "DM Sans";
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 160%; 
-        padding-bottom:40px;
-    }
-    
-.about-card{
-    display:inline-block;
-    background-color:#0c405e;
-    margin-bottom: 20px;
-    border-radius:10px;
-}
-/* .about-sail .about-card:nth-child(1){
-    margin-bottom: 0px;
-} */
-
-.about-card-img{
-    width:110px;
-    height:160px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-}
-
-.about-person-img{
-    width: 80px;
-    height: 100px;
-    /* object-fit: cover; */
-    margin: 15px auto 10px auto;
-}
-
-.about-person-name{
-    margin: 0;
-    margin-left: 15px;
-    color: #FFF;
-    font-family: "Instrument Sans";
-    font-size: 0.5rem;
-    font-style: normal;
-    font-weight: 500;
-}
-h4.about-Banner-content-h4{
-    font-size: 2.5rem;
-}
-
-.about-person-post{
-    margin-left: 15px;
-    color: #FFF;
-    font-family: "DM Sans";
-    font-size: 0.4rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 104.145%; /* 26.416px */
-}
-.about-card-social{
-    margin-left: 60px;
-    display:flex;
-    gap:0.01rem;
-}
-.about-card-social img{
-    width: 60%;
-}
-.about-aer1{
-    color: #0C405E;
-    text-align: center;
-    font-family: "Instrument Sans";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 36.027px; /* 60.045% */
-    padding-bottom:20px;
-}
-
-.about-aer{
-    display:flex;
-    gap:20px;
-    /* margin: 0 auto; */
-}
-
-.about-sail{
-    display:flex;
     gap: 20px;
-}
-    
-    .about-sail{
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-        gap: 20px;
-        padding-bottom:0px;
-    }
-    
-    
+    margin-bottom: 30px;
+  }
+
+  .about-sail {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 260px;
+  }
+
+  .about-card {
+    width: 250px;
+    padding: 16px;
+  }
+
+  .about-person-img {
+    width: 218px;
+    height: 218px;
+  }
+
+  .about-person-name {
+    font-size: 1.1rem;
+  }
+
+  .about-person-post {
+    font-size: 0.8rem;
+  }
 }

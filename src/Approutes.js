@@ -1,5 +1,4 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import About from "./pages/About/About.js";
 import Home from "./pages/Home/Home.js";
 import EventSmriti from "./pages/Events/Smriti.js";
@@ -8,6 +7,7 @@ import EventGraduationTeaParty from "./pages/Events/Graduation Tea Party.js";
 import EventInternational from "./pages/Events/International.js";
 import EventGraduationBallDance from "./pages/Events/Graduation Ball Dance.js";
 import EventSeminar from "./pages/Events/Seminar.js";
+import EventGratitudePortal from "./pages/Events/GratitudePortal.js";
 
 import Initiative from "./pages/Initiative/Initiative.js";
 import Calender from "./pages/Calender/Calender.js";
@@ -27,6 +27,7 @@ const AppRoutes = () => {
         <Route path="/events-international-students-day" element={<EventInternational />} />
         <Route path="/events-graduation-ball-dance" element={<EventGraduationBallDance />} />
         <Route path="/events-seminars" element={<EventSeminar />} />
+        <Route path="/events-gratitude-portal" element={<EventGratitudePortal />} />
 
         <Route path="/initiative" element={<Initiative />} />
         <Route path="/calendar" element={<Calender />} />

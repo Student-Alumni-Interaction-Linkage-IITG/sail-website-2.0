@@ -140,6 +140,7 @@ function Navbar() {
                                 <a href="/sail/events-finalis-resonare">Finalis Resonare</a>
                                 <a href="/sail/events-graduation-ball-dance">Graduation Ball Dance</a>
                                 <a href="/sail/events-seminars">Seminars</a>
+                                <a href="/sail/events-gratitude-portal">Gratitude Portal</a>
 
                             </div>
                         )}

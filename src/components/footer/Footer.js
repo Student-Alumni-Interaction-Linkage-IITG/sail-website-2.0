@@ -31,7 +31,7 @@ function Footer() {
                 <ul style={{ listStyleType: "none", padding: 0, margin: 0 }}>
                   <li>
                     <a href="https://www.iitg.ac.in/aer/home" target="blank">
-                      Alumni & External Relations
+                      Alumni, Corporate and International Relations (ACIR)
                     </a>
                   </li>
                   <li>

@@ -10,6 +10,7 @@ import isd from '../../images/homepage/isd.jpg';
 import finalis_resonare from '../../images/homepage/finalis_resonare.png';
 import gbp from '../../images/homepage/gbp.png';
 import seminar from '../../images/Events/2024/seminar/image1.jpg';
+import gratitude_portal from '../../images/homepage/gratitude_portal.jpg';
 
 const eventData = [
   { id: 1, title: "Smriti", link: "/sail/events-smriti", description: "The Annual Alumni Reunion event of IIT Guwahati. Started in 2024.", image: smriti },
@@ -18,6 +19,7 @@ const eventData = [
   { id: 4, title: "Finalis Resonare", link: "/sail/events-finalis-resonare", description: "Finalis Resonare is a unique event that celebrates the final year students, marking their transition from students to alumni.", image: finalis_resonare },
   { id: 5, title: "Graduation Ball Dance", link: "/sail/events-graduation-ball-dance", description: "The Ball Party brings together the graduating batch for an evening of elegance, joy, and camaraderie.", image: gbp },
   { id: 6, title: "Seminars", link: "/sail/events-seminars", description: "Seminars are a powerful tool for learning, collaboration, and knowledge dissemination.", image: seminar },
+  { id: 7, title: "Gratitude Portal", link: "/sail/events-gratitude-portal", description: "Honor the professors who shaped your journey. Share memories and express gratitude to the mentors who made a difference.", image: gratitude_portal },
 ];
 
 const Events = () => {

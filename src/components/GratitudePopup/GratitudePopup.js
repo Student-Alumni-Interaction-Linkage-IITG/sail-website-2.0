@@ -40,7 +40,6 @@ const GratitudePopup = ({
           title="Open Gratitude Portal notification"
           aria-label="Open Gratitude Portal popup"
         >
-          <span className="gratitude-mini-icon">💌</span>
           <span className="gratitude-mini-text">Gratitude Portal</span>
           <span className="gratitude-mini-pulse"></span>
         </button>
@@ -62,9 +61,7 @@ const GratitudePopup = ({
           </div>
 
           <div className="gratitude-card-body">
-            <div className="gratitude-icon-wrapper">
-              <span className="gratitude-icon">🎓❤️</span>
-            </div>
+
             <div className="gratitude-content">
               <h4 className="gratitude-title">{title}</h4>
               <p className="gratitude-desc">{description}</p>

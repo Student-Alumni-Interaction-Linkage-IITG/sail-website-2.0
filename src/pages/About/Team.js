@@ -27,6 +27,36 @@ const Team = () => {
         As Henry Ford wisely said, “Coming together is a beginning, staying together is progress, and working together is success.” The achievements of SAIL are a testament to the power of collaboration. Every milestone we’ve reached is the result of dedicated teamwork, where each individual’s contribution has been essential. It's the combined effort, shared vision, and unwavering support within the team that has propelled us forward. Now, let’s take a moment to meet the incredible SAIL team that makes it all possible...
       </p>
 
+      <h1 className="about-aer1">Team ACIR</h1>
+
+      <div className="about-aer">
+        <Card
+          url={dean}
+          name="Prof. Kaustubha Mohanty"
+          post={
+            <>
+              Dean
+              <span className="post-subtext">Alumni, Corporate and International Relations</span>
+            </>
+          }
+          linkedin="https://www.linkedin.com/in/profkm/"
+          mail="doaaer@iitg.ac.in"
+        />
+
+        <Card
+          url={tanmay}
+          name="Prof. Tanmay Dutta"
+          post={
+            <>
+              Faculty Coordinator
+              <span className="post-subtext">Alumni Relations</span>
+            </>
+          }
+          linkedin="https://www.linkedin.com/in/tanmay-dutta/"
+          mail="fcar@iitg.ac.in"
+        />
+      </div>
+
       <h1 className="about-aer1">Team SAIL</h1>
 
       <div className="about-sail">
@@ -35,7 +65,7 @@ const Team = () => {
         <Card
           url={aditya}
           name="Aditya Dhaniyaal"
-          post="GENERAL SEC"
+          post="General Secretary"
           linkedin="https://www.linkedin.com/in/aditya-dhaniyaal/"
           mail="gensec_sail@iitg.ac.in"
         />
@@ -133,27 +163,6 @@ const Team = () => {
           post="CONTENT HEAD"
           linkedin="https://www.linkedin.com/in/sajilee-khurana/"
           mail="k.sajilee@iitg.ac.in"
-        />
-
-      </div>
-
-      <h1 className="about-aer1">Team AER</h1>
-
-      <div className="about-aer">
-        <Card
-          url={dean}
-          name="Prof. Kaustubha Mohanty"
-          post="DEAN AER"
-          linkedin="https://www.linkedin.com/in/profkm/"
-          mail="doaaer@iitg.ac.in"
-        />
-
-        <Card
-          url={tanmay}
-          name="Prof. Tanmay Dutta"
-          post="FC ALUMNI RELATIONS"
-          linkedin="https://www.linkedin.com/in/tanmay-dutta/"
-          mail="fcar@iitg.ac.in"
         />
 
       </div>
