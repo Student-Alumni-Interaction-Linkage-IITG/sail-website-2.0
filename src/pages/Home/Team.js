@@ -91,7 +91,7 @@ const Team = () => {
         {/* OUTREACH */}
         <Card
           url={akhilesh}
-          name="Akhilesh"
+          name="Akhilesh Bura"
           post="OUTREACH HEAD"
           linkedin="https://www.linkedin.com/in/akhilesh2006/"
           mail="akhilesh4009@iitg.ac.in"
@@ -100,7 +100,7 @@ const Team = () => {
         {/* DESIGN */}
         <Card
           url={princy}
-          name="Princy"
+          name="Princy Sahu"
           post="DESIGN HEAD"
           linkedin="https://www.linkedin.com/in/princy-sahu-909914225/"
           mail="s.princy@iitg.ac.in"
@@ -108,7 +108,7 @@ const Team = () => {
 
         <Card
           url={shruti}
-          name="Shruti"
+          name="Shruti Khichi"
           post="DESIGN HEAD"
           linkedin="https://www.linkedin.com/in/shruti-khichi/"
           mail="s.khichi@iitg.ac.in"
