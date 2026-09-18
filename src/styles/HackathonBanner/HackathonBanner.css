@@ -1,0 +1,192 @@
+/* Hackathon Floating Announcement Banner - Matching SAIL Website Theme */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Sans:wght@600;700&display=swap');
+
+.hackathon-floating-banner {
+  position: absolute;
+  top: 75px;
+  right: 20px;
+  width: 44%;
+  max-width: 560px;
+  min-width: 380px;
+  min-height: 90px;
+  background: rgba(245, 248, 252, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(12, 64, 94, 0.18);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(12, 64, 94, 0.08);
+  display: flex;
+  align-items: center;
+  padding: 12px 16px 12px 14px;
+  box-sizing: border-box;
+  z-index: 50;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  animation: hackathonFadeInDown 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes hackathonFadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Close Button in top right */
+.hackathon-banner-close-btn {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  color: #0C405E;
+  opacity: 0.65;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.hackathon-banner-close-btn:hover {
+  opacity: 1;
+  background-color: rgba(12, 64, 94, 0.12);
+}
+
+/* 1. Left Icon Area */
+.hackathon-banner-left {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.hackathon-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: #0C405E;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.hackathon-banner-divider {
+  width: 1px;
+  height: 44px;
+  background-color: rgba(12, 64, 94, 0.18);
+  margin: 0 12px 0 12px;
+}
+
+/* 2. Main Content Area */
+.hackathon-banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+  padding-right: 12px;
+}
+
+.hackathon-banner-tag {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #0C405E;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+}
+
+.hackathon-banner-title {
+  margin: 0 0 2px 0;
+  font-family: 'Instrument Sans', -apple-system, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0C405E;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.hackathon-banner-desc {
+  margin: 0;
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: #334155;
+  line-height: 1.35;
+}
+
+/* 3. CTA Area */
+.hackathon-banner-cta {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.hackathon-portal-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #0C405E;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 20px;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  box-shadow: 0 2px 6px rgba(12, 64, 94, 0.22);
+}
+
+.hackathon-portal-button:hover {
+  background-color: #082C42;
+  transform: translateY(-1px);
+}
+
+.hackathon-btn-arrow {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .hackathon-floating-banner {
+    width: 50%;
+    min-width: 350px;
+    top: 65px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hackathon-floating-banner {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 90%;
+    max-width: 90%;
+    margin: 20px auto 0;
+    min-width: unset;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .hackathon-banner-divider {
+    display: none;
+  }
+
+  .hackathon-banner-cta {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

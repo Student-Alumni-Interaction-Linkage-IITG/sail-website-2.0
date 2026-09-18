@@ -1,0 +1,612 @@
+/* LATENT48 - SAIL Website Theme Styles (Human, Clean, Institutional) */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Sans:wght@500;600;700&display=swap');
+
+:root {
+  --sail-navy: #0C405E;
+  --sail-navy-dark: #07273A;
+  --sail-navy-soft: #EBF3F8;
+  --sail-crimson: #A50034;
+  --sail-crimson-hover: #820029;
+  --sail-gold: #B45309;
+  --sail-bg: #F8F9FA;
+  --sail-card: #FFFFFF;
+  --sail-border: #E2E8F0;
+  --sail-border-light: #EDF2F7;
+  --sail-text-main: #1A202C;
+  --sail-text-muted: #4A5568;
+  --sail-text-light: #718096;
+  --sail-font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --sail-font-heading: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.latent-page {
+  background-color: var(--sail-bg);
+  color: var(--sail-text-main);
+  font-family: var(--sail-font-sans);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==================== HERO HEADER ==================== */
+.latent-hero {
+  position: relative;
+  background: 
+    linear-gradient(0deg, rgba(7, 39, 58, 0.90) 0%, rgba(12, 64, 94, 0.85) 100%),
+    url(../../images/home/banner_img.jpeg) lightgray 0px -75px / 100% 114.94% no-repeat;
+  color: white;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.latent-hero-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.latent-badge-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.latent-pill-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 20px;
+  letter-spacing: 0.02em;
+}
+
+.latent-pill-badge-crimson {
+  background: #A50034;
+  border-color: #A50034;
+  color: #FFFFFF;
+}
+
+.latent-hero-h1 {
+  font-family: var(--sail-font-heading);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 10px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.latent-hero-subtitle {
+  font-family: var(--sail-font-sans);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 500;
+  color: #E2E8F0;
+  margin: 0 auto 16px;
+  max-width: 750px;
+}
+
+.latent-hero-description {
+  font-size: 1rem;
+  color: #CBD5E1;
+  max-width: 680px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.latent-hero-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.latent-btn-crimson {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--sail-crimson);
+  color: #FFFFFF !important;
+  font-family: var(--sail-font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  box-shadow: 0 4px 12px rgba(165, 0, 52, 0.25);
+}
+
+.latent-btn-crimson:hover {
+  background-color: var(--sail-crimson-hover);
+  transform: translateY(-1px);
+}
+
+.latent-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  color: #FFFFFF !important;
+  font-family: var(--sail-font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 11px 24px;
+  border-radius: 25px;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.latent-btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #FFFFFF;
+}
+
+/* Countdown bar inside hero */
+.latent-hero-deadline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(7, 39, 58, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 0.88rem;
+  color: #F8FAFC;
+}
+
+.latent-hero-deadline strong {
+  color: #FDE047;
+}
+
+/* ==================== PAGE LAYOUT & CONTAINERS ==================== */
+.latent-content-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.latent-section-heading {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.latent-section-heading h2 {
+  font-family: var(--sail-font-heading);
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--sail-navy);
+  margin: 0 0 8px;
+}
+
+.latent-section-heading p {
+  font-size: 1.05rem;
+  color: var(--sail-text-light);
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+/* ==================== QUICK STATS ==================== */
+.latent-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: -85px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.latent-stat-card {
+  background: var(--sail-card);
+  border: 1px solid var(--sail-border);
+  border-radius: 12px;
+  padding: 24px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.latent-stat-icon {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.latent-stat-val {
+  font-family: var(--sail-font-heading);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--sail-navy);
+  margin-bottom: 4px;
+}
+
+.latent-stat-lbl {
+  font-size: 0.88rem;
+  color: var(--sail-text-muted);
+}
+
+/* ==================== ORGANIZERS OVERVIEW ==================== */
+.latent-org-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .latent-org-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.latent-org-box {
+  background: var(--sail-card);
+  border: 1px solid var(--sail-border);
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.latent-org-tag {
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--sail-crimson);
+  margin-bottom: 6px;
+}
+
+.latent-org-box h3 {
+  font-family: var(--sail-font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--sail-navy);
+  margin: 0 0 12px;
+}
+
+.latent-org-box p {
+  font-size: 0.96rem;
+  color: var(--sail-text-muted);
+  line-height: 1.6;
+  margin: 0 0 18px;
+}
+
+.latent-org-link {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--sail-navy);
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.latent-org-link:hover {
+  color: var(--sail-crimson);
+}
+
+/* Domains row */
+.latent-domain-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.latent-domain-chip {
+  background: var(--sail-navy-soft);
+  color: var(--sail-navy);
+  border: 1px solid #D4E3ED;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 20px;
+}
+
+/* ==================== PRIZES SECTION ==================== */
+.latent-prizes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .latent-prizes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.latent-prize-card {
+  background: var(--sail-card);
+  border: 1px solid var(--sail-border);
+  border-radius: 12px;
+  padding: 30px 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.latent-prize-featured {
+  border: 2px solid var(--sail-navy);
+  box-shadow: 0 6px 20px rgba(12, 64, 94, 0.12);
+  position: relative;
+}
+
+.latent-featured-ribbon {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--sail-navy);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 14px;
+  border-radius: 12px;
+}
+
+.latent-prize-rank {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--sail-navy);
+  margin-bottom: 8px;
+}
+
+.latent-prize-cash {
+  font-family: var(--sail-font-heading);
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--sail-crimson);
+  margin-bottom: 4px;
+}
+
+.latent-prize-note {
+  font-size: 0.85rem;
+  color: var(--sail-text-light);
+  margin-bottom: 18px;
+}
+
+.latent-prize-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  border-top: 1px solid var(--sail-border-light);
+  padding-top: 14px;
+}
+
+.latent-prize-list li {
+  font-size: 0.92rem;
+  color: var(--sail-text-muted);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.latent-prize-list li strong {
+  color: var(--sail-text-main);
+}
+
+.latent-perks-banner {
+  background: var(--sail-navy-soft);
+  border: 1px solid #D4E3ED;
+  border-radius: 10px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.latent-perk-snippet {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--sail-navy);
+}
+
+/* ==================== TIMELINE & STAGES ==================== */
+.latent-timeline-list {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+
+.latent-step-card {
+  background: var(--sail-card);
+  border: 1px solid var(--sail-border);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.latent-step-number {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--sail-navy);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sail-font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.latent-step-number-crimson {
+  background: var(--sail-crimson);
+}
+
+.latent-step-content {
+  flex: 1;
+}
+
+.latent-step-date {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--sail-crimson);
+  margin-bottom: 4px;
+}
+
+.latent-step-title {
+  font-family: var(--sail-font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--sail-navy);
+  margin: 0 0 8px;
+}
+
+.latent-step-desc {
+  font-size: 0.95rem;
+  color: var(--sail-text-muted);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ==================== ELIGIBILITY & EVALUATION ==================== */
+.latent-info-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .latent-info-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.latent-info-panel {
+  background: var(--sail-card);
+  border: 1px solid var(--sail-border);
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.latent-info-panel h3 {
+  font-family: var(--sail-font-heading);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--sail-navy);
+  margin: 0 0 16px;
+  border-bottom: 2px solid var(--sail-navy-soft);
+  padding-bottom: 10px;
+}
+
+.latent-info-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.latent-info-list li {
+  font-size: 0.95rem;
+  color: var(--sail-text-muted);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.latent-info-list li strong {
+  color: var(--sail-text-main);
+}
+
+/* ==================== FAQS ==================== */
+.latent-faq-accordion {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+
+.latent-faq-row {
+  background: var(--sail-card);
+  border: 1px solid var(--sail-border);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.latent-faq-button {
+  width: 100%;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background: transparent;
+  font-family: var(--sail-font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--sail-navy);
+  text-align: left;
+  cursor: pointer;
+}
+
+.latent-faq-symbol {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--sail-crimson);
+}
+
+.latent-faq-text {
+  padding: 0 20px 16px;
+  font-size: 0.94rem;
+  color: var(--sail-text-muted);
+  line-height: 1.55;
+  border-top: 1px solid var(--sail-border-light);
+  padding-top: 12px;
+}
+
+/* ==================== FINAL REGISTRATION CARD ==================== */
+.latent-cta-box {
+  background: var(--sail-navy);
+  color: #FFFFFF;
+  border-radius: 14px;
+  padding: 44px 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.latent-cta-box h3 {
+  font-family: var(--sail-font-heading);
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #FFFFFF;
+}
+
+.latent-cta-box p {
+  font-size: 1.05rem;
+  color: #E2E8F0;
+  max-width: 600px;
+  margin: 0 auto 24px;
+}
+
+.latent-cta-box .latent-btn-crimson {
+  font-size: 1rem;
+  padding: 14px 32px;
+}

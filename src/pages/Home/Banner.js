@@ -1,5 +1,5 @@
 import React from 'react';
-import TeachersDayBanner from '../../components/GratitudePopup/TeachersDayBanner';
+import HackathonBanner from '../../components/HackathonBanner/HackathonBanner';
 import '../../styles/Home/Banner.css';
 
 function Banner() {
@@ -10,7 +10,7 @@ function Banner() {
           <h1 className='banner-content-h1'>Student Alumni Interaction Linkage</h1>
           <button className='banner-content-button' onClick={() => window.location.href = '/about'}>About us</button>
       </div>
-      <TeachersDayBanner />
+      <HackathonBanner />
     </div>
   );
 }
