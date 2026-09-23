@@ -1,9 +1,8 @@
 import React from "react";
 import "../../styles/Home/Alumni_award.css";
-import alumni_banner from "../../images/home/alumni_banner.jpeg";
 import id_card_icon from "../../images/home/id_card_icon.png";
 import transcript from "../../images/home/transcript_icon.png";
-import alum_services from "../../images/home/alum_services.png"; 
+import alum_services from "../../images/home/alum_services.png";
 import VerticalSlider from './vslid';
 
 const Aa = () => {
@@ -60,12 +59,9 @@ const Aa = () => {
                 </button>
               </div>
             </div>
-            <div className="aa-card-image1">
-              <img src={alumni_banner} alt="Alumni Awards" />
+            <div className="aa-card-slider-container">
+              <VerticalSlider />
             </div>
-          </div>
-          <div className="aa-card3">
-            <VerticalSlider />
           </div>
         </div>
       </div>

@@ -51,8 +51,8 @@ function Footer() {
               {/* Contact Section */}
               <div className="footer-contact">
                 <h4>Contact Us</h4>
-                <p>Call us: <a href="tel:+917020996986"><br/>+91-7020996986</a></p>
-                <p><a href="tel:+917060107025" style={{ whiteSpace: 'pre' }}>+91-7060107025</a></p>
+                <p>Call us: <a href="tel:+919896746585"><br/>+91 98967 46585</a></p>
+                <p><a href="tel:+919350561630" style={{ whiteSpace: 'pre' }}>+91 93505 61630</a></p>
                 <p>
                   Email us: <a href="mailto:SAIL@iitg.ac.in">SAIL@iitg.ac.in</a>
                 </p>

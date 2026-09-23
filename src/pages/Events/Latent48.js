@@ -32,7 +32,7 @@ const Latent48 = () => {
     },
     {
       q: 'What are the Pre-Placement Interviews (PPI) with Granica?',
-      a: 'The Top 3 teams will be offered direct Pre-Placement Interviews (PPIs) with the Granica engineering team, giving participants the opportunity to explore internship and full-time career roles.',
+      a: 'The Top 3 teams will be offered direct Pre-Placement Interviews (PPIs) with the Granica engineering team, giving participants the opportunity to explore full-time career roles.',
     },
     {
       q: 'Is there any registration fee?',
@@ -73,7 +73,7 @@ const Latent48 = () => {
           </div>
 
           <div className="latent-hero-deadline">
-            <span>⏳ Registration Deadline: <strong>20 Sep 2026, 06:29 PM IST</strong></span>
+            <span>⏳ Registration Deadline: <strong>23 Sep 2026, 11:59 PM IST</strong></span>
           </div>
         </div>
       </header>

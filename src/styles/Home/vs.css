@@ -1,151 +1,137 @@
 .vertical-slider {
   display: flex;
   flex-direction: row;
-  /* width: 300px; */
-  overflow: hidden;
-  margin-top: 30px;
-  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 15px;
 }
 
 .vertical-cards-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.5s ease-in-out;
-  padding: 10px;
+  justify-content: center;
+  width: 100%;
   order: 2;
 }
 
 .vertical-card {
   display: flex;
   flex-direction: column;
-  /* width: 60vw; */
-  height: 100%;
-  padding: 20px;
-  border-radius: 25px;
-  background: #E4E4E4;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 24px 20px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .vertical-card-image {
   object-fit: cover;
-  border-radius: 25px;
-  border: 2px solid #E4E4E4;
-  background-size: cover;
-  width: 250px;
-  height: auto;
-  background-repeat: no-repeat;
+  border-radius: 18px;
+  width: 230px;
+  height: 230px;
+  margin-bottom: 14px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.vertical-card-title {
-  margin: 5px 0;
-  padding-left: 5px;
-  color: #282828;
-  font-family: "Instrument Sans";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 85.561%;
+.vertical-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
 }
+
+.vertical-card-badge {
+  background: #0C405E;
+  color: #ffffff;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 12px;
+  letter-spacing: 0.3px;
+  margin-bottom: 2px;
+}
+
 .vertical-card-name {
-  margin: 5px 0;
-  padding-left: 5px;
+  margin: 2px 0;
   color: #282828;
-  font-family: "Instrument Sans";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 85.561%;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .vertical-card-description {
-  color: #282828;
-  padding-left: 5px;
-  width: 80%;
-  font-family: "DM Sans";
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 104.145%;
+  color: #555555;
+  font-family: "DM Sans", sans-serif;
+  font-size: 11.5px;
+  font-weight: 400;
+  line-height: 1.45;
+  width: 95%;
+  margin: 0;
 }
 
 /* Dots positioning */
 .vs-carousel-dots {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
+  gap: 8px;
   order: 1;
 }
 
 /* Dot styling */
 .vs-carousel-dots button {
-  width: 6px; /* Size of the dots */
-  height: 20px; /* Size of the dots */
-  background-color: #D9D9D9; /* Inactive dot color */
-  border-radius: 5px;
+  width: 8px;
+  height: 16px;
+  background-color: #C0C0C0;
+  border-radius: 4px;
+  border: none;
   padding: 0;
-  margin: 5px 5px;
+  margin: 0;
   cursor: pointer;
-  transition: background-color 0.3s; /* Smooth transition for active state */
+  transition: all 0.3s ease;
 }
 
 .vs-carousel-dots button.active {
-  background-color: #0C405E; /* Active dot color */
+  background-color: #0C405E;
+  height: 28px;
 }
 
-@media (max-width: 1000px) {
-  .vertical-card-title {
-    
-    font-size: 14px !important;
-    
+@media (max-width: 900px) {
+  .vertical-slider {
+    flex-direction: column;
+    gap: 10px;
   }
-  .vertical-card-name {
-    
-    font-size: 12px !important;
-    
-  }
-  .vertical-card-image {
-    margin: auto;
-  }
-  .vs-carousel-dots button{
-    justify-content: center;
-    gap: 5px;
-    display: flex;
+  .vs-carousel-dots {
     flex-direction: row;
     order: 2;
-    width: 10px;
-   height: 10px;
+    margin-top: 10px;
   }
-  
-  
-  .vs-carousel-dots{
-    order: 2;
-    flex-direction: row;
-    justify-content: center;
-    
-  }.vertical-card{
-    width: 40vw;
+  .vs-carousel-dots button {
+    width: 16px;
+    height: 8px;
   }
-  .vertical-cards-container{
+  .vs-carousel-dots button.active {
+    width: 28px;
+    height: 8px;
+  }
+  .vertical-cards-container {
     order: 1;
   }
-  .vertical-slider{
-    display: flex;
-    flex-direction: column;
-    
-
-  }
-
 }
 
 @media (max-width: 600px) {
-  .vertical-card{
-    width: 60vw;
-
-  }
-  
-}
-@media (max-width: 400px) {
   .vertical-card-image {
-    width: 175px;
+    width: 190px;
+    height: 190px;
   }
 }

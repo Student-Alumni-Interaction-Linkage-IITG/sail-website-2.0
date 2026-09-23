@@ -13,13 +13,13 @@ import seminar from '../../images/Events/2024/seminar/image1.jpg';
 import gratitude_portal from '../../images/homepage/gratitude_portal.jpg';
 
 const eventData = [
+  { id: 7, title: "Gratitude Portal", link: "/sail/events-gratitude-portal", description: "Honor the professors who shaped your journey. Share memories and express gratitude to the mentors who made a difference.", image: gratitude_portal },
   { id: 1, title: "Smriti", link: "/sail/events-smriti", description: "The Annual Alumni Reunion event of IIT Guwahati. Started in 2024.", image: smriti },
   { id: 2, title: "Graduation Tea Party", link: "/sail/events-graduation-tea-party", description: "The Graduation Tea Party is an elegant gathering where graduates can share their experiences, and celebrate their successes with peers.", image: gtp },
   { id: 3, title: "International Students' Day", link: "/sail/events-international-students-day", description: "International Student Day is more than just a celebration of diversity. It's a day of learning, support, and networking.", image: isd },
   { id: 4, title: "Finalis Resonare", link: "/sail/events-finalis-resonare", description: "Finalis Resonare is a unique event that celebrates the final year students, marking their transition from students to alumni.", image: finalis_resonare },
   { id: 5, title: "Graduation Ball Dance", link: "/sail/events-graduation-ball-dance", description: "The Ball Party brings together the graduating batch for an evening of elegance, joy, and camaraderie.", image: gbp },
   { id: 6, title: "Seminars", link: "/sail/events-seminars", description: "Seminars are a powerful tool for learning, collaboration, and knowledge dissemination.", image: seminar },
-  { id: 7, title: "Gratitude Portal", link: "/sail/events-gratitude-portal", description: "Honor the professors who shaped your journey. Share memories and express gratitude to the mentors who made a difference.", image: gratitude_portal },
 ];
 
 const Events = () => {

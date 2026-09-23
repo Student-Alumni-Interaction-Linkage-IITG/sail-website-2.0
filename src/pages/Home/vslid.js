@@ -64,9 +64,11 @@ const VerticalSlider = () => {
       <div className="vertical-cards-container">
         <div className="vertical-card">
           <img src={cards[currentIndex].image} className="vertical-card-image" alt={cards[currentIndex].name} />
-          <h3 className="vertical-card-title">{cards[currentIndex].title}</h3>
-          <h3 className="vertical-card-title">{cards[currentIndex].name}</h3>
-          <p className="vertical-card-description">{cards[currentIndex].description}</p>
+          <div className="vertical-card-details">
+            <span className="vertical-card-badge">{cards[currentIndex].title}</span>
+            <h3 className="vertical-card-name">{cards[currentIndex].name}</h3>
+            <p className="vertical-card-description">{cards[currentIndex].description}</p>
+          </div>
         </div>
       </div>
     </div>

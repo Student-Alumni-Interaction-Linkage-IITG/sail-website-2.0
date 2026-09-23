@@ -37,13 +37,13 @@
 
 /* Overall Container */
 .about-overall-body {
-  background-color: #0c405e;
+  background-color: #edeff1;
   overflow-x: hidden;
 }
 
 /* Blog / Introduction Section */
 .about-blog-div {
-  background-color: #0c405e;
+  background-color: #edeff1;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@
   max-width: 860px;
   width: 100%;
   margin: 0 auto 16px auto;
-  color: #F0F4F8;
+  color: #282828;
   text-align: center;
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
@@ -105,7 +105,7 @@
 
 /* Team Section Container */
 .about-team1 {
-  background-color: #D2CCC3;
+  background-color: #edeff1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,10 +116,10 @@
 }
 
 .about-team1-head {
-  color: #0C405E;
+  color: #282828;
   font-family: "Instrument Sans", sans-serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 0 16px 0;
   text-align: center;
 }
@@ -133,15 +133,15 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 1.75;
-  color: #2D3748;
+  color: #282828;
 }
 
 .about-aer1 {
-  color: #0C405E;
+  color: #8B0021;
   text-align: center;
   font-family: "Instrument Sans", sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 20px 0 28px 0;
   letter-spacing: -0.3px;
 }
