@@ -82,8 +82,8 @@
   overflow: hidden;
   border-radius: 16px;
   width: 100%;
-  aspect-ratio: 4 / 5;
-  background: #E8E5DD;
+  aspect-ratio: 1 / 1.34;
+  background: #DEB829;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
@@ -103,10 +103,32 @@
   cursor: pointer;
 }
 
+/* Top-Right Audience Badge */
+.upcoming-events-top-right-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(12, 64, 94, 0.92);
+  color: #FFFFFF;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 5px 13px;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 3;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.02em;
+  pointer-events: none;
+}
+
 .upcoming-events-poster-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
   display: block;
   border-radius: 16px;
   transition: transform 0.3s ease;
@@ -135,6 +157,7 @@
   transition: opacity 0.25s ease, transform 0.25s ease;
   transform: translateY(4px);
   backdrop-filter: blur(4px);
+  z-index: 2;
 }
 
 .upcoming-events-slide:hover .upcoming-events-zoom-hint {

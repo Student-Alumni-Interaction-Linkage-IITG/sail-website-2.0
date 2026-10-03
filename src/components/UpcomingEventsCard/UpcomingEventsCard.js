@@ -1,28 +1,21 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import '../../styles/UpcomingEventsCard/UpcomingEventsCard.css';
-import alexanderPoster from '../../images/homepage/seminar_alexander_seelam.png';
-import tarangPoster from '../../images/homepage/seminar_tarang_vaish.png';
+import pmiFinalYearitesPoster from '../../images/homepage/pmi_final_yearites.jpg';
+import pmiAlumniPoster from '../../images/homepage/pmi_alumni.jpg';
 
 const events = [
   {
     id: 1,
-    title: 'Interactive Seminar: Alexander Seelam',
-    speaker: 'Alexander Seelam',
-    role: 'General Manager at PW',
-    date: '27th Sept | 6:00 pm',
-    venue: 'Mini Audi',
-    image: alexanderPoster,
-    alt: 'Interactive Seminar with Alexander Seelam - General Manager at PW, Mini Audi'
+    title: 'Placement Mock Interviews - Final Yearites',
+    image: pmiFinalYearitesPoster,
+    alt: 'Placement Mock Interviews - Call for Final Yearites to register for PMI'
   },
   {
     id: 2,
-    title: 'Interactive Seminar: Tarang Vaish',
-    speaker: 'Tarang Vaish',
-    role: 'Co-founder & CTO of Granica',
-    date: '27th Sept | 6:00 pm',
-    venue: 'Mini Audi',
-    image: tarangPoster,
-    alt: 'Interactive Seminar with Tarang Vaish - Co-founder & CTO of Granica, Mini Audi'
+    title: 'Placement Mock Interviews - Alumni',
+    badge: 'For Alumni',
+    image: pmiAlumniPoster,
+    alt: 'Placement Mock Interviews - Call for Alumni to conduct mock interviews'
   }
 ];
 
@@ -150,6 +143,11 @@ const UpcomingEventsCard = () => {
                   }
                 }}
               >
+                {event.badge && (
+                  <div className="upcoming-events-top-right-badge">
+                    {event.badge}
+                  </div>
+                )}
                 <img
                   src={event.image}
                   alt={event.alt}

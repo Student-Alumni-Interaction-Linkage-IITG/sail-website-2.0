@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../header/Navbar.css";
-import sail_logo from "../../images/sail white logo 1.svg";
+import sail_logo_icon from "../../images/sail_logo_icon.png";
 import dropdown_icon from "../../images/dropdown_arrow.svg";
 
 function Navbar() {
@@ -71,8 +71,9 @@ function Navbar() {
         <div className="navbar">
             <div className="navbar-content">
                 <div className="navbar-content-logo">
-                    <a href="/sail/">
-                        <img src={sail_logo} alt="logo" />
+                    <a href="/sail/" className="navbar-logo-link">
+                        <img src={sail_logo_icon} alt="Student Alumni Interaction Linkage" className="navbar-logo-icon" />
+                        <span className="navbar-logo-text">Student Alumni Interaction Linkage</span>
                     </a>
                 </div>
 
